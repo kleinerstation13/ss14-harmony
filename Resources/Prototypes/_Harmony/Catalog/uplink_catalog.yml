@@ -5,11 +5,8 @@
   description: uplink-hushpup-desc
   icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Shotguns/hushpup.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledHushpup
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 8
   cost:
-    Telecrystal: 12
+    Telecrystal: 10
   categories:
   - UplinkWeaponry
   conditions:
