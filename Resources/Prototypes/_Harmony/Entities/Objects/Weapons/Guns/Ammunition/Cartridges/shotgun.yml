@@ -23,3 +23,18 @@
     maxTransferAmount: 7
   - type: SpentAmmoVisuals
     state: "hypo"
+
+- type: entity
+  id: ShellFlechette
+  name: shell (flechette)
+  parent: [ BaseShellShotgun, BaseSyndicateContraband ]
+  components:
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/flechette_shell.rsi
+    layers:
+    - state: flechette
+      map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: CartridgeAmmo
+    proto: PelletFlechette
+  - type: SpentAmmoVisuals
+    state: "flechette"

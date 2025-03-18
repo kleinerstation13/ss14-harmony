@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledHushpup
+  name: Hushpup bundle
+  description: "A duffel bag containing a Hushpup, bundled with a box of armor piercing flechettes. Quarter not included."
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunHushpup
+    - id: BoxShellFlechette
+      amount: 1
