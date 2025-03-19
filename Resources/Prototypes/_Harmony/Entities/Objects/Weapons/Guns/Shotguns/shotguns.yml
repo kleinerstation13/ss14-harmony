@@ -11,6 +11,10 @@
   - type: Item
     sprite: _Harmony/Objects/Weapons/Guns/Shotguns/hushpup_inhands_64x.rsi
   - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - TagShellFlechette
+      - TagShellHypo
     proto: ShellFlechette
     capacity: 4
   - type: GunRequiresWield

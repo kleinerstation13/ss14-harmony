@@ -1,5 +1,6 @@
 - type: entity
   id: ShellHypo
+  tag: TagShellHypo
   name: shell (.50 hypo)
   parent: [BaseSyndicateContraband, BaseShellShotgun]
   components:
@@ -26,6 +27,7 @@
 
 - type: entity
   id: ShellFlechette
+  tag: TagShellFlechette
   name: shell (flechette)
   parent: [ BaseShellShotgun, BaseSyndicateContraband ]
   components:
