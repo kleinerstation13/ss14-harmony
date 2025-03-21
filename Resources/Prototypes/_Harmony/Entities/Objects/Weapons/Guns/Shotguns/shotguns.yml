@@ -2,7 +2,7 @@
   name: Hushpup
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunHushpup
-  description: An obscure modification of the Enforcer, fitted with an experimental muffler. Due to design of its' barrel, it can only fire flechettes and hyposhells.
+  description: An obscure modification of the Enforcer, fitted with an experimental muffler. Only fires .50 flechettes and hypo shells.
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Shotguns/hushpup.rsi

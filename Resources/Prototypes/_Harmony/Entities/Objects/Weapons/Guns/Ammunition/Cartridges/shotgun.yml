@@ -1,9 +1,11 @@
 - type: entity
   id: ShellHypo
-  tag: TagShellHypo
   name: shell (.50 hypo)
   parent: [BaseSyndicateContraband, BaseShellShotgun]
   components:
+  - type: Tag
+    tags:
+    - TagShellHypo
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
     layers:
@@ -27,10 +29,12 @@
 
 - type: entity
   id: ShellFlechette
-  tag: TagShellFlechette
   name: shell (flechette)
   parent: [ BaseShellShotgun, BaseSyndicateContraband ]
   components:
+  - type: Tag
+    tags:
+    - TagShellFlechette
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/flechette_shell.rsi
     layers:

@@ -11,7 +11,5 @@
 # Added to Resources/Prototypes/_Harmony/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/shotgun.yml
 - type: Tag
   id: TagShellFlechette
-
-#Added to Resources/Prototypes/_Harmony/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/shotgun.yml
 - type: Tag
   id: TagShellHypo

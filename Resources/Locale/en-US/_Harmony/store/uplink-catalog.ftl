@@ -17,4 +17,4 @@ uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
 
 uplink-hushpup-name = Hushpup
-uplink-hushpup-desc = Contains a Hushpup, a powerful but slow silenced shotgun that fires unique armor piercing flechettes, as well as hyposhells. Comes bundled with a box of flechettes.
+uplink-hushpup-desc = Contains a Hushpup, a powerful but slow silenced shotgun that only fires unique armor piercing flechettes and hypo shells. Comes with a box of flechettes.
