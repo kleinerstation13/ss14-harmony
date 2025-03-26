@@ -21,3 +21,7 @@ names-syndicate-elite-dataset-20 = Phi
 names-syndicate-elite-dataset-21 = Chi
 names-syndicate-elite-dataset-22 = Psi
 names-syndicate-elite-dataset-23 = Omega
+ # Harmony change: Added 3 harmony-specific elite nukeop names
+names-syndicate-elite-dataset-24 = Fulcrum
+names-syndicate-elite-dataset-25 = Stiletto
+names-syndicate-elite-dataset-26 = Yggdrasil
