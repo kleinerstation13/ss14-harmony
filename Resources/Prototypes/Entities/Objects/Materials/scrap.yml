@@ -27,7 +27,7 @@
     - Recyclable
 
 - type: entity
-  parent: BaseStructure
+  parent: BaseStructureDynamic # Harmony change - Changed BaseStructure to BaseStructureDynamic
   id: BaseScrapLarge
   abstract: true
   name: scrap
@@ -60,7 +60,7 @@
         shape:
           !type:PhysShapeAabb
           bounds: "-0.40,-0.40,0.40,0.40"
-        density: 200
+        density: 100
         mask:
           - MachineMask
         layer:
