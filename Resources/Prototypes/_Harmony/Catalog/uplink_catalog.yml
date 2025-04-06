@@ -1,4 +1,17 @@
 # Guns
+- type: listing
+  id: UplinkM90Bundle
+  name: uplink-m90-name
+  description: uplink-m90-desc
+  productEntity: ClothingBackpackDuffelSyndicateFilledM90
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Rifles/m90.rsi, state: icon }
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 14
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkWeaponry
 # Explosives
 - type: listing
   id: UplinkPizzaBomb

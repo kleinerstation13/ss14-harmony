@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledM90
+  name: M-90 Bundle
+  description: "A bundle containing an M-90 and three .20 rifle magazines. The grenade launcher appears to be missing..."
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleM90
+    - id: MagazineRifle
+      amount: 3

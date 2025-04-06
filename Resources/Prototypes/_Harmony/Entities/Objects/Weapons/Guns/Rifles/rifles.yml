@@ -1,0 +1,47 @@
+- type: entity
+  name: M-90
+  parent: [BaseWeaponRifle, BaseSyndicateContraband]
+  id: WeaponRifleM90
+  description: A prototype, made useless years ago thanks to Nanotrasen's advancements in the field of small arms. It was dug up and retrofitted by the Syndicate. Uses .20 rifle ammo.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Rifles/m90.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,2
