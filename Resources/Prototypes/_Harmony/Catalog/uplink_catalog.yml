@@ -23,6 +23,16 @@
   categories:
   - UplinkExplosives
 # Ammo
+- type: listing
+  id: UplinkRifleMagazine
+  name: uplink-riflemagazine-name
+  description: uplink-riflemagazine-desc
+  productEntity: MagazineRifle
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi, state: red }
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkAmmo
 # Chemicals
 # Deception
 - type: listing

@@ -18,8 +18,8 @@
       gun_magazine:
         name: Magazine
         startingItem: MagazineRifle
-        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/batrifle_magin.ogg
-        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/batrifle_magout.ogg
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
         whitelist:
           tags:

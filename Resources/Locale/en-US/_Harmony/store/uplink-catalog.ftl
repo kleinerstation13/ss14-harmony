@@ -18,3 +18,6 @@ uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that ca
 
 uplink-m90-name = M-90 Bundle
 uplink-m90-desc = A versatile battle rifle which uses .20 rifle ammo. Comes with 3 spare magazines.
+
+uplink-riflemagazine-name = Rifle magazine (.20 rifle)
+uplink-riflemagazine-desc = Rifle magazine with 25 cartridges. Compatible with the M-90.
