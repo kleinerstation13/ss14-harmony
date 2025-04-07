@@ -17,7 +17,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/_Harmony/Weapons/Guns/Gunshots/spasfire.wav
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/odin_fire.wav
   - type: BallisticAmmoProvider
     whitelist:
       tags:
