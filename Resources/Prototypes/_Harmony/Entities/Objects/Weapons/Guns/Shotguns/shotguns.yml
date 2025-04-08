@@ -19,7 +19,3 @@
     soundGunshot:
       path: /Audio/_Harmony/Weapons/Guns/Gunshots/odin_fire.ogg
   - type: BallisticAmmoProvider
-    whitelist:
-      tags:
-      - ShellShotgun
-    capacity: 8
