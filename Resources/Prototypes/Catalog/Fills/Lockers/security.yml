@@ -23,9 +23,7 @@
         amount: 2
       - id: RemoteSignaller
         amount: 2
-    #Begin Harmony change - Added a unique shotgun to the Warden's locker
-      - id: WeaponShotgunOdin
-    #End Harmony change
+      - id: WeaponShotgunOdin # Harmony change - Added a unique shotgun to the Warden's locker
 
 - type: entity
   id: LockerWardenFilled
@@ -52,9 +50,7 @@
       - id: RemoteSignaller
         amount: 2
       - id: Binoculars
-      #Begin Harmony change - Added a unique shotgun to the Warden's locker
-      - id: WeaponShotgunOdin
-      #End Harmony change
+      - id: WeaponShotgunOdin # Harmony change - Added a unique shotgun to the Warden's locker
 
 - type: entity
   id: LockerSecurityFilled

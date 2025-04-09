@@ -1,6 +1,6 @@
 - type: entity
   name: Odin
-  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
+  parent: [WeaponShotgunEnforcer, BaseSecurityContraband]
   id: WeaponShotgunOdin
   description: A robust and reliable shotgun belonging to the Warden. Very effective in case of a resonance cascade. Uses .50 shotgun shells.
   components:
@@ -10,12 +10,6 @@
     sprite: _Harmony/Objects/Weapons/Guns/Shotguns/odin.rsi
   - type: Item
     sprite: _Harmony/Objects/Weapons/Guns/Shotguns/odin_inhands_64x.rsi
-  - type: GunRequiresWield
   - type: Gun
-    fireRate: 2
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
     soundGunshot:
       path: /Audio/_Harmony/Weapons/Guns/Gunshots/odin_fire.ogg
-  - type: BallisticAmmoProvider
