@@ -37,6 +37,21 @@
 
 # Disruption
 # Allies
+- type: listing
+  id: UplinkReinforcementRadioSyndicateCyborgSupport
+  name:  uplink-reinforcement-radio-cyborg-support-name
+  description: uplink-reinforcement-radio-cyborg-support-desc
+  productEntity: ReinforcementRadioSyndicateCyborgSupport
+  icon: { sprite: _Harmony/Objects/Devices/communication.rsi, state: old-radio-borg-support }
+  cost:
+    Telecrystal: 25
+  categories:
+  - UplinkAllies
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 # Implants
 - type: listing
   id: UplinkDeathRattleTraitor

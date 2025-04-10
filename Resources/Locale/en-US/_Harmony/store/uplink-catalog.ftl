@@ -15,3 +15,6 @@ uplink-cluster-weh-desc = Scatters 10 lizard plushies in a circle after a short 
 
 uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
+
+uplink-reinforcement-radio-cyborg-support-name = Syndicate Support Cyborg Teleporter
+uplink-reinforcement-radio-cyborg-support-desc = A lean, mean supporting machine with access to a Pinpointer, Echis, Cryptographic Sequencer, Energy Dagger and advanced medical treatment module.
