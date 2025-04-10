@@ -83,6 +83,7 @@
     steps: 4
     zeroVisible: true
   - type: Appearance
+  - type: GunRequiresWield # Harmony change: L6 now needs to be wielded when fired
 
 - type: entity
   name: L6C ROW
