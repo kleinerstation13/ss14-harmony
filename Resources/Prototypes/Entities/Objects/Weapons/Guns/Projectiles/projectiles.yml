@@ -257,7 +257,8 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 16.7 # Harmony: Nerfed stamina damage from 33
+    damage: 16.7 # Harmony: Nerfed stamina damage
+#   damage: 33
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
