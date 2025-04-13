@@ -257,7 +257,7 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 33
+    damage: 16.7 # Hormony: Nerfed stamina damage from 33
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
