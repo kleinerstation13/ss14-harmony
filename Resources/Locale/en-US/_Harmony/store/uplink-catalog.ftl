@@ -16,7 +16,7 @@ uplink-cluster-weh-desc = Scatters 10 lizard plushies in a circle after a short 
 uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
 
-uplink-m90-name = M-90 Bundle
+uplink-m90-name = M-90 bundle
 uplink-m90-desc = A versatile battle rifle which uses .20 rifle ammo. Comes with 3 spare magazines.
 
 uplink-riflemagazine-name = Rifle magazine (.20 rifle)
