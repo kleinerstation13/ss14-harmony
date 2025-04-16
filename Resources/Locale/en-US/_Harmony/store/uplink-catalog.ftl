@@ -15,3 +15,6 @@ uplink-cluster-weh-desc = Scatters 10 lizard plushies in a circle after a short 
 
 uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
+
+uplink-executioner-name = Executioner Energy Sword
+uplink-executioner-desc = A faster and more efficient Energy Sword, boasting a higher reflect chance. Very loud.
