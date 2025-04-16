@@ -73,6 +73,7 @@
   - PowerCageMedium
   - PowerCageSmall
   - TelescopicShield
+  - ClothingShoesBootsMagSec # Harmony - Added security magboots
 
 - type: latheRecipePack
   id: SecurityBoards

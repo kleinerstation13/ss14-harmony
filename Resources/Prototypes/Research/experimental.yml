@@ -68,6 +68,7 @@
   recipeUnlocks:
   - ClothingShoesBootsMagSci
   - ClothingShoesBootsMoon
+  - ClothingShoesBootsMagSec # Harmony - Added security magboots to magnetism research
 
 - type: technology
   id: AnomalyCoreHarnessing

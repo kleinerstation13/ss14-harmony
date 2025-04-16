@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingShoesBootsMagBase, BaseSecurityContraband, ClothingShoesMilitaryBase]
+  id: ClothingShoesBootsMagSec
+  name: security magboots
+  description: Magnetic boots, fitted with a concealed knife pocket. Now in swanky Nanotrasen Red!
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Shoes/Boots/magboots-security.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Shoes/Boots/magboots-security.rsi

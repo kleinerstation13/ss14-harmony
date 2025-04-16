@@ -11,3 +11,11 @@
   completetime: 2
   materials:
     Steel: 400
+
+- type: latheRecipe
+  id: ClothingShoesBootsMagSec
+  result: ClothingShoesBootsMagSec
+  completetime: 10
+  materials:
+    Steel: 1250 # little more expensive than base magboots
+    Plastic: 500
