@@ -14,7 +14,7 @@
   id: UplinkDisruptorGrenade
   name: uplink-disruptor-name
   description: uplink-disruptor-desc
-  productEntity: DisruptorGrenade
+  productEntity: StickyGrenade
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 3
