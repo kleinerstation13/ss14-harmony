@@ -1,0 +1,35 @@
+- type: entity
+  name: sticky grenade
+  description: A grenade coated in a sticky foam that expands once primed. Don't hold it for too long!
+  parent: [GrenadeBase, BaseSyndicateContraband]
+  id: StickyGrenade
+  components:
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 25
+    intensitySlope: 5
+    maxIntensity: 9
+    canCreateVacuum: false
+  - type: OnUseTimerTrigger
+    beepSound:
+      path: "/Audio/_Harmony/Effects/mininade_beep.ogg"
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+    delay: 2
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Grenades/mininade.rsi
+  - type: Item
+    size: Tiny
+  - type: EmbeddableProjectile
+    offset: 0.3,0.0
+    removalTime: 0.5
+  - type: ThrowingAngle
+    angle: 315
+  - type: LandAtCursor
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 1

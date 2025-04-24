@@ -15,3 +15,6 @@ uplink-cluster-weh-desc = Scatters 10 lizard plushies in a circle after a short 
 
 uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
+
+uplink-disruptor-name = Sticky grenade
+uplink-disruptor-desc = A tiny, concealable low-yield grenade with a 2 second fuse, sticks to surfaces once thrown and emits a loud beep before detonating.
