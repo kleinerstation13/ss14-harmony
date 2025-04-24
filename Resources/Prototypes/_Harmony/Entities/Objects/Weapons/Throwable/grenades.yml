@@ -25,7 +25,7 @@
     size: Tiny
   - type: EmbeddableProjectile
     offset: 0.3,0.0
-    removalTime: 0.5
+    removalTime: 0
   - type: ThrowingAngle
     angle: 315
   - type: LandAtCursor
