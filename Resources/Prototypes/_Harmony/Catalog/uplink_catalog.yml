@@ -11,9 +11,9 @@
   - UplinkExplosives
 
 - type: listing
-  id: UplinkDisruptorGrenade
-  name: uplink-disruptor-name
-  description: uplink-disruptor-desc
+  id: UplinkStickyGrenade
+  name: uplink-stickynade-name
+  description: uplink-stickynade-desc
   productEntity: StickyGrenade
   discountCategory: rareDiscounts
   discountDownTo:
