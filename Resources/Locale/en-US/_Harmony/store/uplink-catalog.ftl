@@ -17,4 +17,4 @@ uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
 
 uplink-stickynade-name = Sticky grenade
-uplink-stickynade-desc = A tiny, concealable low-yield grenade with a 2 second fuse, sticks to surfaces once thrown and emits a loud beep before detonating.
+uplink-stickynade-desc = A tiny grenade with a 2 second fuse, sticks to surfaces once thrown. Large explosion radius, but doesn't hurt as much as other explosives.
