@@ -1,0 +1,34 @@
+- type: entity
+  parent: BaseNukeopsRule
+  id: NukeTeamSpawn
+  components:
+  - type: StationEvent
+    earliestStart: 40
+    weight: 2
+    minimumPlayers: 30
+    duration: 1
+  - type: RuleGrids
+  - type: LoadMapRule
+    gridPath: /Maps/_Harmony/Shuttles/ShuttleEvent/nukeops-small.yml
+  - type: NukeopsRule
+    roundEndBehavior: Nothing
+  - type: AntagSelection
+    definitions:
+    - spawnerPrototype: SpawnPointNukeopsOperative
+      min: 3
+      max: 3
+      pickPlayer: false
+      startingGear: SyndicateOperativeGearFull
+      roleLoadout:
+      - RoleSurvivalNukie
+      components:
+      - type: NukeOperative
+      - type: RandomMetadata
+        nameSegments:
+        - NamesSyndicatePrefix
+        - NamesSyndicateNormal
+      - type: NpcFactionMember
+        factions:
+        - Syndicate
+      mindRoles:
+      - MindRoleNukeops

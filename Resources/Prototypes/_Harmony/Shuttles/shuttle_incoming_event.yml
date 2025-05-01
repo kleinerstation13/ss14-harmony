@@ -58,3 +58,8 @@
   id: ShuttleERTJaniSmall
   path: /Maps/_Harmony/Shuttles/ShuttleEvent/ERTJaniSmall.yml
   copies: 1
+
+- type: preloadedGrid
+  id: NukeOpsTeamShuttle
+  path: /Maps/_Harmony/Shuttles/ShuttleEvent/nukeops-small.yml
+  copies: 1

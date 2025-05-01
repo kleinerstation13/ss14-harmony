@@ -37,6 +37,7 @@
     - id: UnknownShuttleManOWar
    #- id: UnknownShuttleInstigator # Disabled, Harmony
     - id: UnknownShuttleSyndicateReinforcement # Harmony
+    - id: NukeOpsTeamShuttle # Harmony
 
 # Shuttle Game Rules
 
