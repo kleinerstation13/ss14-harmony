@@ -1,3 +1,8 @@
+- files: ["kammerer_shot.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "Created by DrinkingWindGames, modified by halycon"
+  source: "https://freesound.org/people/DrinkingWindGames"
+
 - files: ["odin_fire.ogg"]
   license: "CC-BY-NC-4.0"
   copyright: "Individual sounds created by PNMCarrieRailfan and hyperix6, spliced together and modified by Halycon"
