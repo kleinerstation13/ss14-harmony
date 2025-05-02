@@ -1,3 +1,8 @@
+- files: ["kammerer_shot.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "Created by DrinkingWindGames, modified by halycon"
+  source: "https://freesound.org/people/DrinkingWindGames"
+
 - files: ["dmr_fire1.ogg", "dmr_fire2.ogg", "dmr_fire3.ogg"]
   license: "Custom"
   copyright: "Halo © Microsoft Corporation. This audio file was created under Microsoft's Game Content Usage Rules using assets from Halo:Reach, and it is not endorsed by or affiliated with Microsoft. More info here: https://www.xbox.com/en-us/developers/rules. Pulled from Halo:Reach, made by Bungie"
