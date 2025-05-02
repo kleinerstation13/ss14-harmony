@@ -290,4 +290,4 @@
   id: PrideDrobeAds
   values:
     prefix: advertisement-pride-
-    count: 4
+    count: 5 # Harmony - changed count from 4 to 5

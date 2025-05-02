@@ -5,3 +5,6 @@ advertisement-pride-4 = The first pride was a riot!
 thankyou-pride-1 = Slay!
 thankyou-pride-2 = Knock 'em dead!
 thankyou-pride-3 = What a glow up!
+
+# Harmony
+advertisement-pride-5 = Syndicates always go loud and proud!
