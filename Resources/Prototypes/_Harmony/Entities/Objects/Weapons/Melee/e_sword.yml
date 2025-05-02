@@ -9,3 +9,5 @@
       doAfterDuration: 2
   - type: Reflect
     reflectProb: .35
+  - type: UseDelay
+    delay: 2.5
