@@ -12,3 +12,12 @@ uplink-cluster-weh-desc = Scatters 10 lizard plushies in a circle after a short 
 
 uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
+
+uplink-pistol-raffica-name = Raffica
+uplink-pistol-raffica-desc = A concealable pistol fitted with a burst fire reciever. Extremely effective, but limited in magazine capacity. Uses .35 auto ammo.
+
+uplink-rifle-bandit-name = Bandit bundle
+uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
+
+uplink-rifle-magazine-bandit-name = DMR magazine (.30 rifle caseless)
+uplink-rifle-magazine-bandit-desc = Rifle magazine with 15 cartridges. Compatible with the Bandit.

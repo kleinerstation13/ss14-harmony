@@ -7,3 +7,9 @@
 # Tag used for escape pod landing.
 - type: Tag
   id: DockPod
+
+#used in _Harmony/Entities/Objects/Weapons/Guns/Ammunition/Magazines/light_rifle.yml and _Harmony/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/light_rifle.yml
+- type: Tag
+  id: MagazineLightRifleCaseless
+- type: Tag
+  id: CartridgeLightRifleCaseless
