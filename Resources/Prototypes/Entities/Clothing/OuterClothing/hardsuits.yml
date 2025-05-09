@@ -757,7 +757,7 @@
       coefficients:
         Blunt: 0.6
         Slash: 0.6
-        Piercing: 0.4
+        Piercing: 0.6 # Harmony change - 0.4 -> 0.6
         Heat: 0.25
         Radiation: 0.25
         Caustic: 0.75
