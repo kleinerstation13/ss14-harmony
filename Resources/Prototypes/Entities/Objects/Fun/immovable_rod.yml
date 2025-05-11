@@ -81,8 +81,7 @@
       types:
 # Begin harmony change - tweaked damage values
 #       Blunt: 190
-        Blunt: 45
-        Piercing: 45
+        Piercing: 90
 # End harmony change
   - type: MovementIgnoreGravity
     gravityState: true
