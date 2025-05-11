@@ -78,6 +78,7 @@
     - operationPrefix
     - operationSuffix
   - type: NukeopsRule
+    warDeclarationMinOps: 3 # Harmony addition
   - type: RuleGrids
   - type: AntagSelection
   - type: AntagLoadProfileRule
