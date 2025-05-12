@@ -2,13 +2,13 @@
   id: NamesSyndicateNormal
   values:
     prefix: names-syndicate-normal-dataset-
-    count: 66 #Harmony change: Added 32 names to nukeop dataset
+    count: 67 #Harmony change: Added 42 names to nukeop dataset
 
 - type: localizedDataset
   id: NamesSyndicateElite
   values:
     prefix: names-syndicate-elite-dataset-
-    count: 29 #Harmony change: Added 3 names to elite nukeop dataset
+    count: 29 #Harmony change: Added 6 names to elite nukeop dataset
 
 - type: localizedDataset
   id: NamesSyndicatePrefix
