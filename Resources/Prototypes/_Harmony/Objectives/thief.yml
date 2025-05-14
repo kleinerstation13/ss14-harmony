@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseThiefStealAnimalObjective
+  id: GlorpStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: AnimalGlorp
+  - type: Objective
+    difficulty: 1
