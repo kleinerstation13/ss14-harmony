@@ -1,7 +1,7 @@
 - type: entity
-  name: M-90
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90
+  name: M-90
   description: A prototype, made useless years ago thanks to Nanotrasen's advancements in the field of small arms. It was dug up and retrofitted by the Syndicate. Uses .20 rifle ammo.
   components:
   - type: Sprite
