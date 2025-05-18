@@ -85,7 +85,7 @@
   description: spellbook-repulse-desc
   productAction: ActionRepulse
   cost:
-    WizCoin: 1 # Haromny change - 2 -> 1
+    WizCoin: 1 # Harmony change - 2 -> 1
   categories:
   - SpellbookDefensive
   conditions:
