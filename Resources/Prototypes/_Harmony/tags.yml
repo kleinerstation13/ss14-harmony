@@ -12,7 +12,11 @@
 - type: Tag
   id: DockPod
 
-# Added to Resources/Prototypes/_Harmony/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/shotgun.yml
+# Tag used for pride mantles.
+- type: Tag
+  id: WhitelistChameleonPrideMantle
+  
+  # Added to Resources/Prototypes/_Harmony/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/shotgun.yml
 - type: Tag
   id: TagShellFlechette
 - type: Tag
