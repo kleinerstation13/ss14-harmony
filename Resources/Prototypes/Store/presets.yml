@@ -16,6 +16,7 @@
     - UplinkWearables
     - UplinkJob
     - UplinkPointless
+    - UplinkObjectives # Harmony addition
     currencyWhitelist:
     - Telecrystal
     balance:

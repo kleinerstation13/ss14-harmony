@@ -126,3 +126,21 @@
     - Bartender
     - Zookeeper
 
+# Objective-specific
+- type: listing
+  id: UplinkNuclearAuthenticationCodes
+  name: uplink-nuke-codes-name
+  description: uplink-nuke-codes-desc
+  productEntity: BoxFolderNuclearCodes
+  categories:
+  - UplinkObjectives
+  cost:
+    Telecrystal: 25
+  conditions:
+  - !type:ObjectiveUnlockCondition
+  - !type:ListingLimitedStockCondition
+    stock: 1
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle

@@ -15,3 +15,6 @@ uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that ca
 
 uplink-defib-name = Interdyne Defibrillator
 uplink-defib-desc = A compact defibrillator. It can be used to revive your fellow comrades, or as an effective melee weapon! You should probably throw away your acidifier if you expect to use this.
+
+uplink-nuke-codes-name = Nuclear authentication codes
+uplink-nuke-codes-desc = A folder containing a closely guarded secret. Now all you need is the disk. Good luck!
