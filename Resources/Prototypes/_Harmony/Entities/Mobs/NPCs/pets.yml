@@ -40,9 +40,9 @@
         horns_ram: KoboldHornColors
 
 - type: entity
-  name: Glorp
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobGlorp
+  name: Glorp
   description: An esoteric feline from outer space. Gleeby deeby florba zorp.
   components:
   - type: Sprite

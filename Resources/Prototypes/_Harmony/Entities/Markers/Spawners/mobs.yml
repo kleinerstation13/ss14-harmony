@@ -29,9 +29,9 @@
     - MobKoboldPoquito
 
 - type: entity
-  name: Glorp Spawner
-  id: SpawnMobGlorp
   parent: MarkerBase
+  id: SpawnMobGlorp
+  name: Glorp Spawner
   components:
   - type: Sprite
     layers:
