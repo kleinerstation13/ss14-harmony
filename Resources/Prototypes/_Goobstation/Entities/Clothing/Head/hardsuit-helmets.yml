@@ -1,0 +1,56 @@
+- type: entity
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] # Harmony - Changed parent to upstream convention
+  id: ClothingHeadHelmetHardsuitDreadnought
+  name: cybersun dreadnought hardsuit helmet # Harmony - fixed capitalization (Dreadnought -> dreadnought)
+  description: A helmet, looking at this, you wonder if there is anyone alive. # Harmony - fixed grammar
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Head/Hardsuits/dreadnought.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Head/Hardsuits/dreadnought.rsi
+  - type: PointLight
+    color: red
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.89
+        Slash: 0.89
+        Piercing: 0.89
+        Heat: 0.89
+# Begin harmony change - things i am not porting and also removed flash immunity because.. syndie visors exist?
+# - type: FlashImmunity
+# - type: FlashSoundSuppression
+# - type: SpeechSoundsReplacer
+#   speechSounds: Chrono # why? its badass.
+# End harmony change
+
+- type: entity
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] # Harmony - Changed parent to upstream convention
+  id: ClothingHeadHelmetHardsuitCybersunStealth
+  suffix: stealth
+  name: cybersun stealth hardsuit helmet
+  description: A helmet with plating for stealth operations.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Head/Hardsuits/cybersunstealth.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Head/Hardsuits/cybersunstealth.rsi
+  - type: PointLight
+    color: green
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+  - type: ClothingGrantComponent
+    component:
+    - type: Stealth
+
