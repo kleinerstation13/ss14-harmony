@@ -6,3 +6,5 @@
     stealGroup: AnimalGlorp
   - type: Objective
     difficulty: 1
+  - type: NotJobRequirement
+    job: Scientist

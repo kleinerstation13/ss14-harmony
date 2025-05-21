@@ -35,6 +35,7 @@
   components:
   - type: Sprite
     layers:
+    - state: green
     - state: glorp
       sprite: _Harmony/Mobs/Pets/glorp.rsi
   - type: ConditionalSpawner
