@@ -280,7 +280,7 @@
   id: UplinkSingularityGrenade
   name: uplink-singularity-grenade-name
   description: uplink-singularity-grenade-desc
-  productEntity:
+  productEntity: SingularityGrenade
 # Begin harmony change - removed discount
 # discountCategory: usualDiscounts
 # discountDownTo:
