@@ -8,7 +8,7 @@
   discountDownTo:
     Telecrystal: 6
   cost:
-    Telecrystal: 9
+    Telecrystal: 10
   categories:
   - UplinkWeaponry
   conditions:
@@ -23,8 +23,11 @@
   description: uplink-magnum-magazine-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
   productEntity: MagazineMagnum
-  cost:
+  discountCategory: rareDiscounts
+  discountDownTo:
     Telecrystal: 1
+  cost:
+    Telecrystal: 2
   categories:
   - UplinkAmmo
   conditions:
