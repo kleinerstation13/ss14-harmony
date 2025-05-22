@@ -1,0 +1,12 @@
+- type: entity
+  id: MagazineMagnumSyndicate
+  name: syndicate pistol magazine (.45 magnum)
+  parent: MagazineMagnum
+  components:
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Pistol/magnum_mag.rsi
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

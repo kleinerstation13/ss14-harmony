@@ -32,8 +32,8 @@
   id: UplinkPistolMagnumMagazine
   name: uplink-magnum-magazine-name
   description: uplink-magnum-magazine-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
-  productEntity: MagazineMagnum
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Pistol/magnum_mag.rsi, state: red-icon }
+  productEntity: MagazineMagnumSyndicate
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 1
