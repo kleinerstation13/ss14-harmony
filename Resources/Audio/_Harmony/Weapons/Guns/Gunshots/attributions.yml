@@ -2,3 +2,8 @@
   license: "CC-BY-4.0"
   copyright: "Created by DrinkingWindGames, modified by halycon"
   source: "https://freesound.org/people/DrinkingWindGames"
+
+- files: ["magnum_fire.ogg"]
+  license: "CC0-1.0"
+  copyright: "Created by nioczkus"
+  source: "https://freesound.org/people/nioczkus/sounds/346537/"

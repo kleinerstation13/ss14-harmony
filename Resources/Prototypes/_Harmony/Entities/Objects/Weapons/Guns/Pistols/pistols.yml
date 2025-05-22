@@ -1,0 +1,41 @@
+- type: entity
+  name: Adder
+  parent: [BaseWeaponPistol, BaseSyndicateContraband]
+  id: WeaponPistolAdder
+  description: A pistol sporting an extremely overkill caliber. You wonder why anybody would ever design this. Feeds from .45 magnum magazines.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Pistols/adder.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnum
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeMagnum
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/magnum_fire.ogg
+      params:
+        volume: 3
+    fireRate: 2.5
+    minAngle: 1
+    maxAngle: 20
+    angleIncrease: 8
+    angleDecay: 9

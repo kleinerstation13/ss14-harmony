@@ -1,4 +1,38 @@
 # Guns
+- type: listing
+  id: UplinkPistolAdder
+  name: uplink-pistol-adder-name
+  description: uplink-pistol-adder-desc
+  productEntity: WeaponPistolAdder
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 6
+  cost:
+    Telecrystal: 9
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink # Too good for nukies? idk
+
+- type: listing
+  id: UplinkPistolMagnumMagazine
+  name: uplink-magnum-magazine-name
+  description: uplink-magnum-magazine-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
+  productEntity: MagazineMagnum
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+
 # Explosives
 - type: listing
   id: UplinkPizzaBomb
