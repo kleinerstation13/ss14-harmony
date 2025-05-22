@@ -40,7 +40,7 @@
         horns_ram: KoboldHornColors
 
 - type: entity
-  parent: [MobCat, StripableInventoryBase]
+  parent: MobCat
   id: MobGlorp
   name: Glorp
   description: An esoteric feline from outer space. Gleeby deeby florba zorp.
@@ -74,5 +74,6 @@
   - type: Tag
     tags:
     - CannotSuicide
+    - VimPilot
   - type: StealTarget
     stealGroup: AnimalGlorp
