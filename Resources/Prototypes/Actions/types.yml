@@ -140,7 +140,7 @@
   description: Randomly teleports you within a large distance.
   components:
   - type: LimitedCharges
-    maxCharges: 2
+    maxCharges: 3 # Harmony: 2 -> 3
   - type: InstantAction
     checkCanInteract: false
     useDelay: 5
@@ -340,7 +340,7 @@
   name: Toggle Paramedic Siren
   description: Toggles the paramedic siren on and off.
   components:
-  - type: InstantAction 
+  - type: InstantAction
     icon:
       sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi
       state: icon-siren

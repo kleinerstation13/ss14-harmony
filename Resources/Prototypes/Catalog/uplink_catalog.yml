@@ -280,10 +280,12 @@
   id: UplinkSingularityGrenade
   name: uplink-singularity-grenade-name
   description: uplink-singularity-grenade-desc
-  productEntity: SingularityGrenade
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 1
+  productEntity:
+# Begin harmony change - removed discount
+# discountCategory: usualDiscounts
+# discountDownTo:
+#   Telecrystal: 1
+# End harmony change
   cost:
     Telecrystal: 2
   categories:
@@ -294,9 +296,11 @@
   name: uplink-whitehole-grenade-name
   description: uplink-whitehole-grenade-desc
   productEntity: WhiteholeGrenade
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 1
+# Begin harmony change : Removed discount
+# discountCategory: usualDiscounts
+# discountDownTo:
+#   Telecrystal: 1
+# End harmony change
   cost:
     Telecrystal: 2
   categories:
@@ -816,9 +820,11 @@
   name: uplink-ultrabright-lantern-name
   description: uplink-ultrabright-lantern-desc
   productEntity: LanternFlash
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 1
+# Begin harmony change- Removed discount
+# discountCategory: usualDiscounts
+# discountDownTo:
+#   Telecrystal: 1
+# End harmony change
   cost:
     Telecrystal: 2
   categories:
@@ -855,9 +861,9 @@
   productEntity: ClothingBackpackDuffelSyndicateDecoyKitFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 2 # Harmony: 4 -> 2
   cost:
-    Telecrystal: 6
+    Telecrystal: 4 # Harmony: 6 -> 4
   categories:
   - UplinkDeception
 
@@ -1021,7 +1027,7 @@
   discountDownTo:
     Telecrystal: 4
   cost:
-    Telecrystal: 8
+    Telecrystal: 7 # Harmony: 8 -> 7
   categories:
   - UplinkDisruption
   conditions:
@@ -1161,11 +1167,11 @@
   description: uplink-reinforcement-radio-traitor-desc
   productEntity: ReinforcementRadioSyndicate
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-urist }
-  discountCategory: usualDiscounts
+  discountCategory: rareDiscounts # Harmony: usualDiscounts -> rareDiscounts
   discountDownTo:
     Telecrystal: 7
   cost:
-    Telecrystal: 14
+    Telecrystal: 12 # Harmony - 14 -> 12
   categories:
   - UplinkAllies
   conditions:
@@ -1181,7 +1187,7 @@
   productEntity: ReinforcementRadioSyndicateNukeops
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-nukeop }
   cost:
-    Telecrystal: 30
+    Telecrystal: 25 # Harmony: 30 -> 25
   categories:
   - UplinkAllies
   conditions:

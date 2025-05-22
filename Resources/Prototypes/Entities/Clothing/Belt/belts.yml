@@ -619,7 +619,7 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,3,3
+    - 0,0,4,3 # Harmony: 0,0,3,3 -> 0,0,4,3
     whitelist:
       components:
         - Gun
