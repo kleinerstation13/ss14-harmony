@@ -17,7 +17,7 @@ uplink-defib-name = Interdyne Defibrillator
 uplink-defib-desc = A compact defibrillator. It can be used to revive your fellow comrades, or as an effective melee weapon! You should probably throw away your acidifier if you expect to use this.
 
 uplink-pistol-adder-name = Adder
-uplink-pistol-adder-desc = A powerful but unwieldy handcannon for the flashy traitor. Hand-shattering recoil and high spread, so try to pace your shots. Chambered in .45 magnum.
+uplink-pistol-adder-desc = A powerful but unwieldy handcannon for the flashy traitor. Hand-shattering recoil and high spread, so try to pace your shots. Uses pistol magazines (.45 magnum).
 
 uplink-magnum-magazine-name = Magnum Magazine (.45 magnum)
 uplink-magnum-magazine-desc = Pistol magazine with 7 catridges. Compatible with the Adder.
