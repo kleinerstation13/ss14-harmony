@@ -16,6 +16,12 @@ uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that ca
 uplink-defib-name = Interdyne Defibrillator
 uplink-defib-desc = A compact defibrillator. It can be used to revive your fellow comrades, or as an effective melee weapon! You should probably throw away your acidifier if you expect to use this.
 
+uplink-shotgun-drum-pellet-name = Shotgun Magazine (.50 Pellet)
+uplink-shotgun-drum-pellet-desc = Shotgun drum with eight pellet shells. Compatible with the Bulldog.
+
+uplink-shotgun-drum-slug-name = Shotgun Magazine (.50 Slug)
+uplink-shotgun-drum-slug-desc = Shotgun drum with eight slug shells. Compatible with the Bulldog.
+
 uplink-pistol-adder-name = Adder
 uplink-pistol-adder-desc = A powerful but unwieldy handcannon for the flashy traitor. Hand-shattering recoil and high spread, so try to pace your shots. Uses pistol magazines (.45 magnum).
 
