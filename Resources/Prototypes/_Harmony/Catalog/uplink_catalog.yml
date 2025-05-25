@@ -1,17 +1,4 @@
 # Guns
-- type: listing
-  id: UplinkPistolRaffica
-  name: uplink-pistol-raffica-name
-  description: uplink-pistol-raffica-desc
-  productEntity: WeaponPistolRaffica
-  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Pistols/raffica.rsi, state: icon }
-  discountCategory: rareDiscounts
-  discountDownTo:
-    Telecrystal: 3
-  cost:
-    Telecrystal: 6
-  categories:
-  - UplinkWeaponry
 
 - type: listing
   id: UplinkRifleBandit

@@ -16,9 +16,6 @@ uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that ca
 uplink-defib-name = Interdyne Defibrillator
 uplink-defib-desc = A compact defibrillator. It can be used to revive your fellow comrades, or as an effective melee weapon! You should probably throw away your acidifier if you expect to use this.
 
-uplink-pistol-raffica-name = Raffica
-uplink-pistol-raffica-desc = A concealable pistol fitted with a burst fire reciever. Extremely effective, but limited in magazine capacity. Uses .35 auto ammo.
-
 uplink-rifle-bandit-name = Bandit bundle
 uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
 
