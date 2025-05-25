@@ -12,6 +12,10 @@
 - type: Tag
   id: DockPod
 
+# Tag used for pride mantles.
+- type: Tag
+  id: WhitelistChameleonPrideMantle
+
 #used in _Harmony/Entities/Objects/Weapons/Guns/Ammunition/Magazines/light_rifle.yml and _Harmony/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/light_rifle.yml
 - type: Tag
   id: MagazineLightRifleCaseless
