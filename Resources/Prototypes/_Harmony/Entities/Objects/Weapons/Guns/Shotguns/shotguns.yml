@@ -16,7 +16,7 @@
   - type: GunRequiresWield
   - type: Gun
     soundGunshot:
-      path: /Audio/_Harmony/Weapons/Guns/Gunshots/hushpup_fire.wav
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/hushpup_fire.ogg
       params:
         volume: -3
     fireRate: 1
