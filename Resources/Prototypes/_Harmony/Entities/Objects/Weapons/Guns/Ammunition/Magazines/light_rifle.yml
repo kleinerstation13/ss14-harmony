@@ -1,7 +1,7 @@
 - type: entity
+  parent: BaseMagazineLightRifle
   id: MagazineLightRifleCaseless
   name: "DMR box magazine (.30 rifle caseless)"
-  parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
     whitelist:

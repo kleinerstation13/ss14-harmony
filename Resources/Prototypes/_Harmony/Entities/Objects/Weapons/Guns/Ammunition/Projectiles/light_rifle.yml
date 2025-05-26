@@ -1,8 +1,8 @@
 - type: entity
-  id: BulletLightRifleCaseless
-  name: bullet (.30 rifle caseless)
   parent: BaseBullet
+  id: BulletLightRifleCaseless
   categories: [ HideSpawnMenu ]
+  name: bullet (.30 rifle caseless)
   components:
   - type: Projectile
     damage:

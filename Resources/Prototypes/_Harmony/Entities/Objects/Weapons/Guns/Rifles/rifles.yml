@@ -1,8 +1,8 @@
 
 - type: entity
-  name: Bandit
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleBandit
+  name: Bandit
   description: A precise and reliable bullpup, engineered to perfection by Scarborough Arms. Uses .30 caseless rifle ammo.
   components:
   - type: Sprite

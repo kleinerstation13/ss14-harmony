@@ -2,6 +2,6 @@
 - type: soundCollection
   id: DMRFire
   files:
-  - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire3.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire1.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire2.ogg
+  - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire3.ogg
