@@ -1,7 +1,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] # Harmony - Changed parent to upstream convention
   id: ClothingHeadHelmetHardsuitCybersunStealth
-  suffix: stealth
+  # suffix: stealth - Harmony change
   name: cybersun stealth hardsuit helmet
   description: A helmet with plating for stealth operations.
   components:
