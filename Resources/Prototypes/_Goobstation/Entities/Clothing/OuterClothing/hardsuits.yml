@@ -1,7 +1,7 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitCybersunStealth
-  suffix: stealth
+  # suffix: stealth - Harmony change
   name: cybersun stealth hardsuit
   description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
   components:
