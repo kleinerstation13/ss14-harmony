@@ -1,8 +1,8 @@
 - type: entity
-  name: Hushpup
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunHushpup
-  description: An obscure modification of the Enforcer, fitted with an experimental muffler. Only fires .50 flechettes and hypo shells.
+  name: Hushpup
+  description: An obscure modification of the Enforcer, fitted with an experimental muffler. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Shotguns/hushpup.rsi
@@ -11,17 +11,13 @@
   - type: Item
     sprite: _Harmony/Objects/Weapons/Guns/Shotguns/hushpup_inhands_64x.rsi
   - type: BallisticAmmoProvider
-    whitelist:
-      tags:
-      - TagShellFlechette
-      - TagShellHypo
-    proto: ShellFlechette
     capacity: 4
+    proto: PelletFlechette
   - type: GunRequiresWield
   - type: Gun
     soundGunshot:
       path: /Audio/_Harmony/Weapons/Guns/Gunshots/hushpup_fire.wav
       params:
-        volume: -6
+        volume: -3
     fireRate: 1
     selectedMode: SemiAuto

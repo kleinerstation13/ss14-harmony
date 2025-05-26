@@ -16,13 +16,13 @@
       - state: hypo
 
 - type: entity
-  name: shell box (flechette)
   parent: [AmmoProviderShotgunShell, BaseSyndicateContraband]
   id: BoxShellFlechette
+  name: shell box (flechette)
   components:
   - type: BallisticAmmoProvider
     proto: ShellFlechette
-    capacity: 20
+    capacity: 16
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Boxes/flechette.rsi
     layers:
