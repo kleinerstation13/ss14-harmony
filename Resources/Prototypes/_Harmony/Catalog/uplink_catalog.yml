@@ -12,11 +12,7 @@
     Telecrystal: 10
   categories:
   - UplinkWeaponry
-  conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - NukeOpsUplink
+
 # Explosives
 - type: listing
   id: UplinkPizzaBomb
