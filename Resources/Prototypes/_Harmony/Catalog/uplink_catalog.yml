@@ -7,9 +7,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledHushpup
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 8
   cost:
-    Telecrystal: 12
+    Telecrystal: 10
   categories:
   - UplinkWeaponry
   conditions:

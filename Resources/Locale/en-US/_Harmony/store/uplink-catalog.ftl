@@ -23,4 +23,4 @@ uplink-shotgun-drum-slug-name = Shotgun Magazine (.50 Slug)
 uplink-shotgun-drum-slug-desc = Shotgun drum with eight slug shells. Compatible with the Bulldog.
 
 uplink-hushpup-name = Hushpup
-uplink-hushpup-desc = Contains a Hushpup, a powerful but slow silenced shotgun that comes loaded with unique armor piercing flechettes, as well as a spare box. Uses .50 shotgun ammo.
+uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low magazine capacity, as well as a spare box of buckshot. Uses .50 shotgun ammo.

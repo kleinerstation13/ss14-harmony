@@ -15,19 +15,3 @@
         map: ["enum.GunVisualLayers.Mag"]
       - state: hypo
 
-- type: entity
-  parent: [AmmoProviderShotgunShell, BaseSyndicateContraband]
-  id: BoxShellFlechette
-  name: shell box (flechette)
-  components:
-  - type: BallisticAmmoProvider
-    proto: ShellFlechette
-    capacity: 16
-  - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Boxes/flechette.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: flechette
