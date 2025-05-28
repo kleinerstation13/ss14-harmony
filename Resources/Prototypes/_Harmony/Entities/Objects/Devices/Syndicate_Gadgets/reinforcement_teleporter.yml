@@ -2,8 +2,8 @@
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgSupport
   name: syndicate support cyborg reinforcement radio
-  description: Call in a well equipped support cyborg, instantly!
   suffix: NukeOps
+  description: Call in a well equipped support cyborg, instantly!
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-cyborg-support-name
