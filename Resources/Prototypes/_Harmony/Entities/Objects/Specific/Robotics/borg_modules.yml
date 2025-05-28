@@ -1,6 +1,6 @@
 - type: entity
-  id: BorgModuleAdvancedTreatmentSyndicate
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
+  id: BorgModuleAdvancedTreatmentSyndicate
   name: syndicate support cyborg module
   description: A module that comes with a borg hypo, dropper, two large beakers, and a health analyzer.
   components:

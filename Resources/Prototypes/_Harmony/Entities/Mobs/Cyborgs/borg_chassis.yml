@@ -1,6 +1,6 @@
 - type: entity
+  parent: BorgChassisSyndicateMedical
   id: BorgChassisSyndicateSupport
-  parent: [BorgChassisSyndicateMedical, ShowMedicalIcons]
   name: syndicate support cyborg
   description: A combat support cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
   components:
