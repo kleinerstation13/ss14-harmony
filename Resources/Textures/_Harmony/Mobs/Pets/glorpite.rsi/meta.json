@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "glorpite and glorpite_dead made by Emisse in aseprite for SS14, inhand and helmet sprites taken from commit https://github.com/tgstation/tgstation/commit/e15c63d100db65eaaa5231133b8a2662ff439131#diff-8dd94e19fdb2ff341b57e31bce101298 and then modified by Vermidia. All sprites modified by Halycon (Github)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "glorpite",
+            "directions": 4
+        },
+        {
+            "name": "glorpite_dead"
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        }
+    ]
+}

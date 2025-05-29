@@ -25,3 +25,17 @@
   - type: ConditionalSpawner
     prototypes:
     - MobGlorp
+
+- type: entity
+  parent: MarkerBase
+  id: SpawnMobGlorpite
+  name: Glorpite Spawner
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: glorpite
+      sprite: _Harmony/Mobs/Pets/glorpite.rsi
+  - type: ConditionalSpawner
+    prototypes:
+    - MobGlorpite
