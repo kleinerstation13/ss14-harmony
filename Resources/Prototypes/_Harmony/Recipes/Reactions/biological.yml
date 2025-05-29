@@ -1,0 +1,11 @@
+- type: reaction
+  id: CreateGlorpite
+  quantized: true
+  reactants:
+    GlorpExtract:
+      amount: 100
+    UnstableMutagen:
+      amount: 100
+  effects:
+  - !type:CreateEntityReactionEffect
+    entity: MobGlorpite

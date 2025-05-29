@@ -77,3 +77,61 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalGlorp
+
+- type: entity
+  parent: MobCat
+  id: MobGlorpite
+  name: Glorpite
+  description: A baby glorp. Pick it up and play with it!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Harmony/Mobs/Pets/glorpite.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: glorpite
+  - type: Bloodstream
+    bloodReagent: Radium
+    bloodMaxVolume: 15
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: glorpite
+      Critical:
+        Base: glorpite_dead
+      Dead:
+        Base: glorpite_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatXeno
+      amount: 1
+  - type: InteractionPopup
+    interactSuccessString: petting-success-glorp
+  - type: Grammar
+    attributes:
+      proper: true
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - VimPilot
+  - type: Item
+    size: Medium
+  - type: Clothing
+    quickEquip: false
+    sprite: _Harmony/Mobs/Pets/glorpite.rsi
+    slots:
+    - HEAD
+  - type: Storage
+    storageOpenSound:
+      path: /Audio/_Harmony/Effects/glorpite.ogg
+    grid:
+    - 0,0,1,1
+    maxItemSize: Small
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
