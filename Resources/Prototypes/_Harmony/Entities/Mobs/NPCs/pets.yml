@@ -115,7 +115,7 @@
     - CannotSuicide
     - VimPilot
   - type: Item
-    size: Medium
+    size: Normal
   - type: Clothing
     quickEquip: false
     sprite: _Harmony/Mobs/Pets/glorpite.rsi
@@ -125,7 +125,7 @@
     storageOpenSound:
       path: /Audio/_Harmony/Effects/glorpite.ogg
     grid:
-    - 0,0,1,1
+    - 0,0,0,1
     maxItemSize: Small
   - type: ContainerContainer
     containers:
