@@ -13,8 +13,8 @@
     Telecrystal: 10
   categories:
   - UplinkWeaponry
-  
-  - type: listing
+
+- type: listing
   id: UplinkMantisGloves
   name: mantis-gloves-uplink-name
   description: mantis-gloves-uplink-desc
