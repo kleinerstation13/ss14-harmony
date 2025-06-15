@@ -30,3 +30,4 @@ uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup whi
 
 uplink-rifle-magazine-bandit-name = DMR magazine (.30 rifle caseless)
 uplink-rifle-magazine-bandit-desc = Rifle magazine with 15 cartridges. Compatible with the Bandit.
+
