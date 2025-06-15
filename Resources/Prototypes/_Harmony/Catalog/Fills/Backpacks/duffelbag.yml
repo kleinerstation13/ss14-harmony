@@ -14,7 +14,7 @@
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledDMR
   name: Bandit bundle
-  description: "You're on your own, Noble. Contains a Bandit DMR bundled with 2 DMR magazines."
+  description: You're on your own, Noble. Contains a Bandit DMR bundled with 2 DMR magazines.
   components:
   - type: StorageFill
     contents:
