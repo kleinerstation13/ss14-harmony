@@ -19,6 +19,9 @@ uplink-shotgun-drum-pellet-desc = Shotgun drum with eight pellet shells. Compati
 uplink-shotgun-drum-slug-name = Shotgun Magazine (.50 slug)
 uplink-shotgun-drum-slug-desc = Shotgun drum with eight slug shells. Compatible with the Bulldog.
 
+uplink-sniper-ammo-explosive-name = Ammunition box (.60 antimateriel explosive)
+uplink-sniper-ammo-explosive-desc = A box of 10 explosive cartridges for the Hristov sniper rifle.
+
 # Chemicals
 
 uplink-defib-name = Interdyne Defibrillator
