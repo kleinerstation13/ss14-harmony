@@ -88,16 +88,6 @@
   categories:
   - UplinkAmmo
 
-- type: listing
-  id: UplinkHristovAmmoExplosive
-  name: uplink-sniper-ammo-explosive-name
-  description: uplink-sniper-ammo-explosive-desc
-  productEntity: MagazineBoxAntiMaterielExplosive
-  cost:
-    Telecrystal: 4
-  categories:
-  - UplinkAmmo
-
 # Chemicals
 
 - type: listing

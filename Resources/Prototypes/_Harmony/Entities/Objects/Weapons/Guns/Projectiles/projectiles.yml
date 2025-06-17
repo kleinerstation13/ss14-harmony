@@ -151,33 +151,3 @@
         Heat: 10
         Radiation: 6
 
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: BaseBulletTrigger
-  id: BulletAntiMaterialExplosive
-  name: bullet (.60 high-explosive)
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Heat: 1
-        Blunt: 2
-        Piercing: 3
-        Structural: 75
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: FireBomb
-    totalIntensity: 15
-    intensitySlope: 7
-    maxIntensity: 15
-    maxTileBreak: 0
-  - type: PointLight
-    radius: 3.5
-    color: orange
-    energy: 0.5
-  - type: Sprite
-    noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-    layers:
-    - state: bullet
-      shader: unshaded
