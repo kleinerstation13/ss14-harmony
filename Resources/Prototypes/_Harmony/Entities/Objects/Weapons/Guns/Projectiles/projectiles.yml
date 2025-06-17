@@ -172,4 +172,3 @@
     ignoreResistances: true
   - type: StaminaDamageOnCollide
     damage: 5
-
