@@ -46,6 +46,7 @@
   materials:
     Steel: 25
     Plastic: 450
+    Plasma: 100 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
@@ -76,6 +77,7 @@
   result: MagazineBoxRifleIncendiary
   materials:
     Plastic: 750
+    Plasma: 250 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoBoxRecipe
@@ -114,6 +116,7 @@
   materials:
     Steel: 25
     Plastic: 540
+    Plasma: 60 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
@@ -144,6 +147,7 @@
   result: MagazineBoxLightRifleIncendiary
   materials:
     Plastic: 900
+    Plasma: 250 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoBoxRecipe
@@ -182,6 +186,7 @@
   materials:
     Steel: 25
     Plastic: 120
+    Plasma: 75 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
@@ -220,6 +225,7 @@
   materials:
     Steel: 25
     Plastic: 275
+    Plasma: 100 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
@@ -264,6 +270,7 @@
   result: MagazineBoxPistolIncendiary
   materials:
     Plastic: 600
+    Plasma: 200 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoBoxRecipe
@@ -302,6 +309,7 @@
   materials:
     Steel: 50
     Plastic: 150
+    Plasma: 75 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
@@ -332,6 +340,7 @@
   result: MagazineBoxMagnumIncendiary
   materials:
     Plastic: 240
+    Plasma: 160 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoBoxRecipe
@@ -370,6 +379,7 @@
   materials:
     Steel: 100
     Plastic: 190
+    Plasma: 100 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
@@ -401,6 +411,7 @@
   materials:
     Steel: 80
     Plastic: 320
+    Plasma: 200 # Harmony addition
 
 - type: latheRecipe
   parent: BaseAmmoBoxRecipe
