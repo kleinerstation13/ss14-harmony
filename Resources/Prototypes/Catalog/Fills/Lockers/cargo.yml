@@ -13,7 +13,7 @@
     children:
     - id: ClothingBeltUtilityFilled
     - id: SurvivalKnife
-    - id: HandheldGPSBasic
+#   - id: HandheldGPSBasic # Harmony change: Removed GPS from salvage locker
     - id: RadioHandheld
     - id: SeismicCharge # Harmony change
     - id: AppraisalTool
