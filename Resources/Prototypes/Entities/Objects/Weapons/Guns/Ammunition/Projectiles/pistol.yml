@@ -31,8 +31,8 @@
       types:
 # Begin harmony change
 #       Blunt: 2
-        Heat: 6 # Harmony - 14 -> 6
-        Piercing: 10
+        Heat: 6.4 # Harmony - 14 -> 6.4
+        Piercing: 9.6
 
 - type: entity
   id: BulletPistolUranium
@@ -43,5 +43,5 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 6
-        Piercing: 10
+        Radiation: 6.4 # Harmony - 6 -> 6.4
+        Piercing: 9.6 # Harmony - 10 -> 9.6

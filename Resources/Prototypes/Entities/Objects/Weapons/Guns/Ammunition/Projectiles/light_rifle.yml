@@ -31,8 +31,8 @@
       types:
 # Begin harmony change
 #       Blunt: 3
-        Heat: 9 # Harmony - 16 -> 9
-        Piercing: 10
+        Heat: 7.6 # Harmony - 16 -> 7.6
+        Piercing: 11.4
 # End harmony change
 
 - type: entity
@@ -44,5 +44,5 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 6 # Harmony - 9 -> 6
-        Piercing: 13 # Harmony - 10 -> 13
+        Radiation: 7.6 # Harmony - 9 -> 7.6
+        Piercing: 11.4 # Harmony - 10 -> 11.4

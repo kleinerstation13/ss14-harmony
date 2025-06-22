@@ -76,8 +76,8 @@
       types:
 # Begin harmony change
 #       Blunt: 3
-        Heat: 5 # Harmony - 7 -> 5
-        Piercing: 5
+        Heat: 4 # Harmony - 7 -> 4
+        Piercing: 6
 # End harmony change
   - type: IgnitionSource
     ignited: true
@@ -227,8 +227,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 5
-        Piercing: 5
+        Radiation: 4 # Harmony - 5 -> 4
+        Piercing: 6 # Harmony - 5 -> 6
 
 - type: entity
   id: PelletShotgunUraniumSpread
