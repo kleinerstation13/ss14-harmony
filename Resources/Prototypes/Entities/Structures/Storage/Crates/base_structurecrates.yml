@@ -93,7 +93,7 @@
     node: crategenericsteel
     containers:
       - entity_storage
-  - type: RequireProjectileTarget
+# - type: RequireProjectileTarget # Harmony change
 
 - type: entity
   parent: CrateGeneric
