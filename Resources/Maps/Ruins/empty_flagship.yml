@@ -12151,13 +12151,15 @@ entities:
     - type: Transform
       pos: 28.5,-4.5
       parent: 1
-- proto: WeaponSubMachineGunWt550
-  entities:
-  - uid: 1699
-    components:
-    - type: Transform
-      pos: 112.5164,-0.47590828
-      parent: 1
+# Begin harmony change
+#- proto: WeaponSubMachineGunWt550
+# entities:
+# - uid: 1699
+#   components:
+#   - type: Transform
+#     pos: 112.5164,-0.47590828
+#     parent: 1
+# End harmony change
 - proto: WeaponTurretHostile
   entities:
   - uid: 992
