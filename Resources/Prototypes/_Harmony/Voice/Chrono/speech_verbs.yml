@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: Chrono
+  saySound:
+    path: /Audio/_Harmony/Voice/Chrono/radiotalk.ogg
+  askSound:
+    path: /Audio/_Harmony/Voice/Chrono/radiotalk.ogg
+  exclaimSound:
+    path: /Audio/_Harmony/Voice/Chrono/radiotalk.ogg

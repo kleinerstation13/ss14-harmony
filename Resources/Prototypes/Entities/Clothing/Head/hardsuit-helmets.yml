@@ -940,6 +940,10 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
 # Harmony end
+  # begin harmony change - adds speech replacement from Goobstation
+  - type: SpeechSoundsReplacer
+    speechSounds: Chrono
+  # end harmony change
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitERTBase # Harmony: reparent ERT hardsuit helmets
@@ -1094,6 +1098,10 @@
         Heat: 0.9
   - type: ZombificationResistance
     zombificationResistanceCoefficient: 0.75
+  # begin harmony change - adds speech replacement from Goobstation
+  - type: SpeechSoundsReplacer
+    speechSounds: Chrono
+  # end harmony change
 
 #Deathsquad Hardsuit
 - type: entity
@@ -1121,6 +1129,10 @@
         Heat: 0.80
         Radiation: 0.80
         Caustic: 0.95
+  # begin harmony change - adds speech replacement from Goobstation
+  - type: SpeechSoundsReplacer
+    speechSounds: Chrono
+  # end harmony change
 
 #MISC. HARDSUITS
 #Clown Hardsuit
