@@ -255,7 +255,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMaxim
 
-# Harmony change. Adjusted damage resistance values
+# Harmony change. Adjusted damage resistance values + Resprite
 #Security Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
@@ -264,9 +264,13 @@
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+#  start of Harmony change : Update sprite pathing
+#    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/security.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+#    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/security.rsi
+#  end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -327,7 +331,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitBrigmedic
 
-# Harmony change. Adjusted damage resistance values
+# Harmony change. Adjusted damage resistance values + Resprite
 #Warden's Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
@@ -336,9 +340,13 @@
   description: The Warden's suit. Built like a tank.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
+#  start of Harmony change : Update sprite pathing
+#    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/security-warden.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
+#    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/security-warden.rsi
+#  end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -500,7 +508,7 @@
   - type: StealTarget
     stealGroup: ClothingOuterHardsuitRd
 
-# Harmony change. Adjusted damage resistance values
+# Harmony change. Adjusted damage resistance values + Resprite
 #Head of Security's Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
@@ -509,9 +517,13 @@
   description: A huge, looming, armored space suit. The biggest and the baddest.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
+#  start of Harmony change : Update sprite pathing
+#    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/security-red.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
+#    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/security-red.rsi
+#  end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
@@ -792,7 +804,7 @@
       coefficients:
         Blunt: 0.6
         Slash: 0.6
-        Piercing: 0.4
+        Piercing: 0.6 # Harmony change - 0.4 -> 0.6
         Heat: 0.25
         Radiation: 0.25
         Caustic: 0.75
