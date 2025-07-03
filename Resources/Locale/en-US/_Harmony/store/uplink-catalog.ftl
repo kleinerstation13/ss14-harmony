@@ -1,5 +1,8 @@
 # Guns
 
+uplink-blood-red-carbine-name = Blood-Red Energy Carbine Bundle
+uplink-blood-red-carbine-desc = A bundle containing the stolen and improved Blood-Red Energy Carbine. It comes with two spare Jailbroken Energy Cartridges.
+
 uplink-hushpup-name = Hushpup
 uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low magazine capacity, as well as a spare box of buckshot. Uses .50 shotgun ammo.
 
@@ -14,7 +17,16 @@ uplink-pizza-bomb-desc = This tech, first pioneered by terrorists, now is used b
 uplink-pizza-bomb-surplus-name = Surplus Pizza Bomb
 uplink-pizza--surplus-desc = This shouldn't be visible, report me.
 
+uplink-X4-name = X-4
+uplink-X4-desc = The cousin of the infamous C-4, uses experimental explosives to better pierce through structures.
+
+uplink-X4-bundle-name = X-4 Bundle
+uplink-X4-bundle-desc = A bag containing 4 X-4s, perfect for going all in on sabotage.
+
 # Ammo
+
+uplink-blood-red-carbine-ammo-name = Jailbroken Energy Cartridge
+uplink-blood-red-carbine-ammo-desc = An energy cartridge that holds twenty charges of electric bolts.
 
 uplink-shotgun-drum-pellet-name = Shotgun Magazine (.50 pellet)
 uplink-shotgun-drum-pellet-desc = Shotgun drum with eight pellet shells. Compatible with the Bulldog.
@@ -53,4 +65,3 @@ uplink-cluster-weh-desc = Scatters 10 lizard plushies in a circle after a short 
 
 uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
-
