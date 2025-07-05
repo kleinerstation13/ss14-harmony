@@ -94,9 +94,20 @@
     shoes: ClothingShoesBootsJack
     pocket1: MagazinePistol
     pocket2: MagazinePistol
-  inhand: 
+  inhand:
     - WeaponPistolMk58
 #  storage: # can't put starting gear in backpack. works for nukies, not for DM.
 #    back:
 #      - MagazinePistol
 #      - MagazinePistol
+
+- type: entity
+  id: ExtendedHarmonyAnnouncement
+  parent: BaseStationEventShortDelay
+  components:
+    - type: StationEvent
+      endAnnouncement: station-event-harmony-extended-announcement
+      maxOccurrences: 1
+      duration: 180
+    - type: AlertLevelInterceptionRule
+      alertLevel: green

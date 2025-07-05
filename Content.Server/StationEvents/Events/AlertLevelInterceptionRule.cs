@@ -15,8 +15,8 @@ public sealed class AlertLevelInterceptionRule : StationEventSystem<AlertLevelIn
 
         if (!TryGetRandomStation(out var chosenStation))
             return;
-        if (_alertLevelSystem.GetLevel(chosenStation.Value) != "green")
-            return;
+//      if (_alertLevelSystem.GetLevel(chosenStation.Value) != "green") // harmony
+//          return;                                                     // harmony
 
         _alertLevelSystem.SetLevel(chosenStation.Value, component.AlertLevel, true, true, true);
     }
