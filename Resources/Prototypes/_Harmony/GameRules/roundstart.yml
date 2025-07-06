@@ -110,6 +110,6 @@
       maxOccurrences: 1
       endAudio:
         path: /Audio/Announcements/attention.ogg
-      duration: 180
+      duration: 1500 # 3 mins
     - type: AlertLevelInterceptionRule
       alertLevel: green
