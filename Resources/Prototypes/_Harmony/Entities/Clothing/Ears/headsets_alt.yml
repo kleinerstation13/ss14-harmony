@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingHeadsetAltSecurity, BaseCommandContraband]
+  parent: [ClothingHeadsetAltSecurity, BaseSecurityContraband]
   id: ClothingHeadsetAltWarden
   name: warden's over-ear headset
   suffix: Harmony
