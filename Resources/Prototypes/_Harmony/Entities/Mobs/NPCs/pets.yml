@@ -91,7 +91,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: glorpite
   - type: Bloodstream
-    bloodReagent: GlorpExtract
+    bloodReagent: Radium
     bloodMaxVolume: 150
   - type: DamageStateVisuals
     states:
