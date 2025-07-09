@@ -89,6 +89,18 @@
     back:
     - Cane
 
+- type: loadout
+  id: FoodSnackSwirlLollipop
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobMime
+      time: 90000 # 25 hours
+  storage:
+    back:
+    - FoodSnackSwirlLollipop
+
 # Towels
 - type: loadout
   id: TowelStripedOrange

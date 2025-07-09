@@ -71,6 +71,7 @@
   - GoldRing # Harmony
   - Cane # Harmony
   - TapeRecorder # DeltaV / Harmony
+  - FoodSnackSwirlLollipop # Harmony
 
 - type: loadoutGroup
   id: Glasses
@@ -1154,7 +1155,7 @@
   - DetectiveBlueCoatHarmony # Harmony
   - DetectiveBomberCoatHarmony # Harmony
   - DetectiveDiscoCoatHarmony # Harmony
- 
+
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
   name: loadout-group-security-cadet-jumpsuit
