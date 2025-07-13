@@ -27,3 +27,6 @@
 - type: Tag
   id: CartridgeLightRifleCaseless
 
+#used in _Harmony/Entities/Objects/Weapons/Guns/Ammunition/Magazines/pistol.yml
+- type: Tag
+  id: MagazinePistolPkBox

@@ -2,6 +2,7 @@
   id: CrateArmoryRSC
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   name: bolt-action rifle crate
+  suffix: Harmony, RSC, Secure
   description:  Contains several high-powered, bolt-action rifles with sufficient ammunition. Packaging is questionable, your mileage will vary. Requires Armory, Security or Supply access to open.
   components:
   - type: Icon
@@ -49,7 +50,7 @@
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmorySMGHarmony
   name: SMG crate
-  suffix: Drozd, Secure
+  suffix: Harmony, Drozd, Secure
   description: Contains two Drozd SMGs. Requires Armory access to open.
   components:
   - type: StorageFill
@@ -63,7 +64,7 @@
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmoryShotgunHarmony
   name: shotgun crate
-  suffix: Kammerer, Secure
+  suffix: Harmony, Kammerer, Secure
   description: For when the enemy absolutely needs to be replaced with lead. Contains two Kammerer Shotguns. Requires Armory access to open.
   components:
   - type: StorageFill
@@ -72,3 +73,17 @@
       amount: 2
     - id: BoxLethalshot
       amount: 4
+
+- type: entity
+  parent: [ CrateWeaponSecure, BaseSecurityContraband ]
+  id: CrateArmoryLightMachineGunHarmony
+  name: lmg crate
+  suffix: Harmony, Serra, Secure
+  description: You should only ever buy this if the station is facing imminent destruction. Contains a Serra LMG. Requires Armory access to open.
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLightMachineGunSerra
+      amount: 1
+    - id: MagazinePistolPkBox
+      amount: 2

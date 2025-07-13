@@ -5,3 +5,11 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire1.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire3.ogg
+
+# Used in _Harmony/Entities/Objects/Weapons/Guns/LMGs/lmgs.yml
+- type: soundCollection
+  id: LMGFire
+  files:
+  - /Audio/_Harmony/Weapons/Guns/Gunshots/lmg_fire1.ogg
+  - /Audio/_Harmony/Weapons/Guns/Gunshots/lmg_fire2.ogg
+  - /Audio/_Harmony/Weapons/Guns/Gunshots/lmg_fire3.ogg

@@ -1,0 +1,12 @@
+- type: entity
+  parent: MagazineLightRiflePkBox
+  id: MagazinePistolPkBox
+  name: box magazine (.35 auto)
+  components:
+  - type: Tag
+    tags:
+    - MagazinePistolPkBox
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol
+  - type: Item
+    size: Normal

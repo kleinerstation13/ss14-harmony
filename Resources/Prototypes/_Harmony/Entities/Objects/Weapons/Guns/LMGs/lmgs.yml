@@ -1,0 +1,59 @@
+- type: entity
+  parent: [BaseWeaponLightMachineGun, BaseSecurityContraband]
+  id: WeaponLightMachineGunSerra
+  name: Serra
+  suffix: Harmony
+  description: An ancient design dug up and modernised by the Nanotrasen Small Arms Division, retrofitted for a lighter caliber. The Serra is extremely cumbersome, bulky and inaccurate, but makes up for it with its' sheer volume of fire. Feeds from .35 box magazines.
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolPkBox
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazinePistolPkBox
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgePistol
+  - type: GunWieldBonus
+    minAngle: -20
+    maxAngle: -20
+  - type: Gun
+    maxAngle: 55
+    fireRate: 7
+    angleDecay: 8
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      collection: LMGFire
+  - type: Clothing
+    sprite: _Harmony/Objects/Weapons/Guns/LMGs/serra.rsi
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/LMGs/serra.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: HeldSpeedModifier
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.75
+    sprintModifier: 0.75
