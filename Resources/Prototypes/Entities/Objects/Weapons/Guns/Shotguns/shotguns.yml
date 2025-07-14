@@ -73,7 +73,7 @@
     availableModes:
     - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+      collection: ShotgunFire # Harmony change - Changes sound path to sound collection
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: ItemSlots
@@ -174,16 +174,18 @@
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
-    fireRate: 1
-    # Start of Harmony change
-    soundGunshot:
-      path: /Audio/_Harmony/Weapons/Guns/Gunshots/kammerer_shot.ogg
-    # End of Harmony change
+    fireRate: 1.5 # Harmony - 1 -> 1.5
   - type: GunSpreadModifier
     spread: 0.6
   - type: Tag
     tags:
     - WeaponShotgunKammerer
+# Start harmony change - Ports cycling from Goob
+  - type: BallisticAmmoProvider
+    autoCycle: false
+    soundRack:
+      path: /Audio/_Harmony/Weapons/Guns/Cock/shotgun_pump.ogg
+# End harmony change
 
 - type: entity
   name: sawn-off shotgun
