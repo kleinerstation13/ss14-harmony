@@ -174,18 +174,16 @@
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
-    fireRate: 1.75 # Harmony - 1 -> 1.75
+    fireRate: 1
+    # Start of Harmony change
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/kammerer_shot.ogg
+    # End of Harmony change
   - type: GunSpreadModifier
     spread: 0.6
   - type: Tag
     tags:
     - WeaponShotgunKammerer
-# Start harmony change - Ports cycling from Goob
-  - type: BallisticAmmoProvider
-    autoCycle: false
-    soundRack:
-      path: /Audio/_Harmony/Weapons/Guns/Cock/shotgun_pump.ogg
-# End harmony change
 
 - type: entity
   name: sawn-off shotgun
