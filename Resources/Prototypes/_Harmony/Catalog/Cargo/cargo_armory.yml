@@ -12,7 +12,7 @@
   id: ArmorySerra
   icon:
     sprite: _Harmony/Objects/Weapons/Guns/LMGs/serra.rsi
-    state: base
+    state: icon
   product: CrateArmoryLightMachineGunHarmony
   cost: 25000
   category: cargoproduct-category-name-armory
