@@ -30,8 +30,6 @@
     maxAngle: 55
     fireRate: 7
     angleDecay: 8
-    availableModes:
-    - FullAuto
     soundGunshot:
       collection: LMGFire
   - type: Clothing
@@ -48,8 +46,6 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-  - type: StaticPrice
-    price: 10000
   - type: ClothingSpeedModifier
     walkModifier: 0.75
     sprintModifier: 0.75
