@@ -11,7 +11,7 @@ uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup whi
 
 # Explosive
 
-uplink-pizza-bomb-name = Nefarious Pizza Bomb
+uplink-pizza-bomb-name = Pizza Bomb
 uplink-pizza-bomb-desc = This tech, first pioneered by terrorists, now is used by the Syndicate for eliminating high value targets. WARNING: Opens after exploding with a short timer. Do not attempt to throw.
 
 uplink-pizza-bomb-surplus-name = Surplus Pizza Bomb
