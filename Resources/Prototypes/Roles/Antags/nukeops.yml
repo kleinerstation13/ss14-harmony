@@ -20,7 +20,7 @@
     time: 18000 # 5h
   - !type:RoleTimeRequirement
     role: JobChemist
-    time: 10800 # 3h
+    time: 28800 # Harmony change : 3h -> 8h
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -35,6 +35,11 @@
   - !type:DepartmentTimeRequirement
     department: Security
     time: 18000 # 5h
+    # Start harmony change
+  - !type:DepartmentTimeRequirement
+     department: Command
+     time: 7200 # 2h
+     # End harmony change
   # should be changed to nukie playtime when thats tracked (wyci)
   guides: [ NuclearOperatives ]
 
