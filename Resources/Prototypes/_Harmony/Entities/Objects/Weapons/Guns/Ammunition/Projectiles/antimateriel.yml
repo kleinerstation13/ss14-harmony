@@ -1,7 +1,7 @@
 - type: entity
-  categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: BulletAntiMaterialFlak
+  categories: [ HideSpawnMenu ]
   name: bullet (.60 flak)
   components:
   - type: Projectile
@@ -28,9 +28,9 @@
       shader: unshaded
 
 - type: entity
-  categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: BulletAntiMaterialHollowPoint
+  categories: [ HideSpawnMenu ]
   name: bullet (.60 anti-materiel hollow point)
   components:
   - type: Projectile
