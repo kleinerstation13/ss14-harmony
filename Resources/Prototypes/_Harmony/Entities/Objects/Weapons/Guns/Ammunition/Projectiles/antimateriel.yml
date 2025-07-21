@@ -1,0 +1,39 @@
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: BaseBulletTrigger
+  id: BulletAntiMaterialFlak
+  name: bullet (.60 flak)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+        Structural: 50
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: FireBomb
+    totalIntensity: 15
+    intensitySlope: 7
+    maxIntensity: 15
+    maxTileBreak: 0
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  id: BulletAntiMaterialHollowPoint
+  name: bullet (.60 anti-materiel hollow point)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 85

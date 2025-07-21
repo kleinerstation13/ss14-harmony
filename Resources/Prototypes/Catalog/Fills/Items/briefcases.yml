@@ -21,8 +21,12 @@
     - 0,0,6,3
   - type: StorageFill
     contents:
-      - id: WeaponSniperHristov
-      - id: MagazineBoxAntiMateriel
+      - id: WeaponSniperHristovHarmony # Harmony change - Hristov rework, changes upstream prototype to harmony prototype
+# Start Harmony change - Hristov rework, replaces hristov ammo boxes with magazines.
+#     - id: MagazineBoxAntiMateriel
+      - id: MagazineAntiMateriel
+        amount: 2
+# End Harmony change
       - id: ClothingNeckTieRed
       - id: ClothingHandsGlovesLatex
         # Harmony Change - Replaces black law jumpsuit with syndicate business suit

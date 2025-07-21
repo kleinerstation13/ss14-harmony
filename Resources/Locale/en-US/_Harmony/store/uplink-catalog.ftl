@@ -9,6 +9,14 @@ uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low
 uplink-rifle-bandit-name = Bandit Bundle
 uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
 
+uplink-sniper-bundle-harmony-desc = An inconspicuous briefcase that contains a Hristov, 2 spare magazines and a convenient disguise.
+
+uplink-sniper-bundle-nukie-name = Hristov Bundle
+uplink-sniper-bundle-nukie-desc = Contains a Hristov, a heavy sniper which excels at dealing debilitating damage from range. Bundled with 2 sniper magazines. Uses .60 anti-materiel ammo.
+
+uplink-sniper-ammo-bundle-name = Hristov Ammo Bundle
+uplink-sniper-ammo-bundle-desc = Contains two Flak magazines which explode upon impact and set targets on fire, and two Hollow Point magazines which trade penetration for tremendously high single-target damage, compatible with the Hristov.
+
 # Explosive
 
 uplink-pizza-bomb-name = Nefarious Pizza bomb
@@ -36,6 +44,9 @@ uplink-shotgun-drum-slug-desc = Shotgun drum with eight slug shells. Compatible 
 
 uplink-rifle-magazine-bandit-name = DMR Magazine (.30 rifle caseless)
 uplink-rifle-magazine-bandit-desc = Rifle magazine with 15 cartridges. Compatible with the Bandit.
+
+uplink-sniper-ammo-harmony-name = Sniper Magazine (.60 antimateriel)
+uplink-sniper-ammo-harmony-desc = Sniper magazine with 5 cartridges. Compatible with the Hristov.
 
 # Chemicals
 

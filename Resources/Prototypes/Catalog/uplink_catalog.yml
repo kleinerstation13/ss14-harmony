@@ -169,16 +169,23 @@
 - type: listing
   id: UplinkSniperBundle
   name: uplink-sniper-bundle-name
-  description: uplink-sniper-bundle-desc
+  description: uplink-sniper-bundle-harmony-desc # Harmony change - Hristov rework, updates description to match
   icon: { sprite: /Textures/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
   productEntity: BriefcaseSyndieSniperBundleFilled
-  discountCategory: usualDiscounts
+  discountCategory: rareDiscounts # Harmony - Hristov rework, Usual -> Rare. Nerfed discount to compensate for buff
   discountDownTo:
     Telecrystal: 6
   cost:
     Telecrystal: 12
   categories:
   - UplinkWeaponry
+# Start Harmony change - Hristov rework, splits Hristov bundle into nukie and traitor versions
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+# End harmony change
 
 - type: listing
   id: UplinkC20RBundle
@@ -609,11 +616,12 @@
 # for the hristov
 - type: listing
   id: UplinkHristovAmmo
-  name: uplink-sniper-ammo-name
-  description: uplink-sniper-ammo-desc
-  productEntity: MagazineBoxAntiMateriel
+  name: uplink-sniper-ammo-harmony-name # Harmony change - Hristov rework, changes uplink product name
+  description: uplink-sniper-ammo-harmony-desc # Harmony change - Hristov rework, changes uplink description
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi, state: icon } # Harmony addition - Hristov rework, adds icon to hristov magazine
+  productEntity: MagazineAntiMateriel # Harmony change - Hristov rework, replaces Hristov ammo boxes with magazines.
   cost:
-    Telecrystal: 2
+    Telecrystal: 1 # Harmony change - Hristov rework, 2 -> 1
   categories:
   - UplinkAmmo
 

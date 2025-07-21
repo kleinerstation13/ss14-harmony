@@ -55,3 +55,68 @@
   - type: Appearance
   - type: StaticPrice
     price: 400
+
+- type: entity
+  parent: [BaseWeaponRifle, BaseGunWieldable, BaseSyndicateContraband]
+  id: WeaponSniperHristovHarmony
+  name: Hristov
+  suffix: Harmony
+  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Snipers/hristov.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Harmony/Objects/Weapons/Guns/Snipers/hristov.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    fireRate: 0.6
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/hristov_fire_alt.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineAntiMateriel
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/hristov_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/hristov_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineAntiMateriel
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeAntiMateriel
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeAntiMateriel
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.40
+    sprintModifier: 0.40
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 3
+    pvsIncrease: 0.3
+  - type: StaticPrice
+    price: 3500
+  - type: GunRequiresWield

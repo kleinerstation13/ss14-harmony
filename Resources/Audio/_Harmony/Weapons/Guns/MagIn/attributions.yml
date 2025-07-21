@@ -2,3 +2,8 @@
   license: "CC-BY-SA-3.0"
   copyright: "Created by Nonagon44 for Space Station 14"
   source: "https://github.com/Nonagon44"
+
+- files: ["hristov_magin.ogg"]
+  license: "CC0-1.0"
+  copyright: "Created by AKKingStudio"
+  source: "https://freesound.org/people/AKkingStudio/sounds/679877/"
