@@ -64,7 +64,7 @@
   productEntity: ClothingBackpackDuffelSyndicateAmmoHristovFilled
   icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Snipers/hristov.rsi, state: icon }
   cost:
-    Telecrystal: 12
+    Telecrystal: 14
   categories:
   - UplinkWeaponry
   conditions:
