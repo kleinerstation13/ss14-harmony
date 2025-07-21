@@ -13,3 +13,10 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/bulldog_fire1.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/bulldog_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/bulldog_fire3.ogg
+
+# Used in /Entities/Objects/Weapons/Guns/Revolvers/revolvers.yml
+- type: soundCollection
+  id: RevolverFire
+  files:
+  - /Audio/_Harmony/Weapons/Guns/Gunshots/python_fire1.ogg
+  - /Audio/_Harmony/Weapons/Guns/Gunshots/python_fire2.ogg
