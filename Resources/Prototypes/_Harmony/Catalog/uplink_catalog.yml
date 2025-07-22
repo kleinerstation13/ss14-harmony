@@ -61,7 +61,7 @@
   id: UplinkSniperBundleNukie
   name: uplink-sniper-bundle-nukie-name
   description: uplink-sniper-bundle-nukie-desc
-  productEntity: ClothingBackpackDuffelSyndicateAmmoHristovFilled
+  productEntity: ClothingBackpackDuffelSyndicateFilledHristov
   icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Snipers/hristov.rsi, state: icon }
   cost:
     Telecrystal: 14
