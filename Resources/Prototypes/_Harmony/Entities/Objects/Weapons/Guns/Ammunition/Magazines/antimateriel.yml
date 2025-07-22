@@ -23,7 +23,7 @@
 - type: entity
   parent: MagazineAntiMateriel
   id: MagazineAntiMaterielIncendiary
-  name: magazine (.60 anti-materiel incendiary)
+  name: magazine (.60 incendiary)
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -42,7 +42,7 @@
 - type: entity
   parent: MagazineAntiMateriel
   id: MagazineAntiMaterielHollowPoint
-  name: magazine (.60 anti-materiel hollow point)
+  name: magazine (.60 hollow point)
   components:
   - type: BallisticAmmoProvider
     whitelist:
