@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseCartridge, BaseMajorContraband ]
   id: CartridgeAntiMaterielIncendiary
-  name: cartridge (.60 anti-materiel incendiary)
+  name: cartridge (.60 incendiary)
   components:
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
 - type: entity
   parent: [ BaseCartridge, BaseMajorContraband ]
   id: CartridgeAntiMaterielHollowPoint
-  name: cartridge (.60 anti-materiel hollow point)
+  name: cartridge (.60 hollow point)
   components:
   - type: Tag
     tags:
