@@ -18,7 +18,7 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,6,3
+    - 0,0,6,4 # Harmony change - Hristov rework, changes size to fit magazines
   - type: StorageFill
     contents:
       - id: WeaponSniperHristovHarmony # Harmony change - Hristov rework, changes upstream prototype to harmony prototype
