@@ -1,16 +1,16 @@
 - type: entity
   parent: [ BaseCartridge, BaseMajorContraband ]
-  id: CartridgeAntiMaterielFlak
-  name: cartridge (.60 anti-materiel flak)
+  id: CartridgeAntiMaterielIncendiary
+  name: cartridge (.60 anti-materiel incendiary)
   components:
   - type: Tag
     tags:
     - Cartridge
     - CartridgeAntiMateriel
   - type: CartridgeAmmo
-    proto: BulletAntiMaterialFlak
+    proto: BulletAntiMaterialIncendiary
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/inc_casing.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
@@ -31,7 +31,7 @@
   - type: CartridgeAmmo
     proto: BulletAntiMaterialHollowPoint
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/hp_casing.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]

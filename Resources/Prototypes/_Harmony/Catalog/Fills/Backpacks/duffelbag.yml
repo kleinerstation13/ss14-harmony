@@ -62,11 +62,11 @@
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoHristovFilled
   name: Hristov ammo bundle
-  description: Now you're cooking with gas! Contains 2 flak magazines and 2 hollow point magazines compatible with the Hristov.
+  description: Now you're cooking with gas! Contains 2 incendiary magazines and 2 hollow point magazines compatible with the Hristov.
   components:
   - type: StorageFill
     contents:
     - id: MagazineAntiMaterielHollowPoint
       amount: 2
-    - id: MagazineAntiMaterielFlak
+    - id: MagazineAntiMaterielIncendiary
       amount: 2

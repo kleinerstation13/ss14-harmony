@@ -15,7 +15,7 @@ uplink-sniper-bundle-nukie-name = Hristov Bundle
 uplink-sniper-bundle-nukie-desc = Contains a Hristov, a heavy sniper which excels at dealing debilitating damage from range. Bundled with 2 sniper magazines. Uses .60 anti-materiel ammo.
 
 uplink-sniper-ammo-bundle-name = Hristov Ammo Bundle
-uplink-sniper-ammo-bundle-desc = Contains two Flak magazines which explode upon impact and set targets on fire, and two Hollow Point magazines which trade penetration for tremendously high single-target damage, compatible with the Hristov.
+uplink-sniper-ammo-bundle-desc = Contains two incendiary magazines which set targets on fire, and two Hollow Point magazines which trade penetration for tremendously high single-target damage, compatible with the Hristov.
 
 # Explosive
 

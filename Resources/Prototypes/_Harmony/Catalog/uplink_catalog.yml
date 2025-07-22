@@ -110,7 +110,7 @@
     whitelist:
       components:
       - SurplusBundle
-  
+
 - type: listing
   id: UplinkX4
   name: uplink-X4-name
@@ -195,7 +195,7 @@
   id: UplinkAmmoBundleHristov
   name: uplink-sniper-ammo-bundle-name
   description: uplink-sniper-ammo-bundle-desc
-  productEntity: ClothingBackpackDuffelSyndicateFilledHristov
+  productEntity: ClothingBackpackDuffelSyndicateAmmoHristovFilled
   icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi, state: uplink }
   cost:
     Telecrystal: 10

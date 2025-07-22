@@ -22,19 +22,19 @@
 
 - type: entity
   parent: MagazineAntiMateriel
-  id: MagazineAntiMaterielFlak
-  name: magazine (.60 anti-materiel flak)
+  id: MagazineAntiMaterielIncendiary
+  name: magazine (.60 anti-materiel incendiary)
   components:
   - type: BallisticAmmoProvider
     whitelist:
       tags:
       - CartridgeAntiMateriel
     capacity: 5
-    proto: CartridgeAntiMaterielFlak
+    proto: CartridgeAntiMaterielIncendiary
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi
     layers:
-    - state: blue
+    - state: red
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
@@ -53,7 +53,7 @@
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi
     layers:
-    - state: red
+    - state: blue
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]

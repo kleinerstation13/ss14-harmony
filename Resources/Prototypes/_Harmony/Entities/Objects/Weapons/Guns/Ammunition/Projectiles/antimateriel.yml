@@ -1,31 +1,27 @@
 - type: entity
-  parent: BaseBulletTrigger
-  id: BulletAntiMaterialFlak
+  parent: BaseBulletIncendiary
+  id: BulletAntiMaterialIncendiary
   categories: [ HideSpawnMenu ]
-  name: bullet (.60 flak)
+  name: bullet (.60 incendiary)
   components:
   - type: Projectile
     damage:
       types:
-        Blunt: 2
+        Blunt: 20
+        Heat: 5
         Structural: 50
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: FireBomb
-    totalIntensity: 15
-    intensitySlope: 7
-    maxIntensity: 15
-    maxTileBreak: 0
-  - type: PointLight
-    radius: 3.5
-    color: orange
-    energy: 0.5
   - type: Sprite
     noRot: false
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: bullet
       shader: unshaded
+  - type: IgniteOnCollide
+    fireStacks: 2
+  - type: PointLight
+    radius: 3.5
+    energy: 7.0
+
 
 - type: entity
   parent: BaseBullet
@@ -37,3 +33,5 @@
     damage:
       types:
         Piercing: 85
+  - type: StaminaDamageOnCollide
+    damage: 30
