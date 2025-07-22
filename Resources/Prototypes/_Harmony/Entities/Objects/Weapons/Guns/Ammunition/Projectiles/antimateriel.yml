@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 15
+        Blunt: 25
         Structural: 100
   - type: Sprite
     noRot: false
