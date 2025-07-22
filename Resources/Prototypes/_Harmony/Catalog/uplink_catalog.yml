@@ -110,7 +110,7 @@
     whitelist:
       components:
       - SurplusBundle
-  
+
 - type: listing
   id: UplinkX4
   name: uplink-X4-name
@@ -199,6 +199,46 @@
   icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi, state: uplink }
   cost:
     Telecrystal: 10
+  categories:
+  - UplinkAmmo
+  conditions:
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkSniperAmmoIncend
+  name: uplink-sniper-ammo-incend-name
+  description: uplink-sniper-ammo-incend-desc
+  productEntity: MagazineAntiMaterielIncendiary
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi, state: red-icon }
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkAmmo
+  conditions:
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkSniperAmmoHP
+  name: uplink-sniper-ammo-hp-name
+  description: uplink-sniper-ammo-hp-desc
+  productEntity: MagazineAntiMaterielHollowPoint
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi, state: blue-icon }
+  cost:
+    Telecrystal: 3
   categories:
   - UplinkAmmo
   conditions:

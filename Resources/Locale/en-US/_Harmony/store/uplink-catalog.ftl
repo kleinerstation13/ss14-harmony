@@ -14,9 +14,6 @@ uplink-sniper-bundle-harmony-desc = An inconspicuous briefcase that contains a H
 uplink-sniper-bundle-nukie-name = Hristov Bundle
 uplink-sniper-bundle-nukie-desc = Contains a Hristov, a heavy sniper which excels at dealing debilitating damage from range. Bundled with 2 sniper magazines. Uses .60 anti-materiel ammo.
 
-uplink-sniper-ammo-bundle-name = Hristov Ammo Bundle
-uplink-sniper-ammo-bundle-desc = Contains two incendiary magazines which set targets on fire, and two Hollow Point magazines which trade penetration for tremendously high single-target damage, compatible with the Hristov.
-
 # Explosive
 
 uplink-pizza-bomb-name = Nefarious Pizza bomb
@@ -47,6 +44,15 @@ uplink-rifle-magazine-bandit-desc = Rifle magazine with 15 cartridges. Compatibl
 
 uplink-sniper-ammo-harmony-name = Sniper Magazine (.60 antimateriel)
 uplink-sniper-ammo-harmony-desc = Sniper magazine with 5 cartridges. Compatible with the Hristov.
+
+uplink-sniper-ammo-incend-name = Sniper Magazine (.60 incendiary)
+uplink-sniper-ammo-incend-desc = Sniper magazine with 5 incendiary cartridges. Compatible with the Hristov.
+
+uplink-sniper-ammo-hp-name = Sniper Magazine (.60 hollow point)
+uplink-sniper-ammo-hp-desc = Sniper magazine with 5 hollow point cartridges. Compatible with the Hristov.
+
+uplink-sniper-ammo-bundle-name = Hristov Ammo Bundle
+uplink-sniper-ammo-bundle-desc = Contains two incendiary magazines which set targets on fire, and two Hollow Point magazines which trade penetration for tremendously high single-target damage, compatible with the Hristov.
 
 # Chemicals
 
