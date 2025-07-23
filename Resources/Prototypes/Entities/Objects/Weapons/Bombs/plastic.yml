@@ -83,7 +83,7 @@
     price: 625 # 5000 for a bundle of 8
 # Harmony start
   - type: Sticky
-    stickDelay: 3.5
+    stickDelay: 4
 # Harmony end
 
 - type: entity
