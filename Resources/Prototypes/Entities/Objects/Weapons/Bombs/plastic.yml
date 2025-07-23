@@ -55,8 +55,8 @@
     equipDelay: 3
     unequipDelay: 6
   - type: OnUseTimerTrigger
-    delay: 10
-    delayOptions: [10, 30, 60, 120, 300]
+    delay: 6 # harmony - 10 -> 5
+    delayOptions: [6, 10, 30, 60, 120, 300] # harmony - adds new option to delay options
     initialBeepDelay: 0
     beepSound: /Audio/Machines/Nuke/general_beep.ogg
     startOnStick: true
@@ -67,11 +67,9 @@
     - Timer
   - type: Explosive # Powerful explosion in a very small radius. Doesn't break underplating.
     explosionType: DemolitionCharge
-    # Harmony Start
-    totalIntensity: 5 # 60 -> 5
+    totalIntensity: 6 # Harmony - 60 -> 6
     intensitySlope: 5
-    maxIntensity: 15 # 30 - 15
-    # Harmony End
+    maxIntensity: 30
     canCreateVacuum: false
   - type: ExplodeOnTrigger
   - type: HolidayVisuals
@@ -83,6 +81,10 @@
       festive: Objects/Weapons/Bombs/c4gift.rsi
   - type: StaticPrice
     price: 625 # 5000 for a bundle of 8
+# Harmony start
+  - type: Sticky
+    stickDelay: 3.5
+# Harmony end
 
 - type: entity
   name: seismic charge

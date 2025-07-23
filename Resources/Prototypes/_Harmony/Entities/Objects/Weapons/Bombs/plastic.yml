@@ -20,3 +20,7 @@
     canCreateVacuum: false
   - type: OnUseTimerTrigger
     beepSound: /Audio/Machines/Nuke/angry_beep.ogg
+    delay: 10
+    delayOptions: [10, 30, 60, 120, 300]
+  - type: Sticky
+    stickDelay: 5
