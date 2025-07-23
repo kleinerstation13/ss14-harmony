@@ -1,8 +1,9 @@
 - type: entity
-  name: sticky grenade
-  description: A grenade coated in a sticky foam that expands once primed. Don't hold it for too long!
   parent: [GrenadeBase, BaseSyndicateContraband]
   id: StickyGrenade
+  name: sticky grenade
+  suffix: Harmony
+  description: A grenade coated in a sticky foam that expands once primed. Don't hold it for too long!
   components:
   - type: ExplodeOnTrigger
   - type: Explosive
