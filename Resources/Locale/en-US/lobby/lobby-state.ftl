@@ -21,7 +21,7 @@ lobby-state-song-text = Playing: [color=white]{$songTitle}[/color] by [color=whi
 lobby-state-song-no-song-text = No lobby song playing.
 lobby-state-song-unknown-title = [color=dimgray]Unknown title[/color]
 lobby-state-song-unknown-artist = [color=dimgray]Unknown artist[/color]
-# Harmony change starts - Removed playtime tracker comments
+## Harmony change starts - Removed playtime tracker comments
 lobby-state-playtime-comment-normal =
     You've spent {$hours} {$hours ->
     [1]hour
@@ -30,4 +30,4 @@ lobby-state-playtime-comment-normal =
 lobby-state-playtime-comment-concerning = You've spent {$hours} hours ingame today.
 lobby-state-playtime-comment-grasstouchless = You've spent {$hours} hours ingame today.
 lobby-state-playtime-comment-selfdestructive = You've spent {$hours} hours ingame today.
-# Harmony change ends
+## Harmony change ends
