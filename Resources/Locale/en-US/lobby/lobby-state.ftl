@@ -26,8 +26,8 @@ lobby-state-playtime-comment-normal =
     You've spent {$hours} {$hours ->
     [1]hour
     *[other]hours
-    } ingame today.
-lobby-state-playtime-comment-concerning = You've spent {$hours} hours ingame today.
-lobby-state-playtime-comment-grasstouchless = You've spent {$hours} hours ingame today.
-lobby-state-playtime-comment-selfdestructive = You've spent {$hours} hours ingame today.
+    } ingame today. Remember to hydrate and take breaks!
+lobby-state-playtime-comment-concerning = You've spent {$hours} hours ingame today. Remember to hydrate and take breaks!
+lobby-state-playtime-comment-grasstouchless = You've spent {$hours} hours ingame today. Remember to hydrate and take breaks!
+lobby-state-playtime-comment-selfdestructive = You've spent {$hours} hours ingame today. Remember to hydrate and take breaks!
 ## Harmony change ends
