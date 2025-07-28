@@ -55,8 +55,8 @@
     equipDelay: 3
     unequipDelay: 6
   - type: OnUseTimerTrigger
-    delay: 6 # harmony - 10 -> 5
-    delayOptions: [6, 10, 30, 60, 120, 300] # harmony - adds new option to delay options
+    delay: 8 # harmony - 10 -> 8
+    delayOptions: [8, 10, 30, 60, 120, 300] # harmony - adds new option to delay options
     initialBeepDelay: 0
     beepSound: /Audio/Machines/Nuke/general_beep.ogg
     startOnStick: true
