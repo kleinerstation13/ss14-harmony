@@ -245,5 +245,9 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLaserCarbine
-      amount: 3
+# Start harmony change: Changes contents of laser safe
+    - id: WeaponEnergyCarbineFilledHarmony
+      amount: 2
+    - id: EnergyCarbineCartridgeHarmony
+      amount: 4
+# End harmony change
