@@ -325,5 +325,5 @@
   - type: ObjectiveBlacklistRequirement
     blacklist:
       components:
-      - SurviveCondition
+      - EscapeShuttleCondition
 # End harmony change
