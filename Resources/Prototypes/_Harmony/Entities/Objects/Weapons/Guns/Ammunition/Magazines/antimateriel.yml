@@ -2,6 +2,7 @@
   parent: BaseMagazineLightRifle
   id: MagazineAntiMateriel
   name: magazine (.60 anti-materiel)
+  suffix: Harmony
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -24,6 +25,7 @@
   parent: MagazineAntiMateriel
   id: MagazineAntiMaterielIncendiary
   name: magazine (.60 incendiary)
+  suffix: Harmony
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -43,6 +45,7 @@
   parent: MagazineAntiMateriel
   id: MagazineAntiMaterielHollowPoint
   name: magazine (.60 hollow point)
+  suffix: Harmony
   components:
   - type: BallisticAmmoProvider
     whitelist:
