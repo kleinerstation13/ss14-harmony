@@ -8,3 +8,5 @@
   effects:
   - !type:CreateEntityReactionEffect
     entity: MobGlorpite
+  products:
+    UnstableMutagen: 10
