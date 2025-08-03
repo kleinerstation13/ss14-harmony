@@ -1,7 +1,7 @@
 # Disruption
 
 uplink-syndicate-handcuff-bundle-name = Handcuff implant bundle
-uplink-syndicate-handcuff-bundle-desc = Includes 10 metal handcuffs. We recommended you share with your friends!
+uplink-syndicate-handcuff-bundle-desc = Includes 8 metal handcuffs. We recommended you share with your friends!
 
 # Implants
 
