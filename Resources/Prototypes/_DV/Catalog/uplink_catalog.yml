@@ -27,7 +27,7 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkDisruption
+  - UplinkDisruption # harmony - changed category
   conditions:
   - !type:BuyerWhitelistCondition
     blacklist:
@@ -45,7 +45,7 @@
   icon: { sprite: Objects/Storage/boxes.rsi, state: box_of_doom }
   productEntity: BoxSyndicateStunBundle
   categories:
-  - UplinkObjectives
+  - UplinkDisruption # harmony - changed category
   conditions:
 # - !type:ObjectiveUnlockCondition # Harmony
   - !type:ListingLimitedStockCondition
