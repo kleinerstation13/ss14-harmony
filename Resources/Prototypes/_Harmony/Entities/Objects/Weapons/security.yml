@@ -1,0 +1,21 @@
+- type: entity
+  name: syndicate stun baton
+  parent: [Stunbaton, BaseSyndicateContraband]
+  id: StunbatonSyndicate # reskinned evil red baton for nukies
+  description: A reverse engineered stun baton used by Syndicate extraction teams for incapacitating high value targets.
+  components:
+  - type: Clothing
+    sprite: _Harmony/Objects/Weapons/Melee/stunbaton.rsi
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Melee/stunbaton.rsi
+    layers:
+    - state: stunbaton_off
+      map: [ "enum.ToggleableVisuals.Layer" ]
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 25 # 2 ticks is one charge
+    autoRechargePause: true
+    autoRechargePauseTime: 30 # this should probably be long so you cant just chain stun everyone
+  - type: Battery
+    maxCharge: 200 # 4 hits, 3 to stun
+    startingCharge: 200

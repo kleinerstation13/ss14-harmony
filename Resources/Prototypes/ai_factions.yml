@@ -77,6 +77,10 @@
   - AllHostile
   - Wizard
   - Xenoborg
+  # harmony change start - DeltaV hostage ops
+  friendly:
+  - Hostage
+  # harmony change end
 
 - type: npcFaction
   id: Xeno
@@ -170,5 +174,5 @@
   - Xeno # rivalry
 
   # cause they are hostile to them
-  - SimpleHostile 
+  - SimpleHostile
   - AllHostile

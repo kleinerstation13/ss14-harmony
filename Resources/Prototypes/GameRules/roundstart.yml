@@ -126,6 +126,10 @@
     minPlayers: 20
   - type: LoadMapRule
     mapPath: /Maps/Nonstations/nukieplanet.yml
+  # Harmony change start - DeltaV nukie operations port
+  - type: NukieOperation
+    operations: NukieOperations
+  # Harmony change end
   - type: AntagSelection
     selectionTime: PrePlayerSpawn
     definitions:

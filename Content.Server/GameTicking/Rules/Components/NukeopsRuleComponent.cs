@@ -141,5 +141,8 @@ public enum WinCondition : byte
     NukiesAbandoned,
     AllNukiesDead,
     SomeNukiesAlive,
-    AllNukiesAlive
+// harmony change start - deltav hostage ops
+    AllNukiesAlive,
+    NukiesKidnappedHeads, // DeltaV - Hostage ops
+// harmony change end
 }
