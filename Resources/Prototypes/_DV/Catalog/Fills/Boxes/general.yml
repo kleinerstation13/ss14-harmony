@@ -41,25 +41,3 @@
     contents:
     - id: Handcuffs
       amount: 8 # Harmony - 10 -> 8 , 4 nukies get 2 cuffs each
-
-- type: entity
-  parent: BoxCardboard
-  id: BoxSyndicateStunBundle
-  name: syndicate stun box
-  description: A box of two basic stun weapons.
-  components:
-  - type: Sprite
-    layers:
-    - state: box_of_doom
-    - state: writing_of_doom
-  - type: Storage
-    maxItemSize: Normal
-    grid:
-    - 0,0,3,1
-  - type: StorageFill
-    contents:
-# Harmony change - changed contents
-#   - id: Stunbaton
-#   - id: WeaponDisabler
-    - id: StunbatonSyndicate
-# Harmony change end

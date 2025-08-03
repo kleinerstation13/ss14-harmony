@@ -42,8 +42,12 @@
   id: UplinkStunBundleNukie
   name: uplink-syndicate-stun-bundle-name
   description: uplink-syndicate-stun-bundle-desc
-  icon: { sprite: Objects/Storage/boxes.rsi, state: box_of_doom }
-  productEntity: BoxSyndicateStunBundle
+#  icon: { sprite: Objects/Storage/boxes.rsi, state: box_of_doom } # harmony
+  productEntity: StunbatonSyndicate
+# harmony start - adds price
+  cost:
+    Telecrystal: 1
+# harmony end
   categories:
   - UplinkDisruption # harmony - changed category
   conditions:
