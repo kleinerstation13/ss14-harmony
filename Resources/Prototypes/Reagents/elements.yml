@@ -63,6 +63,11 @@
       effects:
       - !type:HealthChange
         conditions:
+        # start harmony change
+        - !type:OrganType
+          type: Avali
+          shouldHave: false
+        # start harmony change
         - !type:OrganType
           type: Arachnid
           shouldHave: false
@@ -73,6 +78,11 @@
       effects:
       - !type:ModifyBloodLevel
         conditions:
+        # start harmony change
+        - !type:OrganType
+          type: Avali
+          shouldHave: true
+        # start harmony change
         - !type:OrganType
           type: Arachnid
           shouldHave: true
