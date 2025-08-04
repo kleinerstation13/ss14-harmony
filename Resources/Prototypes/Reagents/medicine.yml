@@ -683,7 +683,6 @@
     Drink:
       effects:
         - !type:SatiateThirst
-          conditions:
           factor: 6
         - !type:ModifyBloodLevel
           # start harmony change
