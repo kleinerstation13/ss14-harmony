@@ -214,13 +214,34 @@
     Poison:
       effects:
       - !type:HealthChange
+        # start harmony change
+        conditions:
+        - !type:OrganType
+          type: Avali
+          shouldHave: false
+        # end harmony change
         damage:
           types:
             Caustic: 1
+        # start harmony change
+    Drink:
+      effects:
+      - !type:ModifyBloodLevel
+        conditions:
+        - !type:OrganType
+          type: Avali
+          shouldHave: true
+        amount: 6
+        # end harmony change
     Gas:
       effects:
       - !type:HealthChange
         conditions:
+        # start harmony change - ammonia doesn't deal damage to avali
+        - !type:OrganType
+          type: Avali # they still vomit because it's not exactly pleasant to smell ammonia
+          shouldHave: false
+        # end harmony change
         - !type:OrganType
           type: Rat
           shouldHave: false

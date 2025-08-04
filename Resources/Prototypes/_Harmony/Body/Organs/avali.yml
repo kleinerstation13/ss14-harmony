@@ -1,0 +1,47 @@
+- type: entity
+  id: OrganAvaliStomach
+  parent: BaseHumanOrgan
+  name: stomach
+  description: "Gross. This is hard to stomach."
+  components:
+    - type: Sprite
+      state: stomach
+    - type: Item
+      size: Small
+      heldPrefix: stomach
+    - type: SolutionContainerManager
+      solutions:
+        stomach:
+          maxVol: 50
+        food:
+          maxVol: 5
+          reagents:
+            - ReagentId: UncookedAnimalProteins
+              Quantity: 5
+    - type: Stomach
+    - type: Metabolizer
+      maxReagents: 3
+      metabolizerTypes: [Avali]
+      groups:
+        - id: Food
+        - id: Drink
+
+- type: entity
+  id: OrganAvaliHeart
+  parent: BaseHumanOrgan
+  name: heart
+  description: "I feel bad for the heartless bastard who lost this."
+  components:
+    - type: Sprite
+      state: heart-on
+    - type: Metabolizer
+      maxReagents: 2
+      metabolizerTypes: [Avali]
+      groups:
+        - id: Medicine
+        - id: Poison
+        - id: Narcotic
+    - type: Item
+      size: Small
+      heldPrefix: heart
+

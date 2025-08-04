@@ -35,6 +35,7 @@
       - id: Gauze
       - id: PillCanisterIron
       - id: PillCanisterCopper
+      - id: PillCanisterAmmonia # Harmony
 
 - type: entity
   id: MedkitToxinFilled
