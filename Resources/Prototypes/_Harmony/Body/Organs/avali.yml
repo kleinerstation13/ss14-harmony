@@ -9,6 +9,6 @@
   parent: OrganHumanHeart
   id: OrganAvaliHeart
   components:
-    - type: Metabolizer
-      updateInterval: 0.7 #Matches Arachnids but in reverse
-      metabolizerTypes: [Avali]
+  - type: Metabolizer
+    updateInterval: 0.7 #Matches Arachnids but in reverse
+    metabolizerTypes: [Avali]
