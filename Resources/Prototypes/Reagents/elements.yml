@@ -78,15 +78,18 @@
       effects:
       - !type:ModifyBloodLevel
         conditions:
-        # start harmony change
-        - !type:OrganType
-          type: Avali
-          shouldHave: true
-        # start harmony change
         - !type:OrganType
           type: Arachnid
           shouldHave: true
         amount: 0.4
+        # start harmony change
+      - !type:ModifyBloodLevel
+        conditions:
+        - !type:OrganType
+          type: Avali
+          shouldHave: true
+        amount: 0.4
+        # end harmony change
 
 - type: reagent
   id: Fluorine
@@ -179,15 +182,18 @@
       effects:
       - !type:ModifyBloodLevel
         conditions:
-        # start harmony change
-        - !type:OrganType
-          type: Avali
-          shouldHave: false
-        # end harmony change
         - !type:OrganType
           type: Arachnid
           shouldHave: false
         amount: 0.4
+# start harmony change
+      - !type:ModifyBloodLevel
+        conditions:
+        - !type:OrganType
+          type: Avali
+          shouldHave: false
+        amount: 0.4
+# end harmony change
 
 - type: reagent
   id: Lithium
