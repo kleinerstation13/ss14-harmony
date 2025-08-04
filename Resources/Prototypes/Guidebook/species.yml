@@ -53,9 +53,8 @@
   name: species-name-vox
   text: "/ServerInfo/Guidebook/Mobs/Vox.xml"
 
-# Harmony change start
+# Harmony species
 - type: guideEntry
   id: Avali
   name: species-name-avali
   text: "/ServerInfo/_Harmony/Guidebook/Mobs/Avali.xml"
-# Harmony change end
