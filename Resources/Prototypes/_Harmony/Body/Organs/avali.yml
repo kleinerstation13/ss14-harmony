@@ -1,6 +1,6 @@
 - type: entity
-  id: OrganAvaliStomach
   parent: OrganHumanStomach
+  id: OrganAvaliStomach
   components:
   - type: Metabolizer
     metabolizerTypes: [Avali]
