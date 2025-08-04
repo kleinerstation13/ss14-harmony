@@ -2,8 +2,8 @@
   id: OrganAvaliStomach
   parent: OrganHumanStomach
   components:
-    - type: Metabolizer
-      metabolizerTypes: [Avali]
+  - type: Metabolizer
+    metabolizerTypes: [Avali]
 
 - type: entity
   id: OrganAvaliHeart
