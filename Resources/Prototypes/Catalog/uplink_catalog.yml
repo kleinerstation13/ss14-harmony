@@ -616,12 +616,14 @@
 # for the hristov
 - type: listing
   id: UplinkHristovAmmo
-  name: uplink-sniper-ammo-harmony-name # Harmony change - Hristov rework, changes uplink product name
-  description: uplink-sniper-ammo-harmony-desc # Harmony change - Hristov rework, changes uplink description
-  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi, state: icon } # Harmony addition - Hristov rework, adds icon to hristov magazine
-  productEntity: MagazineAntiMateriel # Harmony change - Hristov rework, replaces Hristov ammo boxes with magazines.
+# Harmony change start - Hristov rework - changes description and name, icon, product, and price.
+  name: uplink-sniper-ammo-harmony-name
+  description: uplink-sniper-ammo-harmony-desc
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazines/Sniper/hristovmag.rsi, state: icon }
+  productEntity: MagazineAntiMateriel 
   cost:
-    Telecrystal: 1 # Harmony change - Hristov rework, 2 -> 1
+    Telecrystal: 1 # 2 -> 1
+# Harmony change end
   categories:
   - UplinkAmmo
 
