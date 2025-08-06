@@ -13,7 +13,7 @@ namespace Content.Shared._Goobstation.Clothing.Components;
 public sealed partial class ClothingGrantTagComponent : Component
 {
     [DataField("tag", required: true), ViewVariables(VVAccess.ReadWrite)]
-    public ProtoId<TagPrototype> Tag = "";
+    public ProtoId<TagPrototype> Tag = ""; // Harmony - change to protoid
 
     [ViewVariables(VVAccess.ReadWrite)]
     public bool IsActive = false;
