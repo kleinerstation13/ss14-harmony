@@ -2,6 +2,7 @@
   parent: BasePKAUpgrade
   id: PKAUpgradeIndoors
   name: PKA modkit (indoors)
+  suffix: Harmony
   description: A syndicate modification kit that increases the damage a kinetic accelerator does in high pressure environments.
   components:
   - type: Sprite
