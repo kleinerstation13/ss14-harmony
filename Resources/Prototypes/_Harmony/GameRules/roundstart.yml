@@ -113,4 +113,3 @@
       duration: 1500 # 3 mins
     - type: AlertLevelInterceptionRule
       alertLevel: green
-
