@@ -137,8 +137,8 @@
       - id: MagazineShotgun
         amount: 4
     # Begin harmony change - removes estoc from uplink
-#      - id: MagazineRifle
-#        amount: 3
+    #  - id: MagazineRifle
+    #     amount: 3
     # End harmony change
       - id: MagazineShotgunSlug
         amount: 1
