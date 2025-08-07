@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "https://github.com/discordia-space/CEV-Eris/raw/8a848cde3e8610455f77704e861e5a06315a3b0e/icons/obj/ammo.dmi. Recolor by Halycon (kleinerstation13 on Github)",
+    "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/423e501b8563099116b2929a6fe0ab59e47bf0a4. Recolor by Halycon (kleinerstation13 on Github)",
     "size": {
         "x": 32,
         "y": 32
