@@ -403,6 +403,7 @@ uplink-nocturine-chemistry-bottle-desc = A chemical that puts your target straig
 uplink-stimpack-name = Hyperzine Injector
 ## Harmony - changed hyperzine injector description
 uplink-stimpack-desc = The legendary chemical produced by Donk Co. for the Syndicate. Injecting yourself with this will increase your run speed and let you recover from stuns faster for 60 seconds.
+
 uplink-stimkit-name = Hyperzine Injector Kit
 ## Harmony - changed hyperzine microinjector description
 uplink-stimkit-desc = A medkit containing 6 hyperzine microinjectors, which each inject you with enough hyperzine to last for 30 seconds.
