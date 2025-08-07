@@ -5,9 +5,9 @@
   conserveEnergy: false
   reactants:
     GlorpExtract:
-      amount: 75
+      amount: 25
     UnstableMutagen:
-      amount: 75
+      amount: 25
   effects:
   - !type:CreateEntityReactionEffect
     entity: MobGlorpite
