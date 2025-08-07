@@ -102,8 +102,8 @@
 #      - MagazinePistol
 
 - type: entity
-  id: ExtendedHarmonyAnnouncement
   parent: BaseStationEventShortDelay
+  id: ExtendedHarmonyAnnouncement
   components:
     - type: StationEvent
       endAnnouncement: station-event-harmony-extended-announcement
