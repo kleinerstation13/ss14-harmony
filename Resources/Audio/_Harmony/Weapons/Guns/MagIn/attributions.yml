@@ -2,3 +2,8 @@
   license: "CC-BY-SA-3.0"
   copyright: "Created by Nonagon44 for Space Station 14"
   source: "https://github.com/Nonagon44"
+
+- files: ["guitar_magin.ogg"]
+  license: "Custom"
+  copyright: "Created as User Generated Content based on Counter Strike: Online (Created by Nexon) under the Nexon Game IP guide. https://playersupport.nexon.com/hc/en-us/articles/360059079812-Nexon-Game-IP-Guide-for-Content-Creators"
+  source: "https://youtu.be/apho-Z4wkAw"
