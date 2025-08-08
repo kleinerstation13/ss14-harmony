@@ -310,3 +310,7 @@
     Telecrystal: 16
   categories:
   - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Musician
