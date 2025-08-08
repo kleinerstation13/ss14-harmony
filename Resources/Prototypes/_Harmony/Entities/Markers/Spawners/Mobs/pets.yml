@@ -16,6 +16,7 @@
   parent: MarkerBase
   id: SpawnMobGlorp
   name: Glorp Spawner
+  suffix: Harmony
   components:
   - type: Sprite
     layers:
@@ -30,6 +31,7 @@
   parent: MarkerBase
   id: SpawnMobGlorpite
   name: Glorpite Spawner
+  suffix: Harmony
   components:
   - type: Sprite
     layers:
