@@ -82,6 +82,7 @@
   parent: MobCat
   id: MobGlorpite
   name: Glorpite
+  suffix: Harmony
   description: A baby glorp.
   components:
   - type: Sprite
