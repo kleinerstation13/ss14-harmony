@@ -12,5 +12,5 @@
     containers:
       key_slots:
       - EncryptionKeySecurity
-      - EncryptionKeyCommon
       - EncryptionKeyCommand
+      - EncryptionKeyCommon
