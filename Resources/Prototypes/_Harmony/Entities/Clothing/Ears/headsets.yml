@@ -5,9 +5,9 @@
   suffix: Harmony
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Ears/Headsets/security.rsi
+    sprite: _Harmony/Clothing/Ears/Headsets/warden.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Ears/Headsets/security.rsi
+    sprite: _Harmony/Clothing/Ears/Headsets/warden.rsi
   - type: ContainerFill
     containers:
       key_slots:
