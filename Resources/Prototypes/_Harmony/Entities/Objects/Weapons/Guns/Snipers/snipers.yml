@@ -35,8 +35,8 @@
     slots:
       gun_magazine:
         name: Magazine
-        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/Clip Insertion.wav
-        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/garand-ping-short.wav
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/rsc_insert.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/rsc_eject.ogg
         priority: 2
         whitelist:
           tags:
