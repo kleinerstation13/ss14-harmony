@@ -1432,7 +1432,7 @@
   description: uplink-scram-implanter-desc
   icon: { sprite: /Textures/Structures/Specific/anomaly.rsi, state: anom4 }
   productEntity: ScramImplanter
-#  discountCategory: veryRareDiscounts # Harmony change - debloats discounts
+  discountCategory: rareDiscounts # Harmony change - VeryRare -> Rare, debloats discounts
   discountDownTo:
     Telecrystal: 4
   cost:
