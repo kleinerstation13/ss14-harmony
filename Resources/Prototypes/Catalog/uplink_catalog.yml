@@ -321,9 +321,11 @@
   name: uplink-singularity-grenade-name
   description: uplink-singularity-grenade-desc
   productEntity: SingularityGrenade
-#  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
+# Start Harmony change - de-bloats discounts
+#  discountCategory:
 #  discountDownTo:
 #    Telecrystal: 1
+# End Harmony change
   cost:
     Telecrystal: 2
   categories:
@@ -334,9 +336,11 @@
   name: uplink-whitehole-grenade-name
   description: uplink-whitehole-grenade-desc
   productEntity: WhiteholeGrenade
-#  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
+# Start Harmony change - de-bloats discounts
+#  discountCategory: usualDiscounts
 #  discountDownTo:
 #    Telecrystal: 1
+# End Harmony change
   cost:
     Telecrystal: 2
   categories:
@@ -660,9 +664,11 @@
   description: uplink-hypodart-desc
   icon: { sprite: /Textures/Objects/Fun/Darts/dart_red.rsi, state: icon }
   productEntity: HypoDartBox
-#  discountCategory: veryRareDiscounts # Harmony change - de-bloats discounts
+# Start Harmony change - de-bloats discounts
+#  discountCategory: veryRareDiscounts
 #  discountDownTo:
 #    Telecrystal: 1
+# End Harmony change
   cost:
     Telecrystal: 2
   categories:
@@ -890,9 +896,11 @@
   name: uplink-ultrabright-lantern-name
   description: uplink-ultrabright-lantern-desc
   productEntity: LanternFlash
-#  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
+# Start Harmony change - de-bloats discounts
+#  discountCategory: usualDiscounts
 #  discountDownTo:
 #    Telecrystal: 1
+# End Harmony change
   cost:
     Telecrystal: 2
   categories:
@@ -1597,9 +1605,11 @@
   name: uplink-black-jetpack-name
   description: uplink-black-jetpack-desc
   productEntity: JetpackBlackFilled
-#  discountCategory: veryRareDiscounts # Harmony change - de-bloats discounts
+# Start Harmony change - de-bloats discounts
+#  discountCategory:
 #  discountDownTo:
 #    Telecrystal: 1
+# End Harmony change
   cost:
     Telecrystal: 2
   categories:
