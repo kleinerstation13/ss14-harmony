@@ -31,6 +31,11 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 85
+        Piercing: 90
   - type: StaminaDamageOnCollide
     damage: 30
+  - type: PointLight
+    enabled: true
+    color: "#03c6bf"
+    radius: 2.0
+    energy: 7.0
