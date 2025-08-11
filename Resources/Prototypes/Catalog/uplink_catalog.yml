@@ -321,7 +321,7 @@
   name: uplink-singularity-grenade-name
   description: uplink-singularity-grenade-desc
   productEntity: SingularityGrenade
-  discountCategory: usualDiscounts
+#  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
@@ -334,7 +334,7 @@
   name: uplink-whitehole-grenade-name
   description: uplink-whitehole-grenade-desc
   productEntity: WhiteholeGrenade
-  discountCategory: usualDiscounts
+#  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
@@ -660,7 +660,7 @@
   description: uplink-hypodart-desc
   icon: { sprite: /Textures/Objects/Fun/Darts/dart_red.rsi, state: icon }
   productEntity: HypoDartBox
-  discountCategory: veryRareDiscounts
+#  discountCategory: veryRareDiscounts # Harmony change - de-bloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
@@ -806,7 +806,7 @@
   name: uplink-agent-id-card-name
   description: uplink-agent-id-card-desc
   productEntity: AgentIDCard
-  discountCategory: veryRareDiscounts
+  discountCategory: rareDiscounts # Harmony change - VeryRare -> Rare, debloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
@@ -890,7 +890,7 @@
   name: uplink-ultrabright-lantern-name
   description: uplink-ultrabright-lantern-desc
   productEntity: LanternFlash
-  discountCategory: usualDiscounts
+#  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
@@ -1015,7 +1015,7 @@
   description: uplink-syndicate-martyr-module-desc
   productEntity: BorgModuleMartyr
   icon: { sprite: /Textures/Objects/Specific/Robotics/borgmodule.rsi, state: syndicateborgbomb }
-  discountCategory: veryRareDiscounts
+#  discountCategory: veryRareDiscounts # Harmony change - debloats discounts
   discountDownTo:
     Telecrystal: 2
   cost:
@@ -1432,7 +1432,7 @@
   description: uplink-scram-implanter-desc
   icon: { sprite: /Textures/Structures/Specific/anomaly.rsi, state: anom4 }
   productEntity: ScramImplanter
-  discountCategory: veryRareDiscounts
+#  discountCategory: veryRareDiscounts # Harmony change - debloats discounts
   discountDownTo:
     Telecrystal: 4
   cost:
@@ -1597,7 +1597,7 @@
   name: uplink-black-jetpack-name
   description: uplink-black-jetpack-desc
   productEntity: JetpackBlackFilled
-  discountCategory: veryRareDiscounts
+#  discountCategory: veryRareDiscounts # Harmony change - de-bloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
@@ -1657,7 +1657,7 @@
   name: uplink-clothing-no-slips-shoes-name
   description: uplink-clothing-no-slips-shoes-desc
   productEntity: ClothingShoesChameleonNoSlips
-  discountCategory: veryRareDiscounts
+  discountCategory: rareDiscounts # Harmony change - VeryRare -> Rare, debloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
