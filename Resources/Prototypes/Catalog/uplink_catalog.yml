@@ -365,7 +365,7 @@
   name: uplink-c4-name
   description: uplink-c4-desc
   productEntity: C4
-  discountCategory: veryRareDiscounts
+#  discountCategory: veryRareDiscounts # Harmony change - debloats discounts
   discountDownTo:
     Telecrystal: 1
   cost:
