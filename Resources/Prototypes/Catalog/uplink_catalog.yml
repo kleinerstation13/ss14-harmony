@@ -322,8 +322,8 @@
   description: uplink-singularity-grenade-desc
   productEntity: SingularityGrenade
 #  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
-  discountDownTo:
-    Telecrystal: 1
+#  discountDownTo:
+#    Telecrystal: 1
   cost:
     Telecrystal: 2
   categories:
@@ -335,8 +335,8 @@
   description: uplink-whitehole-grenade-desc
   productEntity: WhiteholeGrenade
 #  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
-  discountDownTo:
-    Telecrystal: 1
+#  discountDownTo:
+#    Telecrystal: 1
   cost:
     Telecrystal: 2
   categories:
@@ -661,8 +661,8 @@
   icon: { sprite: /Textures/Objects/Fun/Darts/dart_red.rsi, state: icon }
   productEntity: HypoDartBox
 #  discountCategory: veryRareDiscounts # Harmony change - de-bloats discounts
-  discountDownTo:
-    Telecrystal: 1
+#  discountDownTo:
+#    Telecrystal: 1
   cost:
     Telecrystal: 2
   categories:
@@ -891,8 +891,8 @@
   description: uplink-ultrabright-lantern-desc
   productEntity: LanternFlash
 #  discountCategory: usualDiscounts # Harmony change - de-bloats discounts
-  discountDownTo:
-    Telecrystal: 1
+#  discountDownTo:
+#    Telecrystal: 1
   cost:
     Telecrystal: 2
   categories:
@@ -1016,8 +1016,8 @@
   productEntity: BorgModuleMartyr
   icon: { sprite: /Textures/Objects/Specific/Robotics/borgmodule.rsi, state: syndicateborgbomb }
 #  discountCategory: veryRareDiscounts # Harmony change - debloats discounts
-  discountDownTo:
-    Telecrystal: 2
+#  discountDownTo:
+#    Telecrystal: 2
   cost:
     Telecrystal: 4
   categories:
@@ -1598,8 +1598,8 @@
   description: uplink-black-jetpack-desc
   productEntity: JetpackBlackFilled
 #  discountCategory: veryRareDiscounts # Harmony change - de-bloats discounts
-  discountDownTo:
-    Telecrystal: 1
+#  discountDownTo:
+#    Telecrystal: 1
   cost:
     Telecrystal: 2
   categories:
