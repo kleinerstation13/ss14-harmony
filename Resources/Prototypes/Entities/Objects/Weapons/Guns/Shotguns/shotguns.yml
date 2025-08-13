@@ -151,8 +151,8 @@
   - type: BallisticAmmoProvider
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
 # Harmony change start - DeltaV accidental discharge port
-- type: FireOnLand
-  probability: 0.05 # Did you know most shotguns aren't rated as drop safe? 
+  - type: FireOnLand
+    probability: 0.05 # Did you know most shotguns aren't rated as drop safe?
 # Harmony change end
 
 - type: entity

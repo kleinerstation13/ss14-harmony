@@ -55,7 +55,7 @@
   - type: GunRequiresWield
   - type: StaticPrice
     price: 10000
-- type: FireOnLand # Harmony - DeltaV accidental discharge port
+  - type: FireOnLand # Harmony - DeltaV accidental discharge port
 
 - type: entity
   parent: [ BaseWeaponLauncher, BaseGunWieldable, BaseMajorContraband ]

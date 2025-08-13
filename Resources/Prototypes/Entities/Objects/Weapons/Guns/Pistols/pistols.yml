@@ -67,7 +67,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
-- type: FireOnLand # Harmony - DeltaV accidental discharge port
+  - type: FireOnLand # Harmony - DeltaV accidental discharge port
 
 - type: entity
   name: viper
