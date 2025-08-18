@@ -5,8 +5,8 @@
 spellbook-pitbull-name = Summon Pitbulls
 spellbook-pitbull-desc = Conjures three pitbulls to attack nearby bystanders, powerful in numbers while being quite weak on their own.
 
-spellbook-staff-slipping-name = staff of slipping
-spellbook-staff-slipping-desc = Shoots slipping projectiles en masse, good for destroying security morale.
+spellbook-staff-slipping-name = Staff of Slipping
+spellbook-staff-slipping-desc = Shoots slipping projectiles en masse. Good for destroying security morale.
 
 # Upgrades
 
