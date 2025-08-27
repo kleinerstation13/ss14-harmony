@@ -84,10 +84,10 @@
     - GoldRing
 
 - type: loadout
-  id: Cane
+  id: CardBoxBlack
   storage:
     back:
-    - Cane
+    - CardBoxBlack
 
 # Towels
 - type: loadout
