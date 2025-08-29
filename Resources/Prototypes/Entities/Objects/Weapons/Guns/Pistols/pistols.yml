@@ -102,6 +102,9 @@
       gun_chamber: !type:ContainerSlot
   - type: StaticPrice
     price: 1000
+  - type: Gun # harmony change - Added new sound for Viper
+    soundGunshot:
+      collection: ViperFire
 
 - type: entity
   name: echis
@@ -116,7 +119,7 @@
       - SemiAuto
       - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+      collection: ViperFire # Harmony change - Changed file path to sound collection
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
     layers:
@@ -209,7 +212,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+      collection: MKFire # Harmony - changed sound path to sound collection
 
 - type: entity
   name: N1984

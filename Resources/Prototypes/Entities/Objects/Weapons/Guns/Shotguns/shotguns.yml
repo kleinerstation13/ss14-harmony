@@ -116,6 +116,10 @@
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
+# Start harmony change - added sound for DB
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/db_fire1.ogg
+# End harmony change
     fireRate: 3
   - type: GunSpreadModifier
     spread: 0.6
@@ -150,6 +154,9 @@
     sprite: Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
   - type: BallisticAmmoProvider
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: Gun # Harmony change - Added unique sounds for Enforcer
+    soundGunshot:
+      collection: EnforcerFire
 
 - type: entity
   parent: WeaponShotgunEnforcer
@@ -202,6 +209,10 @@
     sprite: Objects/Weapons/Guns/Shotguns/sawn_inhands_64x.rsi
   - type: Gun
     fireRate: 3
+# Start harmony change - added sound for DB
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/db_fire1.ogg
+# End harmony change
   - type: GunSpreadModifier
     spread: 1.4
   - type: BallisticAmmoProvider
