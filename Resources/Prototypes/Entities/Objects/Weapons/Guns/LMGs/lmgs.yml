@@ -85,9 +85,6 @@
   - type: Appearance
   - type: StaticPrice
     price: 10000
-  - type: Gun # Harmony change - Added sound for L6 SAW
-    soundGunshot:
-      path: /Audio/_Harmony/Weapons/Guns/Gunshots/l6_fire.ogg
 
 - type: entity
   name: L6C ROW
