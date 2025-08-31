@@ -59,3 +59,19 @@
     - type: Sharp
     - type: Contraband
       severity: Syndicate
+
+- type: entity
+  parent: ClothingHandsGlovesPowerglove
+  id: ClothingHandsGlovesRecoilDampening
+  name: recoil dampening gloves
+  suffix: Harmony
+  description: Specialized gloves which utilise advanced nano-technology to dampen any powerful recoil kicks. Manufactured in small quantities and only given to the most elite Syndicate strike teams, given their expensive design.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Hands/Gloves/recoilglove.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Hands/Gloves/recoilglove.rsi
+  - type: DamageOnShootProtection
+    damageProtection:
+      flatReductions:
+        Blunt: 5

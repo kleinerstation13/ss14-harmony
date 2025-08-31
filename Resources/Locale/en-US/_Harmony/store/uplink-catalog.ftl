@@ -9,6 +9,9 @@ uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low
 uplink-rifle-bandit-name = Bandit Bundle
 uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
 
+uplink-mateba-name = Mateba
+uplink-mateba-desc = An extremely powerful handcannon with 3 shots. Does damage to the shooter, wear recoil dampening gloves to lessen it. Uses .60 anti materiel ammo.
+
 # Explosive
 
 uplink-pizza-bomb-name = Pizza Bomb
@@ -37,6 +40,9 @@ uplink-shotgun-drum-slug-desc = Shotgun drum with eight slug shells. Compatible 
 uplink-rifle-magazine-bandit-name = DMR Magazine (.30 rifle caseless)
 uplink-rifle-magazine-bandit-desc = Rifle magazine with 15 cartridges. Compatible with the Bandit.
 
+uplink-speedloader-sniper-name = Mateba Speedloader
+uplink-speedloader-sniper-desc = A 3-round .60 anti-materiel speedloader compatible with the Mateba.
+
 # Chemicals
 
 uplink-defib-name = Interdyne Defibrillator
@@ -59,6 +65,10 @@ uplink-traitor-deathrattle-implant-name = Box Of Deathrattle Implants
 uplink-traitor-deathrattle-implant-desc = A box containing two syndicate deathrattle implants. Messages are relayed over the syndicate channel, encryption keys not included.
 
 # Wearables
+
+uplink-recoil-gloves-name = Recoil-Dampening Gloves
+uplink-recoil-gloves-desc = Special equipment that dampens felt recoil. These gloves reduce the Mateba's damage to the shooter, at the cost of being uninsulated!
+
 # Pointless
 
 uplink-cluster-weh-name = Tactical Clusterplushie

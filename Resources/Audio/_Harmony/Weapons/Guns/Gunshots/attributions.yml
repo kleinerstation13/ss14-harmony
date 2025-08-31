@@ -27,3 +27,13 @@
   license: "CC-BY-NC-4.0"
   copyright: "Created by Vunsunta"
   source: "https://www.dropbox.com/scl/fi/dd03xhdhwg9em8l1xyxtr/Vunsunta-Firearm-Sound-Pack-V2.zip?rlkey=p7cyhkgf462v2bikj8awjbugu&e=1&st=a38k4aqn&dl=0"
+
+- files: ["mateba_fire"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from RMC14"
+  source: "https://github.com/RMC-14/RMC-14/commit/c22756bb39b97448e08fa89d36a7f4d89040507f"
+
+- files: ["magnum_fire.ogg"]
+  license: "CC0-1.0"
+  copyright: "Created by nioczkus"
+  source: "https://freesound.org/people/nioczkus/sounds/346537/"

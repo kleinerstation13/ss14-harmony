@@ -1,0 +1,38 @@
+- type: entity
+  parent: [BaseWeaponRevolver, BaseSyndicateContraband, BaseGunWieldable]
+  id: WeaponRevolverMatebaHarmony
+  name: Mateba
+  suffix: Harmony
+  description: A semi-automatic handcannon produced by Waffle Corp in prohibitively low numbers. It has noticeably been fitted with a reciever that allows it to fire .60 ammunition. The designers weren't able to get rid of the wrist-shattering recoil, though some speculate it's an intended feature.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmony.rsi
+  - type: Clothing
+    sprite: _Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmony.rsi
+  - type: Gun
+    fireRate: 0.75
+    minAngle: 1
+    maxAngle: 40
+    angleIncrease: 20
+    angleDecay: 4
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/mateba_fire.ogg
+      params:
+        volume: 5
+        pitch: 1
+        maxDistance: 30
+  - type: DamageOnShoot
+    damage:
+      types:
+        Blunt: 25
+    popupText: null
+    damageSound: /Audio/Weapons/boxingpunch3.ogg
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeAntiMateriel
+      - SpeedLoaderAM
+    proto: CartridgeAntiMateriel
+    capacity: 3
+    chambers: [ True, True, True ]
+    ammoSlots: [ null, null, null ]
