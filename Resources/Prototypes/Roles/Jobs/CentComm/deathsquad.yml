@@ -35,6 +35,9 @@
     back:
     - WeaponPulsePistol
     # Harmony change start - Replaced Mateba with Wyvern
+#   - WeaponRevolverMatebaAP
+#   - SpeedLoaderMagnumAP
+#   - SpeedLoaderMagnumAP
     - WeaponPistolWyvern
     - MagazineMagnumAP
     - MagazineMagnumAP
