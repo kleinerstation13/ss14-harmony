@@ -30,3 +30,7 @@
 #used in _Harmony/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/sniper.yml
 - type: Tag
   id: SpeedLoaderAM
+
+#used in _Harmony/Entities/Objects/Specific/syndicate.yml
+- type: Tag
+  id: NukeOpsUplinkCommander

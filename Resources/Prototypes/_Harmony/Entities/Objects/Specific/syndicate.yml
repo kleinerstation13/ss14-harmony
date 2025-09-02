@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseUplinkRadio
+  id: BaseUplinkRadio45TCCommander
+  suffix: 45 TC, NukeOps, Commander
+  components:
+  - type: Store
+    balance:
+      Telecrystal: 45
+  - type: Tag
+    tags:
+    - NukeOpsUplink
+    - NukeOpsUplinkCommander
