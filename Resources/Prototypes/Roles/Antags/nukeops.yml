@@ -77,8 +77,9 @@
 #Nuclear Operative Commander Gear
 - type: startingGear
   id: SyndicateCommanderGearFull
-  parent: SyndicateOperativeGearFull
+  parent: SyndicateOperativeGearFullNoUplink # Harmony - SyndicateOperativeGearFull -> SyndicateOperativeGearFullNoUplink
   equipment:
+    pocket2: BaseUplinkRadio45TCCommander # Harmony - added commander uplink prototype to commander loadout
     neck: SyndicateWhistle
     outerClothing: ClothingOuterHardsuitSyndieCommander
   inhand:
