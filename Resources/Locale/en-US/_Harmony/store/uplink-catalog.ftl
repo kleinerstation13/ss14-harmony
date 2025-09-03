@@ -67,7 +67,7 @@ uplink-traitor-deathrattle-implant-desc = A box containing two syndicate deathra
 # Wearables
 
 uplink-recoil-gloves-name = Recoil-Dampening Gloves
-uplink-recoil-gloves-desc = Special equipment that dampens felt recoil. These gloves reduce the Mateba's damage to the shooter, at the cost of being uninsulated!
+uplink-recoil-gloves-desc = Special equipment that dampens felt recoil. These gloves reduce the Anaconda's damage to the shooter, at the cost of being uninsulated!
 
 # Pointless
 
