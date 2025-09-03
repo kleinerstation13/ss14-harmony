@@ -10,7 +10,7 @@
   - type: Clothing
     sprite: _Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmony.rsi
   - type: Gun
-    fireRate: 0.75
+    fireRate: 1
     minAngle: 1
     maxAngle: 40
     angleIncrease: 20
@@ -24,8 +24,8 @@
   - type: DamageOnShoot
     damage:
       types:
-        Blunt: 25
-    popupText: null
+        Blunt: 15
+    popupText: damage-on-shoot-mateba
     damageSound: /Audio/Weapons/boxingpunch3.ogg
   - type: RevolverAmmoProvider
     whitelist:
@@ -36,3 +36,10 @@
     capacity: 3
     chambers: [ True, True, True ]
     ammoSlots: [ null, null, null ]
+  - type: Item
+    storedSprite:
+      state: storage
+      sprite: _Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmonyx64.rsi
+    shape:
+    - 0,0,3,0
+    - 0,1,0,1

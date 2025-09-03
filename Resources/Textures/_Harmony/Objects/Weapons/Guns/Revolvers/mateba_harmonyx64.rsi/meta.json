@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from Impstation at commit https://github.com/impstation/imp-station-14/commit/3a9e0dcf3143e8716e560827956b9821ef344ba4. Recolor by halycon (Kleinerstation 13 on Github)",
+    "size": {
+        "x": 64,
+        "y": 64
+    },
+    "states": [
+        {
+            "name": "storage"
+        }
+    ]
+}

@@ -74,7 +74,7 @@ public sealed class DamageOnShootSystem : EntitySystem
             _audioSystem.PlayPredicted(entity.Comp.DamageSound, entity, args.User);
 
             if (entity.Comp.PopupText != null)
-                _popupSystem.PopupClient(Loc.GetString(entity.Comp.PopupText), args.User, args.User);
+                _popupSystem.PopupClient(Loc.GetString(entity.Comp.PopupText), args.User, args.User, PopupType.MediumCaution); // Harmony - changed popup type to MediumCaution
 
             // Attempt to paralyze the user after they have taken damage
 // start harmony change
