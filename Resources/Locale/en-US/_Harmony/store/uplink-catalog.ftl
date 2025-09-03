@@ -9,8 +9,8 @@ uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low
 uplink-rifle-bandit-name = Bandit Bundle
 uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
 
-uplink-mateba-name = Anaconda
-uplink-mateba-desc = An extremely powerful handcannon with 3 shots. Does damage to the shooter, wear recoil dampening gloves to lessen it. Uses .60 anti materiel ammo.
+uplink-anaconda-name = Anaconda
+uplink-anaconda-desc = The Commander's personal sidearm, featuring a 3-shot semi-auto capacity. The immense recoil causes damage to the shooter, but wearing recoil dampening gloves helps mitigate it. Uses .60 anti materiel ammo.
 
 # Explosive
 

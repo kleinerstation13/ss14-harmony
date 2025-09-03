@@ -3,7 +3,7 @@
   id: WeaponRevolverAnaconda
   name: Anaconda
   suffix: Harmony
-  description: A semi-automatic handcannon produced by Waffle Corp in prohibitively low numbers. It has been custom-fitted with a reciever that allows it to fire .60 ammunition. The designers weren't able to get rid of the wrist-shattering recoil, though some speculate it's an intended feature.
+  description: A semi-automatic handcannon produced by Waffle Corp in prohibitively low numbers. It has been fitted with a number of modifications, such as a custom .60 reciever and a golden paintjob. The designers did not get rid of the wrist-shattering recoil, claiming it to be "intentional".
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Revolvers/anaconda.rsi
