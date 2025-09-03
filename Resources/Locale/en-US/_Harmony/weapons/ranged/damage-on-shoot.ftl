@@ -1,1 +1,1 @@
-damage-on-shoot-mateba = The Mateba shudders violently from the recoil!
+damage-on-shoot-anaconda = The Anaconda shudders violently from the recoil!

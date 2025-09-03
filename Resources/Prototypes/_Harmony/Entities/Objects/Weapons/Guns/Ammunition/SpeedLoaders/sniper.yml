@@ -1,5 +1,5 @@
 - type: entity
-  id: SpeedLoaderMateba
+  id: SpeedLoaderAnaconda
   name: "speed loader (.60 anti-materiel)"
   description: You wonder why anybody would ever design such a thing.
   parent: [ BaseItem, BaseSyndicateContraband ]

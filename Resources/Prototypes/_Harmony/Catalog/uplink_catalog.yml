@@ -58,11 +58,11 @@
   - UplinkWeaponry
 
 - type: listing
-  id: UplinkMateba
-  name: uplink-mateba-name
-  description: uplink-mateba-desc
-  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmony.rsi, state: icon }
-  productEntity: WeaponRevolverMatebaHarmony
+  id: UplinkAnaconda
+  name: uplink-anaconda-name
+  description: uplink-anaconda-desc
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Revolvers/anaconda.rsi, state: icon }
+  productEntity: WeaponRevolverAnaconda
   cost:
     Telecrystal: 11
   categories:
@@ -190,11 +190,11 @@
   - UplinkAmmo
 
 - type: listing
-  id: UplinkSpeedLoaderMateba
+  id: UplinkSpeedLoaderAnaconda
   name: uplink-speedloader-sniper-name
   description: uplink-speedloader-sniper-desc
   icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/sniper.rsi, state: icon }
-  productEntity: SpeedLoaderMateba
+  productEntity: SpeedLoaderAnaconda
   cost:
     Telecrystal: 1
   categories:

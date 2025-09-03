@@ -1,14 +1,14 @@
 - type: entity
   parent: [BaseWeaponRevolver, BaseSyndicateContraband, BaseGunWieldable]
-  id: WeaponRevolverMatebaHarmony
-  name: Mateba
+  id: WeaponRevolverAnaconda
+  name: Anaconda
   suffix: Harmony
-  description: A semi-automatic handcannon produced by Waffle Corp in prohibitively low numbers. It has noticeably been fitted with a reciever that allows it to fire .60 ammunition. The designers weren't able to get rid of the wrist-shattering recoil, though some speculate it's an intended feature.
+  description: A semi-automatic handcannon produced by Waffle Corp in prohibitively low numbers. It has been custom-fitted with a reciever that allows it to fire .60 ammunition. The designers weren't able to get rid of the wrist-shattering recoil, though some speculate it's an intended feature.
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmony.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Revolvers/anaconda.rsi
   - type: Clothing
-    sprite: _Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmony.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Revolvers/anaconda.rsi
   - type: Gun
     fireRate: 1
     minAngle: 1
@@ -16,7 +16,7 @@
     angleIncrease: 20
     angleDecay: 4
     soundGunshot:
-      path: /Audio/_Harmony/Weapons/Guns/Gunshots/mateba_fire.ogg
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/anaconda_fire.ogg
       params:
         volume: 5
         pitch: 1
@@ -25,7 +25,7 @@
     damage:
       types:
         Blunt: 15
-    popupText: damage-on-shoot-mateba
+    popupText: damage-on-shoot-anaconda
     damageSound: /Audio/Weapons/boxingpunch3.ogg
   - type: RevolverAmmoProvider
     whitelist:
@@ -39,7 +39,7 @@
   - type: Item
     storedSprite:
       state: storage
-      sprite: _Harmony/Objects/Weapons/Guns/Revolvers/mateba_harmonyx64.rsi
+      sprite: _Harmony/Objects/Weapons/Guns/Revolvers/anacondax64.rsi
     shape:
     - 0,0,3,0
     - 0,1,0,1

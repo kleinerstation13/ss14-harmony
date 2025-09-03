@@ -34,14 +34,9 @@
   storage:
     back:
     - WeaponPulsePistol
-    # Harmony change start - Replaced Mateba with Wyvern
-#   - WeaponRevolverMatebaAP
-#   - SpeedLoaderMagnumAP
-#   - SpeedLoaderMagnumAP
-    - WeaponPistolWyvern
-    - MagazineMagnumAP
-    - MagazineMagnumAP
-    # Harmony change end
+    - WeaponRevolverMatebaAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
     - BoxFlashbang
     - ToolDebug # spanish army knife
     - WelderExperimental
