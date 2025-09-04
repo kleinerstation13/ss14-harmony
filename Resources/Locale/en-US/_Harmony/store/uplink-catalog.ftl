@@ -41,7 +41,7 @@ uplink-rifle-magazine-bandit-name = DMR Magazine (.30 rifle caseless)
 uplink-rifle-magazine-bandit-desc = Rifle magazine with 15 cartridges. Compatible with the Bandit.
 
 uplink-speedloader-sniper-name = Anaconda Speedloader
-uplink-speedloader-sniper-desc = A 3-round .60 anti-materiel speedloader compatible with the Anaconda.
+uplink-speedloader-sniper-desc = A 3-round .60 anti-materiel speedloader compatible with the Anaconda. You can only buy three of these, count your shots!
 
 # Chemicals
 
