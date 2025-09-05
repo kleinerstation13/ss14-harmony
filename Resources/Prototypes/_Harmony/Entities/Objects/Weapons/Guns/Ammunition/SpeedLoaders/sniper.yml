@@ -1,8 +1,9 @@
 - type: entity
+  parent: [ BaseItem, BaseSyndicateContraband ]
   id: SpeedLoaderAnaconda
   name: speed loader (.60 anti-materiel)
+  suffix: Harmony
   description: You wonder why anybody would ever design such a thing.
-  parent: [ BaseItem, BaseSyndicateContraband ]
   components:
   - type: Tag
     tags:
