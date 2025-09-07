@@ -13,3 +13,21 @@
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-1
         map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  name: ammunition box (.50 flechette)
+  parent: AmmoProviderShotgunShell
+  id: BoxShotgunFlechette
+  components:
+  - type: BallisticAmmoProvider
+    proto: ShellShotgunFlechette
+    capacity: 12
+    fillDelay: 0.75
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Boxes/flechette.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: flechette

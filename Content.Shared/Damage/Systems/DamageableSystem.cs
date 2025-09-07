@@ -200,7 +200,7 @@ namespace Content.Shared.Damage
                     // TODO DAMAGE PERFORMANCE
                     // use a local private field instead of creating a new dictionary here..
                     damage = DamageSpecifier.ApplyModifierSet(damage,
-                        DamageSpecifier.PenetrateArmor(modifierSet, armorPenetration)); // Goob edit
+                        DamageSpecifier.PenetrateArmor(modifierSet, damage.ArmorPenetration)); // Goob edit
                 }
 
                 var ev = new DamageModifyEvent(damage, origin);
@@ -386,14 +386,12 @@ namespace Content.Shared.Damage
         public readonly DamageSpecifier OriginalDamage;
         public DamageSpecifier Damage;
         public EntityUid? Origin;
-        public float ArmorPenetration; // Goobstation
 
-        public DamageModifyEvent(DamageSpecifier damage, EntityUid? origin = null, float armorPenetration = 0)
+        public DamageModifyEvent(DamageSpecifier damage, EntityUid? origin = null) // Goob edit
         {
             OriginalDamage = damage;
             Damage = damage;
             Origin = origin;
-            ArmorPenetration = armorPenetration; // Goobstation
         }
     }
 

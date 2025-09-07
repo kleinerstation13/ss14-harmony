@@ -8,3 +8,27 @@
     damage:
       types:
         Piercing: 35
+
+- type: entity
+  parent: BaseBullet
+  id: BulletLightRifleHP
+  categories: [ HideSpawnMenu ]
+  name: bullet (.20 rifle hollow point)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 22 # This can be high since literally only 1 weapon uses this (AKMS on Bagel)
+      armorPenetration: -0.6
+
+- type: entity
+  parent: BaseBullet
+  id: BulletLightRifleFMJ
+  categories: [ HideSpawnMenu ]
+  name: bullet (.20 rifle jacketed)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17
+      armorPenetration: 0.6

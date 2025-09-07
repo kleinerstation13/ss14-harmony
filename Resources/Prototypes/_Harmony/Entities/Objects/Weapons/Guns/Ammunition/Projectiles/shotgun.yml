@@ -1,0 +1,21 @@
+- type: entity
+  parent: PelletShotgunFlechette
+  id: PelletShotgunFlechetteSpread
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ProjectileSpread
+    proto: PelletShotgunFlechette
+    count: 8
+    spread: 15
+
+- type: entity
+  parent: BaseBullet
+  id: PelletShotgunFlechette
+  categories: [ HideSpawnMenu ]
+  name: pellet (.50 flechette)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 6.25
+      armorPenetration: 0.6

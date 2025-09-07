@@ -1,0 +1,37 @@
+- type: entity
+  parent: BaseMagazineBoxMagnum
+  id: MagazineBoxMagnumHP
+  name: ammunition box (.45 magnum hollow point)
+  suffix: Harmony
+  description: A cardboard box of .45 magnum rounds. Intended to hold hollowed ammunition meant for dispatching soft targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumHP
+    fillDelay: 1
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Boxes/magnum.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: hollowpoint
+
+- type: entity
+  parent: BaseMagazineBoxMagnum
+  id: MagazineBoxMagnumFMJ
+  name: ammunition box (.45 magnum jacketed)
+  suffix: Harmony
+  description: A cardboard box of .45 magnum rounds. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumFMJ
+    fillDelay: 1
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Boxes/magnum.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: fmj

@@ -1,0 +1,24 @@
+- type: entity
+  parent: BaseBullet
+  id: BulletMagnumHP
+  name: bullet (.45 magnum hollow point)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40 # temp
+      armorPenetration: -0.6 # temp
+
+- type: entity
+  parent: BaseBullet
+  id: BulletMagnumFMJ
+  name: bullet (.45 magnum jacketed)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 30 # temp
+      armorPenetration: 0.6 # temp
+

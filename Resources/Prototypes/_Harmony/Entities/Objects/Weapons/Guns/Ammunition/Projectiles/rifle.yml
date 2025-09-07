@@ -1,0 +1,23 @@
+- type: entity
+  parent: BaseBullet
+  id: BulletRifleHP
+  categories: [ HideSpawnMenu ]
+  name: bullet (0.20 rifle hollow point)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+      armorPenetration: -0.6
+
+- type: entity
+  parent: BaseBullet
+  id: BulletRifleFMJ
+  categories: [ HideSpawnMenu ]
+  name: bullet (0.20 rifle jacketed)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 15
+      armorPenetration: 0.6

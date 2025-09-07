@@ -1,0 +1,27 @@
+- type: entity
+  parent: BaseMagazineShotgun
+  id: MagazineShotgunFlechette
+  name: ammo drum (.50 flechette)
+  suffix: Harmony
+  description: 6-round drum for shotguns. Intended to hold flechettes meant for dispatching armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 6
+    proto: ShellShotgunFlechette
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/flechette.rsi
+    layers:
+    - state: flechette
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#ba7710"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#ba7710"

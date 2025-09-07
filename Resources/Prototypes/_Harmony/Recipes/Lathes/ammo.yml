@@ -1,0 +1,201 @@
+# Base prototypes
+
+- type: latheRecipe
+  abstract: true
+  id: BaseSpecialAmmoRecipe # used for FMJ magazines
+  categories:
+  - Ammo
+  completetime: 10 # takes longer than regular ammo
+
+- type: latheRecipe
+  abstract: true
+  id: BaseSpecialAmmoBoxRecipe # used for FMJ ammo boxes
+  categories:
+  - Ammo
+  - Boxes
+  completetime: 30 # takes a long to make so you can't make it on demand + makes it harder to hand load magazines with FMJ ammo
+
+## Recipes
+
+# .35 Auto
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazinePistolHP
+  result: MagazinePistolHP
+  materials:
+    Steel: 25
+    Plastic: 120
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazinePistolSubMachineGunHP
+  result: MagazinePistolSubMachineGunHP
+  materials:
+    Steel: 25
+    Plastic: 275
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazinePistolFMJ
+  result: MagazinePistolFMJ
+  materials:
+    Steel: 120
+    Gold: 25
+    Plasma: 25
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazinePistolSubMachineGunFMJ
+  result: MagazinePistolSubMachineGunFMJ
+  materials:
+    Steel: 275
+    Gold: 25
+    Plasma: 25
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxPistolFMJ
+  result: MagazineBoxPistolFMJ
+  materials:
+    Steel: 600
+    Gold: 150
+    Plasma: 150
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxPistolHP
+  result: MagazineBoxPistolHP
+  materials:
+    Steel: 300
+    Plastic: 300
+
+# .45 Magnum
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: SpeedLoaderMagnumHP
+  result: SpeedLoaderMagnumHP
+  materials:
+    Steel: 100
+    Plastic: 200
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: SpeedLoaderMagnumFMJ
+  result: SpeedLoaderMagnumFMJ
+  materials:
+    Steel: 100
+    Gold: 150
+    Plasma: 150
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxMagnumHP
+  result: MagazineBoxMagnumHP
+  materials:
+    Steel: 50
+    Plastic: 250
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxMagnumFMJ
+  result: MagazineBoxMagnumFMJ
+  materials:
+    Steel: 250
+    Plasma: 100
+    Gold: 100
+
+
+# .20 Rifle
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazineRifleHP
+  result: MagazineRifleHP
+  materials:
+    Steel: 50
+    Plastic: 450
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazineRifleFMJ
+  result: MagazineRifleFMJ
+  materials:
+    Steel: 225
+    Gold: 200
+    Plasma: 200
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxRifleHP
+  result: MagazineBoxRifleHP
+  materials:
+    Plastic: 500
+    Steel: 250
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxRifleFMJ
+  result: MagazineBoxRifleFMJ
+  materials:
+    Steel: 400
+    Gold: 300
+    Plasma: 300
+
+# .30 Rifle
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazineLightRifleHP
+  result: MagazineLightRifleHP
+  materials:
+    Steel: 50
+    Plastic: 550
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazineLightRifleFMJ
+  result: MagazineLightRifleFMJ
+  materials:
+    Steel: 100
+    Plastic: 360
+    Gold: 360
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxLightRifleHP
+  result: MagazineBoxLightRifleHP
+  materials:
+    Steel: 200
+    Plastic: 800
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: MagazineBoxLightRifleFMJ
+  result: MagazineBoxLightRifleFMJ
+  materials:
+    Steel: 600
+    Gold: 350
+    Plasma: 350
+
+# .50 Shell
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoBoxRecipe
+  id: BoxShotgunFlechette
+  result: BoxShotgunFlechette
+  materials:
+    Steel: 100
+    Plasma: 300
+    Gold: 250
+
+- type: latheRecipe
+  parent: BaseSpecialAmmoRecipe
+  id: MagazineShotgunFlechette
+  result: MagazineShotgunFlechette
+  materials:
+    Steel: 50
+    Plasma: 150
+    Gold: 125
+  completetime: 15

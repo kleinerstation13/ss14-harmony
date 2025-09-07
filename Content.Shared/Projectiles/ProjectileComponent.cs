@@ -99,9 +99,5 @@ public sealed partial class ProjectileComponent : Component
     [DataField]
     public FixedPoint2 PenetrationAmount = FixedPoint2.Zero;
 
-    // Goobstation Start
-    [DataField]
-    public float ArmorPenetration;
-    // Goobstation End
 
 }

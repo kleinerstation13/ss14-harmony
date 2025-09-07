@@ -130,6 +130,28 @@
   - SpeedLoaderMagnumUranium
   - EnergyCarbineCartridgeUnstableHarmony # Harmony Change: Adds the unstable energy carbine cartridge to the security recipe pack
   - EnergyCarbineCartridgeXRayHarmony # Harmony Change: Adds the x-ray energy carbine cartridge to the security recipe pack
+# Start harmony change - Ammo rework - add unique ammo recipes to secfab and emagged lathe
+  - MagazineRifleHP
+  - MagazinePistolHP
+  - MagazinePistolSubMachineGunHP
+  - MagazineLightRifleHP
+  - SpeedLoaderMagnumHP
+  - MagazineBoxPistolHP
+  - MagazineBoxMagnumHP
+  - MagazineBoxLightRifleHP
+  - MagazineBoxRifleHP
+  - MagazineRifleFMJ
+  - MagazinePistolFMJ
+  - MagazinePistolSubMachineGunFMJ
+  - MagazineLightRifleFMJ
+  - SpeedLoaderMagnumFMJ
+  - MagazineBoxPistolFMJ
+  - MagazineBoxMagnumFMJ
+  - MagazineBoxLightRifleFMJ
+  - MagazineBoxRifleFMJ
+  - BoxShotgunFlechette
+  - MagazineShotgunFlechette
+# End harmony change
 
 - type: latheRecipePack
   id: SecurityWeapons

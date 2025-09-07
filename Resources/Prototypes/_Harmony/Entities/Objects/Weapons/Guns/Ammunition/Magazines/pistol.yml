@@ -1,0 +1,113 @@
+- type: entity
+  parent: MagazinePistol
+  id: MagazinePistolHP
+  name: pistol magazine (.35 auto hollow point)
+  suffix: Harmony
+  description: 15-round single-stack magazine for pistols. Intended to hold hollowed ammunition meant for dispatching soft targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: stripe
+      color: "#006c68"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#006c68"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#006c68"
+
+- type: entity
+  parent: MagazinePistol
+  id: MagazinePistolFMJ
+  name: pistol magazine (.35 auto jacketed)
+  suffix: Harmony
+  description: 12-round single-stack magazine for pistols. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 12
+    proto: CartridgePistolFMJ
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: stripe
+      color: "#272727"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#272727"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#272727"
+
+- type: entity
+  parent: BaseMagazinePistolSubMachineGun
+  id: MagazinePistolSubMachineGunHP
+  name: SMG magazine (.35 auto hollow point)
+  suffix: Harmony
+  description: 30-round double-stack magazine for submachine guns. Intended to hold hollowed ammunition meant for dispatching soft targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: stripe
+      color: "#006c68"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#006c68"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#006c68"
+
+- type: entity
+  parent: BaseMagazinePistolSubMachineGun
+  id: MagazinePistolSubMachineGunFMJ
+  name: SMG magazine (.35 auto jacketed)
+  suffix: Harmony
+  description: 25-round double-stack magazine for submachine guns. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 25
+    proto: CartridgePistolFMJ
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: stripe
+      color: "#272727"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#272727"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#272727"

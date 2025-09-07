@@ -1,0 +1,33 @@
+- type: entity
+  parent: BaseCartridgeMagnum
+  id: CartridgeMagnumHP
+  name: cartridge (.45 magnum hollow point)
+  suffix: Harmony
+  description: Heavy magnum cartridge mostly used by revolvers. Features a cavity in its tip, designed to expand upon impact. Very effective against soft targets, but does not stand up well against armor.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#006c68"
+
+- type: entity
+  parent: BaseCartridgeMagnum
+  id: CartridgeMagnumFMJ
+  name: cartridge (.45 magnum jacketed)
+  suffix: Harmony
+  description: Heavy magnum cartridge mostly used by revolvers. Contains a hardened steel core encased within a copper jacket, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumFMJ
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#272727"

@@ -1,0 +1,33 @@
+- type: entity
+  parent: BaseCartridgePistol
+  id: CartridgePistolFMJ
+  name: cartridge (.35 auto jacketed)
+  suffix: Harmony
+  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Contains a hardened steel core encased within a copper jacket, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletPistolFMJ
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#272727"
+
+- type: entity
+  parent: BaseCartridgePistol
+  id: CartridgePistolHP
+  name: cartridge (.35 auto hollow point)
+  suffix: Harmony
+  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Features a cavity in its tip, designed to expand upon impact. Very effective against soft targets, but does not stand up well against armor.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletPistolHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#006c68"

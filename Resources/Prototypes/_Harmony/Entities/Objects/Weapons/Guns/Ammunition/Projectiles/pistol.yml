@@ -1,0 +1,23 @@
+- type: entity
+  parent: BaseBullet
+  id: BulletPistolHP
+  categories: [ HideSpawnMenu ]
+  name: bullet (.35 auto hollow point)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 19
+      armorPenetration: -0.6
+
+- type: entity
+  parent: BaseBullet
+  id: BulletPistolFMJ
+  categories: [ HideSpawnMenu ]
+  name: bullet (.35 auto jacketed)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 14
+      armorPenetration: 0.6

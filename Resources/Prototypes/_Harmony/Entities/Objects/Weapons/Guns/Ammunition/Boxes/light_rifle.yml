@@ -1,0 +1,37 @@
+- type: entity
+  parent: BaseMagazineBoxLightRifle
+  id: MagazineBoxLightRifleHP
+  name: ammunition box (.30 rifle hollow point)
+  suffix: Harmony
+  description: A cardboard box of .30 rifle rounds. Intended to hold hollowed ammunition meant for dispatching soft targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleHP
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Boxes/light_rifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: hollowpoint
+
+- type: entity
+  parent: BaseMagazineBoxLightRifle
+  id: MagazineBoxLightRifleFMJ
+  name: ammunition box (.30 rifle jacketed)
+  suffix: Harmony
+  description: A cardboard box of .30 rifle rounds. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleFMJ
+    fillDelay: 0.75
+    capacity: 50
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Boxes/light_rifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: fmj

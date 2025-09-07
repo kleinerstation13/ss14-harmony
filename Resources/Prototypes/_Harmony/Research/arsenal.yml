@@ -1,0 +1,43 @@
+- type: technology
+  id: HPMunitions
+  name: research-technology-HP-munitions
+  icon:
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - MagazineRifleHP
+  - MagazinePistolHP
+  - MagazinePistolSubMachineGunHP
+  - MagazineLightRifleHP
+  - SpeedLoaderMagnumHP
+  - MagazineBoxPistolHP
+  - MagazineBoxMagnumHP
+  - MagazineBoxLightRifleHP
+  - MagazineBoxRifleHP
+
+- type: technology
+  id: FMJMunitions
+  name: research-technology-FMJ-munitions
+  icon:
+    sprite: Clothing/OuterClothing/Vests/webvest.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - MagazineRifleFMJ
+  - MagazinePistolFMJ
+  - MagazinePistolSubMachineGunFMJ
+  - MagazineLightRifleFMJ
+  - SpeedLoaderMagnumFMJ
+  - MagazineBoxPistolFMJ
+  - MagazineBoxMagnumFMJ
+  - MagazineBoxLightRifleFMJ
+  - MagazineBoxRifleFMJ
+  - BoxShotgunFlechette
+  - MagazineShotgunFlechette
+  technologyPrerequisites:
+  - HPMunitions

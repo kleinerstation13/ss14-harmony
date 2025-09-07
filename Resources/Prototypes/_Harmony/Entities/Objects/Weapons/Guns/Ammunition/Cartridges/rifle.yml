@@ -1,0 +1,33 @@
+- type: entity
+  parent: BaseCartridgeRifle
+  id: CartridgeRifleHP
+  name: cartridge (.20 rifle hollow point)
+  suffix: Harmony
+  description: A robust and widespread cartridge, used by most modern rifles. Features a cavity in its tip, designed to expand upon impact. Very effective against soft targets, but does not stand up well against armor.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#006c68"
+
+- type: entity
+  parent: BaseCartridgeRifle
+  id: CartridgeRifleFMJ
+  name: cartridge (.20 rifle jacketed)
+  suffix: Harmony
+  description: A robust and widespread cartridge, used by most modern rifles. Contains a hardened tungsten core encased within a steel jacket, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleFMJ
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#272727"

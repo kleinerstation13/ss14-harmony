@@ -13,8 +13,9 @@
 # Start of Harmony Change: Updates slug damages and gives it penetration
 #       Piercing: 40
         #       Structural: 15
-        Piercing: 37
+        Piercing: 35
         Structural: 75
+      armorPenetration: 0.25 # slugs pierce more armor than buckshot
     penetrationThreshold: 75
     penetrationDamageTypeRequirement:
     - Structural
@@ -50,7 +51,7 @@
       types:
         Piercing: 10
         Structural: 15
-
+      armorPenetration: -0.25 # Harmony change - added partial AP - buckshot is worse against armor
 
 - type: entity
   id: PelletShotgunSpread

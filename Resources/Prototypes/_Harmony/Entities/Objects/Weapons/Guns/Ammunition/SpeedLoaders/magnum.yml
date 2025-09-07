@@ -1,0 +1,67 @@
+- type: entity
+  parent: BaseSpeedLoaderMagnum
+  id: SpeedLoaderMagnumHP
+  name: speed loader (.45 magnum hollow point)
+  suffix: Harmony
+  description: Designed to quickly refill an empty revolver, it fits up to six rounds. Intended to hold hollowed ammunition meant for dispatching soft targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumHP
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: base-6
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-ammo
+      - state: inhand-left-stripe
+        color: "#006c68"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-ammo
+      - state: inhand-right-stripe
+        color: "#006c68"
+
+- type: entity
+  parent: BaseSpeedLoaderMagnum
+  id: SpeedLoaderMagnumFMJ
+  name: speed loader (.45 magnum jacketed)
+  suffix: Harmony
+  description: Designed to quickly refill an empty revolver, it fits up to six rounds. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumFMJ
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: fmj-6
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: fmj
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-ammo
+      - state: inhand-left-stripe
+        color: "#272727"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-ammo
+      - state: inhand-right-stripe
+        color: "#272727"

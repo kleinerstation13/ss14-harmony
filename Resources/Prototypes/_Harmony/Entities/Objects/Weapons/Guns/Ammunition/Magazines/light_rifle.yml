@@ -19,3 +19,60 @@
   - type: Tag
     tags:
     - MagazineLightRifleCaseless
+
+- type: entity
+  parent: MagazineLightRifle
+  id: MagazineLightRifleHP
+  name: magazine (.30 rifle hollow point)
+  suffix: Harmony
+  description: Curved 30-round double stack magazine for combat rifles. Intended to hold hollowed ammunition meant for dispatching soft targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: stripe
+      color: "#006c68"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#006c68"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#006c68"
+
+- type: entity
+  parent: MagazineLightRifle
+  id: MagazineLightRifleFMJ
+  name: magazine (.30 rifle jacketed)
+  suffix: Harmony
+  description: Curved 25-round double stack magazine for combat rifles. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleFMJ
+    capacity: 25
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: stripe
+      color: "#272727"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#272727"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#272727"
