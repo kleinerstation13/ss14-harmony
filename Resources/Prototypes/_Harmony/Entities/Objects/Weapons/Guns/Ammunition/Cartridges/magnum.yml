@@ -8,6 +8,7 @@
   - type: CartridgeAmmo
     proto: BulletMagnumHP
   - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
     - state: base
       map: [ "enum.AmmoVisualLayers.Base" ]
@@ -18,16 +19,18 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumFMJ
-  name: cartridge (.45 magnum jacketed)
+  name: cartridge (.45 magnum plasteel core)
   suffix: Harmony
-  description: Heavy magnum cartridge mostly used by revolvers. Contains a hardened steel core encased within a copper jacket, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
+  description: Heavy magnum cartridge mostly used by revolvers. Contains a plasteel core with a reinforced plasma tip, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumFMJ
   - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
     - state: base
       map: [ "enum.AmmoVisualLayers.Base" ]
+      color: "#818181"
     - state: tip
       map: [ "enum.AmmoVisualLayers.Tip" ]
-      color: "#272727"
+      color: "#a400af"

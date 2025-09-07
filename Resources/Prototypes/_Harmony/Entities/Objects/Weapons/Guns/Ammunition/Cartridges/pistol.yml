@@ -1,19 +1,21 @@
 - type: entity
   parent: BaseCartridgePistol
   id: CartridgePistolFMJ
-  name: cartridge (.35 auto jacketed)
+  name: cartridge (.35 auto plasteel core)
   suffix: Harmony
-  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Contains a hardened steel core encased within a copper jacket, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
+  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Contains a plasteel core with a reinforced plasma tip, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
   components:
   - type: CartridgeAmmo
     proto: BulletPistolFMJ
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
   - type: Sprite
     layers:
     - state: base
       map: [ "enum.AmmoVisualLayers.Base" ]
+      color: "#818181"
     - state: tip
       map: [ "enum.AmmoVisualLayers.Tip" ]
-      color: "#272727"
+      color: "#a400af"
 
 - type: entity
   parent: BaseCartridgePistol

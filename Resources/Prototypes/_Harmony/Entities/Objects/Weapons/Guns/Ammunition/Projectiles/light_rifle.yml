@@ -25,7 +25,7 @@
   parent: BaseBullet
   id: BulletLightRifleFMJ
   categories: [ HideSpawnMenu ]
-  name: bullet (.20 rifle jacketed)
+  name: bullet (.20 rifle plasteel core)
   components:
   - type: Projectile
     damage:

@@ -19,9 +19,9 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleFMJ
-  name: ammunition box (.30 rifle jacketed)
+  name: ammunition box (.30 rifle plasteel core)
   suffix: Harmony
-  description: A cardboard box of .30 rifle rounds. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  description: A cardboard box of .30 rifle rounds. Intended to hold plasteel-cored ammunition meant for dispatching armored targets.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleFMJ

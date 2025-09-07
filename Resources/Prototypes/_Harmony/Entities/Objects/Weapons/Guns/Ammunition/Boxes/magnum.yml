@@ -20,9 +20,9 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumFMJ
-  name: ammunition box (.45 magnum jacketed)
+  name: ammunition box (.45 magnum plasteel core)
   suffix: Harmony
-  description: A cardboard box of .45 magnum rounds. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  description: A cardboard box of .45 magnum rounds. Intended to hold plasteel-cored ammunition meant for dispatching armored targets.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumFMJ

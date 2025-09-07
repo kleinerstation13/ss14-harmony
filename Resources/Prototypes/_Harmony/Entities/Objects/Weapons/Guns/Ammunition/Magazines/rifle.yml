@@ -29,9 +29,9 @@
 - type: entity
   parent: MagazineRifle
   id: MagazineRifleFMJ
-  name: magazine (.20 rifle jacketed)
+  name: magazine (.20 rifle plasteel core)
   suffix: Harmony
-  description: 20-round double-stack magazine for rifles. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  description: 20-round double-stack magazine for rifles. Intended to hold plasteel-cored ammunition meant for dispatching armored targets.
   components:
   - type: BallisticAmmoProvider
     capacity: 20
@@ -43,14 +43,14 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: stripe
-      color: "#272727"
+      color: "#a400af"
   - type: Item
     inhandVisuals:
       left:
       - state: inhand-left-mag
       - state: inhand-left-stripe
-        color: "#272727"
+        color: "#a400af"
       right:
       - state: inhand-right-mag
       - state: inhand-right-stripe
-        color: "#272727"
+        color: "#a400af"

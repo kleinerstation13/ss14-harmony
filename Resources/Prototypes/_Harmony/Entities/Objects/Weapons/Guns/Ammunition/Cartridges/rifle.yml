@@ -18,16 +18,18 @@
 - type: entity
   parent: BaseCartridgeRifle
   id: CartridgeRifleFMJ
-  name: cartridge (.20 rifle jacketed)
+  name: cartridge (.20 rifle plasteel core)
   suffix: Harmony
-  description: A robust and widespread cartridge, used by most modern rifles. Contains a hardened tungsten core encased within a steel jacket, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
+  description: A robust and widespread cartridge, used by most modern rifles. Contains a plasteel core with a reinforced plasma tip, improving the penetration capability of the cartridge exponentially. Damage against unarmored opponents leaves something to be desired, though.
   components:
   - type: CartridgeAmmo
     proto: BulletRifleFMJ
   - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
     - state: base
       map: [ "enum.AmmoVisualLayers.Base" ]
+      color: "#818181"
     - state: tip
       map: [ "enum.AmmoVisualLayers.Tip" ]
-      color: "#272727"
+      color: "#a400af"

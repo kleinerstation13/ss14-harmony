@@ -3,7 +3,7 @@
   id: MagazineShotgunFlechette
   name: ammo drum (.50 flechette)
   suffix: Harmony
-  description: 6-round drum for shotguns. Intended to hold flechettes meant for dispatching armored targets.
+  description: A smaller capacity 6-round drum for shotguns. Intended to hold flechettes meant for dispatching armored targets.
   components:
   - type: BallisticAmmoProvider
     capacity: 6

@@ -14,7 +14,7 @@
   parent: BaseBullet
   id: BulletPistolFMJ
   categories: [ HideSpawnMenu ]
-  name: bullet (.35 auto jacketed)
+  name: bullet (.35 auto plasteel core)
   components:
   - type: Projectile
     damage:

@@ -7,18 +7,18 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 40 # temp
-      armorPenetration: -0.6 # temp
+        Piercing: 40
+      armorPenetration: -0.6
 
 - type: entity
   parent: BaseBullet
   id: BulletMagnumFMJ
-  name: bullet (.45 magnum jacketed)
+  name: bullet (.45 magnum plasteel core)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 30 # temp
-      armorPenetration: 0.6 # temp
+        Piercing: 30
+      armorPenetration: 0.6
 

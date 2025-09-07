@@ -19,9 +19,9 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolFMJ
-  name: ammunition box (.35 auto jacketed)
+  name: ammunition box (.35 auto plasteel core)
   suffix: Harmony
-  description: A cardboard box of .35 auto rounds. Intended to hold jacketed ammunition meant for dispatching armored targets.
+  description: A cardboard box of .35 auto rounds. Intended to hold plasteel-cored ammunition meant for dispatching armored targets.
   components:
   - type: BallisticAmmoProvider
     capacity: 50
