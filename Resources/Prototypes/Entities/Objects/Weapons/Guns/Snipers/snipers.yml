@@ -88,6 +88,9 @@
   - type: GunRequiresWield
   - type: StaticPrice
     price: 500
+  - type: Gun # Harmony change - add sound to Mosin
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/mosin_fire1.ogg
 
 - type: entity
   name: Hristov

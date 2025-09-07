@@ -32,3 +32,8 @@
   license: "CC-BY-4.0"
   copyright: "Created by Universfield"
   source: "https://freesound.org/people/Universfield/sounds/750234/"
+
+- files: ["mosin_fire1"]
+  license: "CC-BY-4.0"
+  copyright: "Created by Vunsunta and Zott820 (https://freesound.org/people/Zott820/sounds/370345), modified by Halycon (kleinerstation13 on Github)"
+  source: "https://freesound.org/people/Universfield/sounds/750234/"
