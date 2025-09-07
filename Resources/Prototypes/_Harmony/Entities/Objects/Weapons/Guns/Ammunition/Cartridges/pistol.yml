@@ -7,8 +7,8 @@
   components:
   - type: CartridgeAmmo
     proto: BulletPistolFMJ
-    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
   - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
     - state: base
       map: [ "enum.AmmoVisualLayers.Base" ]
