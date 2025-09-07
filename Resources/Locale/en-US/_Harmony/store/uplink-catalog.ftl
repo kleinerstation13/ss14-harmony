@@ -34,6 +34,9 @@ uplink-shotgun-drum-pellet-desc = Shotgun drum with eight pellet shells. Compati
 uplink-shotgun-drum-slug-name = Shotgun Magazine (.50 slug)
 uplink-shotgun-drum-slug-desc = Shotgun drum with eight slug shells. Compatible with the Bulldog.
 
+uplink-shotgun-drum-incendiary-name = Shotgun Magazine (.50 incendiary)
+uplink-shotgun-drum-incendiary-desc = Shotgun drum with eight incendiary shells. Compatible with the Bulldog.
+
 uplink-rifle-magazine-bandit-name = DMR Magazine (.30 rifle caseless)
 uplink-rifle-magazine-bandit-desc = Rifle magazine with 15 cartridges. Compatible with the Bandit.
 
