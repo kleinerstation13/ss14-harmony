@@ -41,8 +41,8 @@
   result: MagazinePistolFMJ
   materials:
     Steel: 120
-    Gold: 25
-    Plasma: 25
+    Plasteel: 40
+    Plasma: 15
 
 - type: latheRecipe
   parent: BaseSpecialAmmoRecipe
@@ -50,8 +50,8 @@
   result: MagazinePistolSubMachineGunFMJ
   materials:
     Steel: 275
-    Gold: 25
-    Plasma: 25
+    Plasteel: 40
+    Plasma: 15
 
 - type: latheRecipe
   parent: BaseSpecialAmmoBoxRecipe
@@ -59,8 +59,8 @@
   result: MagazineBoxPistolFMJ
   materials:
     Steel: 600
-    Gold: 150
-    Plasma: 150
+    Plasteel: 200
+    Plasma: 100
 
 - type: latheRecipe
   parent: BaseSpecialAmmoBoxRecipe
@@ -86,8 +86,8 @@
   result: SpeedLoaderMagnumFMJ
   materials:
     Steel: 100
-    Gold: 150
-    Plasma: 150
+    Plasteel: 200
+    Plasma: 100
 
 - type: latheRecipe
   parent: BaseSpecialAmmoBoxRecipe
@@ -103,8 +103,8 @@
   result: MagazineBoxMagnumFMJ
   materials:
     Steel: 250
-    Plasma: 100
-    Gold: 100
+    Plasma: 50
+    Plasteel: 150
 
 
 # .20 Rifle
@@ -123,8 +123,8 @@
   result: MagazineRifleFMJ
   materials:
     Steel: 225
-    Gold: 200
-    Plasma: 200
+    Plasteel: 300
+    Plasma: 100
 
 - type: latheRecipe
   parent: BaseSpecialAmmoBoxRecipe
@@ -140,8 +140,8 @@
   result: MagazineBoxRifleFMJ
   materials:
     Steel: 400
-    Gold: 300
-    Plasma: 300
+    Plasteel: 400
+    Plasma: 200
 
 # .30 Rifle
 
@@ -159,8 +159,8 @@
   result: MagazineLightRifleFMJ
   materials:
     Steel: 100
-    Plastic: 360
-    Gold: 360
+    Plasma: 320
+    Plasteel: 400
 
 - type: latheRecipe
   parent: BaseSpecialAmmoBoxRecipe
@@ -175,9 +175,9 @@
   id: MagazineBoxLightRifleFMJ
   result: MagazineBoxLightRifleFMJ
   materials:
-    Steel: 600
-    Gold: 350
-    Plasma: 350
+    Steel: 400
+    Plasteel: 450
+    Plasma: 450
 
 # .50 Shell
 
@@ -187,8 +187,8 @@
   result: BoxShotgunFlechette
   materials:
     Steel: 100
-    Plasma: 300
-    Gold: 250
+    Plasma: 250
+    Plasteel: 300
 
 - type: latheRecipe
   parent: BaseSpecialAmmoRecipe
@@ -196,6 +196,6 @@
   result: MagazineShotgunFlechette
   materials:
     Steel: 50
-    Plasma: 150
-    Gold: 125
+    Plasma: 100
+    Plasteel: 175
   completetime: 15
