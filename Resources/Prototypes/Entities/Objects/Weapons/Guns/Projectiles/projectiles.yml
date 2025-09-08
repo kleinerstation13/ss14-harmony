@@ -502,7 +502,7 @@
   - type: TimedDespawn
     lifetime: 0.22 # roughly 5.5 tiles
   - type: GatheringProjectile
-  - type: PressureProjectile # DeltaV
+  - type: PressureProjectile # Harmony change - DeltaV PKA Rework
 
 - type: entity
   id: BulletKineticShuttle
@@ -530,7 +530,7 @@
     color: white
     energy: 0.5
   - type: GatheringProjectile
-  - type: PressureProjectile # DeltaV
+  - type: PressureProjectile # Harmony change - DeltaV PKA Rework
 
 - type: entity
   id: BulletCharge
