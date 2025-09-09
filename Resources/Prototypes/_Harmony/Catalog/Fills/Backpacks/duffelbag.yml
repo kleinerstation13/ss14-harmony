@@ -55,7 +55,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSniperHristovHarmony
+    - id: WeaponSniperHristovHarmonyNukie
     - id: MagazineAntiMateriel
       amount: 2
 
