@@ -2,6 +2,8 @@
   id: ModificationBagelRemoveIncendiary
   applyOn:
   - Bagel
-  removals:
-  - !type:EntityPrototypeSelector
-    prototype: MagazineLightRifleIncendiary
+  replacements:
+  - from:
+    - !type:EntityPrototypeSelector
+      prototype: MagazineLightRifleIncendiary
+    newPrototype: MagazineLightRifle
