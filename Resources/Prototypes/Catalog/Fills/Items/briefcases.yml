@@ -21,8 +21,8 @@
     - 0,0,6,4 # Harmony change - Hristov rework, changes size to fit magazines 0,0,6,3 -> 0,0,6,4
   - type: StorageFill
     contents:
-      - id: WeaponSniperHristovHarmony # Harmony change - Hristov rework, changes upstream prototype to harmony prototype
-# Start Harmony change - Hristov rework, replaces hristov ammo boxes with magazines.
+# Start Harmony change - Hristov rework, replaces hristov ammo boxes with magazines, changes upstream Hristov prototype to harmony prototype
+      - id: WeaponSniperHristovHarmony # WeaponSniperHristov -> WeaponSniperHristovHarmony
 #     - id: MagazineBoxAntiMateriel
       - id: MagazineAntiMateriel
         amount: 2
