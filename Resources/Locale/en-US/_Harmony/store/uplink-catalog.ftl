@@ -11,7 +11,7 @@ uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup whi
 
 uplink-sniper-bundle-harmony-desc = An inconspicuous briefcase that contains a Hristov, 2 spare magazines and a convenient disguise.
 
-uplink-sniper-bundle-nukie-name = Hristov Bundle
+uplink-sniper-bundle-nukie-name = Hristov Mk.2 Bundle
 uplink-sniper-bundle-nukie-desc = Contains a Hristov, a heavy sniper which excels at dealing debilitating damage from range. Bundled with 2 sniper magazines. Uses .60 anti-materiel ammo.
 
 # Explosive
