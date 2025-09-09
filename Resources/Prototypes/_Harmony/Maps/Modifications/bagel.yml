@@ -1,0 +1,7 @@
+- type: mapModification
+  id: ModificationBagelRemoveIncendiary
+  applyOn:
+  - Bagel
+  removals:
+  - !type:EntityPrototypeSelector
+    prototype: MagazineLightRifleIncendiary
