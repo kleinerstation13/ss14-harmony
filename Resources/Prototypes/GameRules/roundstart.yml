@@ -185,11 +185,10 @@
     - prefRoles: [ Nukeops ]
       fallbackRoles: [ NukeopsCommander, NukeopsMedic, NukeopsSapper ] # harmony change - add sapper
       spawnerPrototype: SpawnPointNukeopsOperative
-# Harmony start
-#     max: 2
-#     playerRatio: 10
-      minPlayers: 25 # fourth nukie is an operator, third is sapper
-# Harmony end
+# Start harmony change
+      max: 1 # 2 -> 1
+      playerRatio: 20 # 10->20 (I have no idea if i did this correctly)
+# End harmony change
       startingGear: SyndicateOperativeGearFull
       roleLoadout:
       - RoleSurvivalNukie
