@@ -29,7 +29,7 @@
   - type: StorageFill
     contents:
     - id: C4
-      amount: 3
-    - id: X4
       amount: 2
+    - id: X4
+      amount: 1
     - id: SyndieMiniBomb
