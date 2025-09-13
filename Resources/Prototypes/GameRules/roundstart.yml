@@ -187,8 +187,8 @@
       spawnerPrototype: SpawnPointNukeopsOperative
 # Start harmony change
       max: 1 # 2 -> 1
-      playerRatio: 20 # 10->20 (I have no idea if i did this correctly)
 # End harmony change
+      playerRatio: 10
       startingGear: SyndicateOperativeGearFull
       roleLoadout:
       - RoleSurvivalNukie
