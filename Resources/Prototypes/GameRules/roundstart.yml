@@ -185,9 +185,7 @@
     - prefRoles: [ Nukeops ]
       fallbackRoles: [ NukeopsCommander, NukeopsMedic, NukeopsSapper ] # harmony change - add sapper
       spawnerPrototype: SpawnPointNukeopsOperative
-# Start harmony change
-      max: 1 # 2 -> 1
-# End harmony change
+      max: 1 # harmony change 2 -> 1
       playerRatio: 10
       startingGear: SyndicateOperativeGearFull
       roleLoadout:
