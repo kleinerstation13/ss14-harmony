@@ -9,3 +9,11 @@
     exclusiveAntag: true
     roleType: TeamAntagonist
     subtype: role-subtype-blood-brother
+
+- type: entity
+  parent: MindRoleNukeops
+  id: MindRoleNukeopsSapper
+  name: Nukeops Sapper Role
+  components:
+  - type: MindRole
+    antagPrototype: NukeopsSapper

@@ -1,0 +1,25 @@
+- type: startingGear
+  id: SyndicateOperativeSapperFull
+  parent: SyndicateOperativeGearFull
+  equipment:
+    outerClothing: ClothingOuterHardsuitSapper
+    id: SyndiSapperPDA
+    belt: ClothingBeltMilitaryWebbingSapperFilled
+  storage:
+    back:
+    - CombatKnife
+    - WeaponPistolViper
+    - PinpointerSyndicateNuclear
+    - DeathAcidifierImplanter
+    - SledgehammerBloodRed
+
+- type: antag
+  id: NukeopsSapper
+  name: roles-antag-nuclear-operative-sapper-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-nuclear-operative-sapper-objective
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 18000 # 5h (same timegate as operative)
+  guides: [ NuclearOperatives ]

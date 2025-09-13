@@ -32,3 +32,38 @@
     - WhitelistChameleon
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitQM
+
+# Sapper Hardsuit
+- type: entity
+  parent: [ ClothingOuterHardsuitSyndie, BaseSyndicateContraband ]
+  id: ClothingOuterHardsuitSapper
+  name: sapper hardsuit
+  description: A heavily padded hardsuit designed for work in Explosive Ordnance Disposal operations. Property of Gorlex Marauders.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndiesapper.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndiesapper.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.25 # sapper is more resistant to explosives
+  - type: StaminaResistance
+    damageCoefficient: 0.8 # lower stam resist than bloodred (25 -> 20) so it isnt just better
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.55 # lower pierce resist than bloodred (50 -> 45) so it isnt just better
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSapper
+  - type: Tag
+    tags: # should not be monkey wearable
+    - Hardsuit
+    - WhitelistChameleon
+

@@ -28,3 +28,15 @@
       settings: default
   - type: GhostRoleMobSpawner
     prototype: MobBinglePrime
+
+- type: entity
+  categories: [ HideSpawnMenu, Spawner ]
+  parent: SpawnPointLoneNukeOperative
+  id: SpawnPointNukeopsSapper
+  components:
+  - type: GhostRole
+    name: roles-antag-nuclear-operative-sapper-name
+    description: roles-antag-nuclear-operative-sapper-objective
+    rules: ghost-role-information-rules-default-team-antagonist
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist

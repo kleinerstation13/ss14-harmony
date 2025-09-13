@@ -1,0 +1,20 @@
+- type: entity
+  parent: Sledgehammer
+  id: SledgehammerBloodRed
+  name: blood-red sledgehammer
+  suffix: Harmony
+  description: An industrial sledgehammer, designed for taking down entire walls in a couple of swings. Property of the Gorlex Marauders.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Melee/sledgehammer.rsi
+    state: icon
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+        Structural: 10
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 15
+        Structural: 40

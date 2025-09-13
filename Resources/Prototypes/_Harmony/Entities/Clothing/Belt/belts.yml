@@ -60,3 +60,17 @@
           - Bottle
     sprite: Clothing/Belt/belt_overlay.rsi
   - type: Appearance
+
+- type: entity
+  parent: ClothingBeltMilitaryWebbing
+  id: ClothingBeltMilitaryWebbingSapper
+  name: sapper chest rig
+  suffix: Harmony
+  description: A set of tactical webbing worn by Gorlex Marauder sappers.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Belt/militarywebbingsapper.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Belt/militarywebbingsapper.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.05

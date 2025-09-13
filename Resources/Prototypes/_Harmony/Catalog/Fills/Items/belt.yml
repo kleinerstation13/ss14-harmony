@@ -20,3 +20,16 @@
     containers:
       storagebase: !type:NestedSelector
         tableId: BeltBrigmedHarmonyEntityTable
+
+- type: entity
+  parent: ClothingBeltMilitaryWebbingSapper
+  id: ClothingBeltMilitaryWebbingSapperFilled
+  suffix: Filled, Harmony
+  components:
+  - type: StorageFill
+    contents:
+    - id: C4
+      amount: 3
+    - id: X4
+      amount: 2
+    - id: SyndieMiniBomb

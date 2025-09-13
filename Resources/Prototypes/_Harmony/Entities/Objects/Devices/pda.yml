@@ -46,3 +46,28 @@
   components:
   - type: Pda
     id: ERPClownIDCard
+
+- type: entity
+  parent: [ BasePDA, BaseSyndicateContraband ]
+  id: SyndiSapperPDA
+  name: syndicate sapper PDA
+  suffix: Harmony
+  description: One crossed wire, one wayward pinch of potassium chlorate, one errant twitch, and KA-BOOM!
+  components:
+  - type: Pda
+    id: SyndicateIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-syndi-agent
+  - type: PdaBorderColor
+    borderColor: "#891417"
+  - type: Icon
+    state: pda-syndi-agent
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+    - NotekeeperCartridge
+    - NanoTaskCartridge
+    - AstroNavCartridge # Harmony change to give Syndicate Agent PDA AstroNav

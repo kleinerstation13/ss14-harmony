@@ -130,7 +130,7 @@
     selectionTime: PrePlayerSpawn
     definitions:
     - prefRoles: [ NukeopsCommander ]
-      fallbackRoles: [ Nukeops, NukeopsMedic ]
+      fallbackRoles: [ Nukeops, NukeopsMedic, NukeopsSapper ] # harmony change - add sapper
       spawnerPrototype: SpawnPointNukeopsCommander
       startingGear: SyndicateCommanderGearFull
       roleLoadout:
@@ -147,7 +147,7 @@
       mindRoles:
       - MindRoleNukeopsCommander
     - prefRoles: [ NukeopsMedic ]
-      fallbackRoles: [ Nukeops, NukeopsCommander ]
+      fallbackRoles: [ Nukeops, NukeopsCommander, NukeopsSapper ] # harmony change - add sapper
       spawnerPrototype: SpawnPointNukeopsMedic
       startingGear: SyndicateOperativeMedicFull
       roleLoadout:
@@ -163,11 +163,33 @@
         - Syndicate
       mindRoles:
       - MindRoleNukeopsMedic
+# Harmony start
+    - prefRoles: [ NukeopsSapper ]
+      fallbackRoles: [ Nukeops, NukeopsCommander, NukeopsMedic ]
+      spawnerPrototype: SpawnPointNukeopsSapper
+      startingGear: SyndicateOperativeSapperFull
+      roleLoadout:
+      - RoleSurvivalNukie
+      components:
+      - type: NukeOperative
+      - type: RandomMetadata
+        nameSegments:
+        - NamesSyndicateNormal
+        nameFormat: name-format-nukie-sapper
+      - type: NpcFactionMember
+        factions:
+        - Syndicate
+      mindRoles:
+      - MindRoleNukeopsSapper
+# Harmony end
     - prefRoles: [ Nukeops ]
-      fallbackRoles: [ NukeopsCommander, NukeopsMedic ]
+      fallbackRoles: [ NukeopsCommander, NukeopsMedic, NukeopsSapper ] # harmony change - add sapper
       spawnerPrototype: SpawnPointNukeopsOperative
-      max: 2
-      playerRatio: 10
+# Harmony start
+#     max: 2
+#     playerRatio: 10
+      minPlayers: 25 # fourth nukie is an operator, third is sapper
+# Harmony end
       startingGear: SyndicateOperativeGearFull
       roleLoadout:
       - RoleSurvivalNukie
