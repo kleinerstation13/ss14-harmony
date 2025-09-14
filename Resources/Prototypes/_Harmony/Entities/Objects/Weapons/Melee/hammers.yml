@@ -16,5 +16,5 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 15
-        Structural: 30
+        Blunt: 10
+        Structural: 40

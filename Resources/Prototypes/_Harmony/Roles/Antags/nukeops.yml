@@ -7,7 +7,6 @@
     belt: ClothingBeltMilitaryWebbingSapperFilled
   storage:
     back:
-    - CombatKnife
     - WeaponPistolViper
     - PinpointerSyndicateNuclear
     - DeathAcidifierImplanter

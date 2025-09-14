@@ -16,6 +16,7 @@
   ## Operatives
   Your team will be made up of several different roles, which are:
   - [bold]Operatives[/bold], standard soldiers who can take up the grunt work.
+  - The [bold]Sapper[/bold] who specializes in dealing structural damage with their unique equipment. <!--Harmony addition: Added nukie sapper-->
   - The [bold]Corpsman[/bold] who works with reagents to make medicines or chemical weapons.
   - The [bold]Commander[/bold] who draws up the plan and leads the team.
 
@@ -23,6 +24,7 @@
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie"/>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieMedic" Caption="corpsman's hardsuit"/>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieCommander" Caption="commander's hardsuit"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSapper" Caption="sapper's hardsuit"/> <!--Harmony addition: Added nukie sapper-->
   </Box>
 
   If you have been selected as the Corpsman or Commander but don't feel ready, one of your teammates can take over your responsibilities.
