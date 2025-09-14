@@ -38,6 +38,7 @@
   parent: [ ClothingOuterHardsuitSyndie, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitSapper
   name: sapper hardsuit
+  suffix: Harmony
   description: A heavily padded hardsuit designed for work in Explosive Ordnance Disposal operations. Property of Gorlex Marauders.
   components:
   - type: Sprite

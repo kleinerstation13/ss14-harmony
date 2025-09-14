@@ -38,6 +38,7 @@
   parent: [ ClothingHeadHelmetHardsuitSyndie, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSapper
   name: blood-red sapper hardsuit helmet
+  suffix: Harmony
   description: A heavily armored helmet designed for work in Explosive Ordnance Disposal operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
