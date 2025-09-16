@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "by DVD Player for Impstation.",
+  "copyright": "Taken from Impstation at commit https://github.com/impstation/imp-station-14/commit/c1be55c9c4f5ea5a6635c34147509024880d3bf9. Created by DVDPlayerOfDiscordFame (Github).",
   "size": {
     "x": 32,
     "y": 32
