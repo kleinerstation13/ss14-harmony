@@ -353,7 +353,7 @@
     sprite: _Impstation/Objects/Weapons/Guns/Projectiles/energybolts.rsi #imp
     layers:
 #   - state: omnilaser
-    - state: mediumstun
+    - state: mediumsynd # harmony - mediumstun -> mediumsynd
 # End Harmony change
       shader: unshaded
   - type: Physics
@@ -369,11 +369,11 @@
         - BulletImpassable
       fly-by: *flybyfixture
   - type: Ammo
-    muzzleFlash: MuzzleFlashEffectOmnilaser # Harmony change - Impstation projectile port
+    muzzleFlash: MuzzleFlashEffectSyndLaser # Harmony change - added MuzzleFlashEffectOmnilaser for Impstation port and changed to MuzzleFlashEffectSyndLaser
   - type: StaminaDamageOnCollide
     damage: 1
   - type: Projectile
-    impactEffect: BulletImpactEffectDisabler
+    impactEffect: BulletImpactEffectSyndicate # Harmony change - BulletImpactEffectDisabler -> BulletImpactEffectSyndicate
     damage:
       types:
         Heat: 0
