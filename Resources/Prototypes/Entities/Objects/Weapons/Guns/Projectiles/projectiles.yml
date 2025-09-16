@@ -471,7 +471,7 @@
   components:
   - type: Projectile
     #   soundHit:  Waiting on serv3
-    impactEffect: BulletImpactEffectDisabler
+    impactEffect: BulletImpactEffectCold # Harmony change -  BulletImpactEffectOrangeDisabler -> BulletImpactEffectCold
     damage:
       types:
         Cold: 10
@@ -518,7 +518,7 @@
   components:
   - type: Projectile
     #   soundHit:  Waiting on serv3
-    impactEffect: BulletImpactEffectOrangeDisabler
+    impactEffect: BulletImpactEffectHot # Harmony change -  BulletImpactEffectOrangeDisabler -> BulletImpactEffectHot
     damage:
       types:
         Heat: 10
