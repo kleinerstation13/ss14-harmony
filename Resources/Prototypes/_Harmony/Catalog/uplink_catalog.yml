@@ -13,6 +13,30 @@
     Telecrystal: 20
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkLaserSCALD
+  name: uplink-scaldr-name
+  description: uplink-scaldr-desc
+  icon: { sprite: _Harmony/Objects/Weapons/Guns/Battery/laser_musket.rsi, state: icon }
+  productEntity: WeaponLaserSCALDR
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 15
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkHushpup

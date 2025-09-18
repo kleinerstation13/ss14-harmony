@@ -27,3 +27,8 @@
   license: "CC-BY-NC-4.0"
   copyright: "Created by Vunsunta"
   source: "https://www.dropbox.com/scl/fi/dd03xhdhwg9em8l1xyxtr/Vunsunta-Firearm-Sound-Pack-V2.zip?rlkey=p7cyhkgf462v2bikj8awjbugu&e=1&st=a38k4aqn&dl=0"
+
+- files: ["lasermusket_fire1"]
+  license: "Custom"
+  copyright: "Created by ZeniMax and Bethesda Game Studios in Fallout 4. Volume modified by kleinerstation13 (Github)"
+  source: "https://store.steampowered.com/app/377160/Fallout_4/"

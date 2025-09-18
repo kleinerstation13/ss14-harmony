@@ -9,6 +9,9 @@ uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low
 uplink-rifle-bandit-name = Bandit Bundle
 uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
 
+uplink-scaldr-name = SCALD-R
+uplink-scaldr-desc = Contains the SCALD-R, an extremely powerful crank-actuated laser which can be reloaded with power cells. Takes a long time to spool up and fire.
+
 # Explosive
 
 uplink-kudzu-grenade-name = Kudzu grenade

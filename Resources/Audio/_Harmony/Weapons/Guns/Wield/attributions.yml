@@ -1,0 +1,4 @@
+- files: ["musket_wield.ogg", "musket_idle1.ogg", "musket_idle2.ogg", "musket_idle3.ogg", "musket_idle4.ogg", "musket_idle5.ogg"]
+  license: "Custom"
+  copyright: "Created by ZeniMax and Bethesda Game Studios for use in Fallout 4. Individual crank samples spliced together into musket_wield.ogg by kleinerstation13 (Github)"
+  source: "https://store.steampowered.com/app/377160/Fallout_4/"

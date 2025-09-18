@@ -20,3 +20,12 @@
   files:
   - /Audio/_Harmony/Weapons/Guns/Gunshots/python_fire1.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/python_fire2.ogg
+
+- type: soundCollection
+  id: LaserIdle
+  files:
+  - /Audio/_Harmony/Weapons/Guns/Wield/musket_idle1.ogg
+  - /Audio/_Harmony/Weapons/Guns/Wield/musket_idle2.ogg
+  - /Audio/_Harmony/Weapons/Guns/Wield/musket_idle3.ogg
+  - /Audio/_Harmony/Weapons/Guns/Wield/musket_idle4.ogg
+  - /Audio/_Harmony/Weapons/Guns/Wield/musket_idle5.ogg

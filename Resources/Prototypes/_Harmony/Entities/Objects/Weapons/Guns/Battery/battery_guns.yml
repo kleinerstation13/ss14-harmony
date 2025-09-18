@@ -155,3 +155,53 @@
     autoRechargePause: true
     autoRechargePauseTime: 10
   - type: Appearance
+
+- type: entity
+  name: SCALD-R
+  parent: [BaseWeaponPowerCell, BaseGunWieldable]
+  id: WeaponLaserSCALDR
+  description: The rather outdated, but infamous "Repeater" model of the Syndicate Crank Actuated Laser Device. produced by Cybersun as the budget response to the rapid advancement of Nanotrasen laser weaponry. Might tear your shoulder off, or annihilate whatever you're pointing it at. Pray it's the latter.
+  components:
+  - type: Item
+    size: Large
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Battery/laser_musket.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+  - type: Appearance
+  - type: Clothing
+    slots:
+    - Back
+    - suitStorage
+    sprite: _Harmony/Objects/Weapons/Guns/Battery/laser_musket.rsi
+  - type: Gun
+    fireRate: 0.4
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/lasermusket_fire1.ogg
+      params:
+        volume: 3
+  - type: HitscanBatteryAmmoProvider
+    proto: RedHeavyLaserMusket
+    fireCost: 240
+  - type: UseDelay
+    delay: 2.5
+  - type: Wieldable
+    wieldSound:
+      path: /Audio/_Harmony/Weapons/Guns/Wield/musket_wield.ogg
+  - type: AmbientSound
+    range: 0.01
+    volume: -6.5
+    sound:
+      collection: LaserIdle
+  - type: GunRequiresWield
