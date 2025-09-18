@@ -48,34 +48,12 @@
 
 - type: entity
   parent: ClothingBackpackDuffel
-  id: SyndicateMiamiKitRichard
-  suffix: Harmony, Richard Kit
-  components:
-  - type: StorageFill
-    contents:
-    - id: ClothingHeadHatRichard
-      amount: 1
-    - id: MagazinePistolSubMachineGun
-      amount: 1
-    - id: WeaponSubMachineGunM10
-      amount: 1
-    - id: ClothingOuterCoatLetterman
-      amount: 1
-    - id: ClothingUniformJumpsuitOperativeShortSleeved
-      amount: 1
-    - id: ClothingShoesColorWhite
-      amount: 1
-
-- type: entity
-  parent: ClothingBackpackDuffel
-  id: SyndicateMiamiKitTony
-  suffix: Harmony, Tony Kit
+  id: ClothingBackpackDuffelSyndicateMiamiBundle
+  suffix: Harmony, Miami Bundle
   components:
   - type: StorageFill
     contents:
     - id: ClothingHeadHatTony
-      amount: 1
-    - id: ClothingHandsBloodyKnuckleDusters
       amount: 1
     - id: ClothingOuterVestFlak
       amount: 1
@@ -83,3 +61,18 @@
       amount: 1
     - id: ClothingShoesBootsCombat
       amount: 1
+    - id: ClothingHandsBloodyKnuckleDusters
+      amount: 1
+
+- type: entity
+  id: ClothingBackpackDuffelSyndicateFilledM10
+  parent: ClothingBackpackDuffelSyndicateBundle
+  suffix: Harmony, M10
+  name: M10 "Vice" bundle
+  description:
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunM10
+    - id: MagazinePistolSubMachineGun
+      amount: 2

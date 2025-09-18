@@ -17,7 +17,7 @@
     sound: /Audio/_Harmony/Weapons/Melee/pickupweapon.ogg
   - type: ClothingSpeedModifier
     walkModifier: 1
-    sprintModifier: 1.1
+    sprintModifier: 1.05
   - type: Tag
     tags:
     - HidesHair

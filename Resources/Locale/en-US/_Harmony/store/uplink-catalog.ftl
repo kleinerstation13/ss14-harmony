@@ -9,8 +9,8 @@ uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low
 uplink-rifle-bandit-name = Bandit Bundle
 uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
 
-uplink-miami-bundle-name = Miami Bundle
-uplink-miami-bundle-desc = A randomly selected kit containing weapons and/or armor to help kill people like you're a mask-wearing russian-mobster murdering killer in the 80's.
+uplink-smg-m10-name = M-10 "Vice"
+uplink-smg-m10-desc = Contains an M10 submachine gun, the ultimate spray-and-pray machine. The only thing that will stop you is the click of your magazine emptying. Bundled with 2 spare magazines. Uses .35 auto ammo.
 
 # Explosive
 
@@ -64,6 +64,10 @@ uplink-traitor-deathrattle-implant-name = Box Of Deathrattle Implants
 uplink-traitor-deathrattle-implant-desc = A box containing two syndicate deathrattle implants. Messages are relayed over the syndicate channel, encryption keys not included.
 
 # Wearables
+
+uplink-miami-bundle-name = Miami Bundle
+uplink-miami-bundle-desc = A kit containing armor and stylish clothing to help kill people like you're a mask-wearing russian-mobster murdering killer in the 80's.
+
 # Pointless
 
 uplink-cluster-weh-name = Tactical Clusterplushie

@@ -65,23 +65,19 @@
   id: ClothingHandsBloodyKnuckleDusters
   name: bloody knuckle dusters
   suffix: Harmony
-  description: You get a certain rush wearing these gloves while tearing flesh off with each swing. It is very bloody.
+  description: You get a certain rush wearing these gloves while tearing flesh off with each swing. They are very bloody.
   components:
   - type: Sprite
     sprite: _Harmony/Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
     state: icon
   - type: Clothing
-    unequipDelay: 2 # prevents juggling to counter damage vulnerability
+    unequipDelay: 1 # no sound spam
     sprite: _Harmony/Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
   - type: MeleeWeapon
-    resistanceBypass: true
-    attackRate: 1.5
-    range: .75
+    attackRate: 1
     damage:
-      types: # 3 punches crit
-        Blunt: 17
-        Slash: 17
-    bluntStaminaDamageFactor: 1.35
+      types: # same as regular punches, just cool flavor for non-human species to be able to punch people with this
+        Blunt: 5
     soundHit:
       collection: KnuckleDuster
     animation: WeaponArcFist
@@ -91,13 +87,3 @@
     - WhitelistChameleon
   - type: EmitSoundOnPickup
     sound: /Audio/_Harmony/Weapons/Melee/pickupweapon.ogg
-  - type: ClothingGrantComponent
-    component:
-      - type: SpaceNinja # this is very hacky and technically allows traitors to use the ninja suit invisibility, but this is the ONLY way i found to disallow guns without having to butcher it from SharedNinjaSystem
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 2.5
-        Slash: 2.5
-        Piercing: 2
-        Heat: 2
