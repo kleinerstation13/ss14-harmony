@@ -43,7 +43,8 @@
   - type: Clothing
     sprite: _Harmony/Clothing/OuterClothing/Coats/letterman.rsi
   - type: TemperatureProtection
-    coefficient: 0.1
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
   - type: Armor
     modifiers:
       coefficients:

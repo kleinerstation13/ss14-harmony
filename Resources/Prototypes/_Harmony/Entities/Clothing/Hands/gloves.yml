@@ -74,13 +74,13 @@
     unequipDelay: 2 # prevents juggling to counter damage vulnerability
     sprite: _Harmony/Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
   - type: MeleeWeapon
+    resistanceBypass: true
     attackRate: 1.5
     range: .75
     damage:
       types: # 3 punches crit
         Blunt: 17
         Slash: 17
-    ignoreResistances: true # will be partial AP later
     bluntStaminaDamageFactor: 1.35
     soundHit:
       collection: KnuckleDuster
