@@ -9,6 +9,9 @@ uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low
 uplink-rifle-bandit-name = Bandit Bundle
 uplink-rifle-bandit-desc = Contains the Bandit, a reliable semi-auto bullpup which fires devastating caseless rounds, bundled with 2 DMR magazines. Uses .30 rifle caseless ammo.
 
+uplink-miami-bundle-name = Miami Bundle
+uplink-miami-bundle-desc = A randomly selected kit containing weapons and/or armor to help kill people like you're a mask-wearing russian-mobster murdering killer in the 80's.
+
 # Explosive
 
 uplink-kudzu-grenade-name = Kudzu grenade

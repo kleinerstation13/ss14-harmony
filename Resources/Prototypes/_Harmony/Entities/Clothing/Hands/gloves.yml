@@ -59,3 +59,45 @@
     - type: Sharp
     - type: Contraband
       severity: Syndicate
+
+- type: entity
+  parent: [ClothingHandsBase, BaseSyndicateContraband]
+  id: ClothingHandsBloodyKnuckleDusters
+  name: bloody knuckle dusters
+  suffix: Harmony
+  description: You get a certain rush wearing these gloves while tearing flesh off with each swing. It is very bloody.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
+    state: icon
+  - type: Clothing
+    unequipDelay: 2 # prevents juggling to counter damage vulnerability
+    sprite: _Harmony/Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
+  - type: MeleeWeapon
+    attackRate: 1.5
+    range: .75
+    damage:
+      types: # 3 punches crit
+        Blunt: 17
+        Slash: 17
+    ignoreResistances: true # will be partial AP later
+    bluntStaminaDamageFactor: 1.35
+    soundHit:
+      collection: KnuckleDuster
+    animation: WeaponArcFist
+    mustBeEquippedToUse: true
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Harmony/Weapons/Melee/pickupweapon.ogg
+  - type: ClothingGrantComponent
+    component:
+      - type: SpaceNinja # this is very hacky and technically allows traitors to use the ninja suit invisibility, but this is the ONLY way i found to disallow guns without having to butcher it from SharedNinjaSystem
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 1.5
+        Slash: 1.5
+        Piercing: 2
+        Heat: 2

@@ -1,0 +1,14 @@
+- type: entity
+  parent: CrateGenericSteel
+  id: CrateSyndicateMiamiBundle
+  suffix: Harmony, Miami Bundle
+  components:
+  - type: StorageFill
+    contents:
+    - id: SyndicateMiamiKitTony
+      amount: 1
+      orGroup: Miami
+    - id: SyndicateMiamiKitRichard
+      amount: 1
+      orGroup: Miami
+      prob: 0.5

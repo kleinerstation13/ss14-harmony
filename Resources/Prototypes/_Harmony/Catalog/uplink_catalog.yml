@@ -56,6 +56,22 @@
   categories:
   - UplinkWeaponry
 
+- type: listing
+  id: UplinkMiamiBundle
+  name: uplink-miami-bundle-name
+  description: uplink-miami-bundle-desc
+  productEntity: CrateSyndicateMiamiBundle
+  icon: { sprite: _Harmony/Clothing/Head/Misc/tony.rsi, state: icon }
+  cost:
+    Telecrystal: 14 # no discounts, this bundle is random, surplus also is and doesn't get them
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+
 # Explosives
 
 - type: listing
