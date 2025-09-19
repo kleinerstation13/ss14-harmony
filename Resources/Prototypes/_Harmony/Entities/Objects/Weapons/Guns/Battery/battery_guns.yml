@@ -155,6 +155,9 @@
     autoRechargePause: true
     autoRechargePauseTime: 10
   - type: Appearance
+  - type: StealTarget
+    stealGroup: WeaponEnergyMagnumHarmony
+
 
 - type: entity
   parent: [BaseWeaponPowerCell, BaseGunWieldable]
