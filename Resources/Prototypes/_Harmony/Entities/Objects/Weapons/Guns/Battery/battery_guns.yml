@@ -157,9 +157,10 @@
   - type: Appearance
 
 - type: entity
-  name: SCALD-R
   parent: [BaseWeaponPowerCell, BaseGunWieldable]
   id: WeaponLaserSCALDR
+  name: SCALD-R
+  suffix: Harmony
   description: The rather outdated, but infamous "Repeater" model of the Syndicate Crank Actuated Laser Device. produced by Cybersun as the budget response to the rapid advancement of Nanotrasen laser weaponry. Might tear your shoulder off, or annihilate whatever you're pointing it at. Pray it's the latter.
   components:
   - type: Item
