@@ -157,7 +157,13 @@
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
-    fireRate: 4
+# Harmony change start - buffs firerate and lowers empty volume
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+      params:
+        volume: -14
+    fireRate: 5 # 4 -> 5
+# Harmony change end
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
       params:
