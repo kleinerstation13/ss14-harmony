@@ -49,7 +49,7 @@
     gloves: ClothingHandsGlovesCombat
 #    outerClothing: ClothingOuterHardsuitSyndie Harmony Change: Makes nuclear operatives no longer start with the blood-red hardsuit
     shoes: ClothingShoesBootsCombatFilled
-    id: SyndiPDA
+    id: SyndiOperativePDA
     pocket2: PlushieCarp
     belt: ClothingBeltMilitaryWebbing
   storage:
@@ -80,6 +80,7 @@
   parent: SyndicateOperativeGearFullNoUplink # Harmony - SyndicateOperativeGearFull -> SyndicateOperativeGearFullNoUplink
   equipment:
     pocket2: BaseUplinkRadio45TCCommander # Harmony - added commander uplink prototype to commander loadout
+    id: SyndiCommanderPDA
     neck: SyndicateWhistle
     outerClothing: ClothingOuterHardsuitSyndieCommander
   inhand:
@@ -102,7 +103,7 @@
     eyes: ClothingEyesHudSyndicateAgent
     outerClothing: ClothingOuterHardsuitSyndieMedic
     shoes: ClothingShoesBootsMagSyndie
-    id: SyndiAgentPDA
+    id: SyndiCorpsmanPDA
     belt: ClothingBeltMilitaryWebbingMedFilled
   storage:
     back:
