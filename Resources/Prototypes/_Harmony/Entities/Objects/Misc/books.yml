@@ -5,6 +5,7 @@
   description: A series of standards and procedures imposed upon command members.
   components:
   - type: Sprite
+    sprite: _Harmony/Objects/Misc/books.rsi
     layers:
     - state: paper
     - state: cover_strong
