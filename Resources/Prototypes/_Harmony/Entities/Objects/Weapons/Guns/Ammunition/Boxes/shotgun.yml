@@ -15,9 +15,10 @@
         map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  name: ammunition box (.50 flechette)
   parent: AmmoProviderShotgunShell
   id: BoxShotgunFlechette
+  name: ammunition box (.50 flechette)
+  suffix: Harmony
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunFlechette
