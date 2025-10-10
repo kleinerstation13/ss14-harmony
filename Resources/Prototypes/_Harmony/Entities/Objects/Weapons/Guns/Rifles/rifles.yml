@@ -57,7 +57,7 @@
   id: WeaponRifleTaipan
   name: Taipan
   suffix: Harmony
-  description: A compact and integrally silenced bullpup carbine manufactured by Cybersun's Advanced Kinetics division. Used by Syndicate strike teams for clandestine operations that also require force. Features a burst mode. Uses .25 caseless ammo.
+  description: A compact and integrally silenced bullpup carbine manufactured by Cybersun's Advanced Kinetics division. Often used by Syndicate strike teams due to its' great ergonomics and near non-existent muzzle climb. Uses .25 caseless ammo.
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Rifles/taipan.rsi
@@ -70,7 +70,6 @@
     sprite: _Harmony/Objects/Weapons/Guns/Rifles/taipan.rsi
   - type: Gun
     availableModes:
-    - FullAuto
     - Burst
     minAngle: 21
     maxAngle: 32
@@ -78,9 +77,9 @@
     burstFireRate: 18
     burstCooldown: 0.5
     shotsPerBurst: 3
-    selectedMode: FullAuto
+    selectedMode: Burst
     soundGunshot:
-      collection: TaipanFire
+      path: /Audio/_Harmony/Weapons/Guns/Gunshots/taipan_fire.ogg
       params:
         volume: -6
   - type: ItemSlots
