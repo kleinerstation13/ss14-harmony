@@ -37,9 +37,11 @@
   description: We have reason to believe that they have begun to question the syndicate and need to be eliminated.
   components:
   - type: Objective
+# Harmony change start - Added objective icon
     icon:
       sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
       state: icon
+# Harmony change end
     difficulty: 2 # They can easily buy weapons to defend themselves if they think something is up.
   - type: TargetObjective
     title: objective-condition-traitor-kill-title
