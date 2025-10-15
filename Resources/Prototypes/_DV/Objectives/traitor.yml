@@ -34,7 +34,7 @@
 - type: entity
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomTraitorObjective
-  description: We have reason to believe that they have begun to question the syndicate and need to be eliminated.
+  description: We have reason to believe that they have begun to question the Syndicate and need to be eliminated. # Harmony - fixed capitalization
   components:
   - type: Objective
 # Harmony change start - Added objective icon
