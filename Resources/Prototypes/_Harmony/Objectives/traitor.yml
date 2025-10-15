@@ -45,3 +45,21 @@
     limit: 3 # Both the CE and HOP have one, and steal objectives are +1 of the total amount that can exist for "drama"
   - type: StealCondition
     stealGroup: AccessConfigurator
+
+# Kill
+
+# TAL fellow traitor objective
+
+- type: entity
+  parent: [BaseTraitorObjective, BaseTeachLessonObjective]
+  id: TeachLessonRandomTraitorObjective
+  description: They crossed us, this should settle the matter. They only need to die once.
+  components:
+  - type: Objective
+    icon:
+      sprite: Objects/Weapons/Melee/e_dagger_loud.rsi
+      state: icon
+    difficulty: 1.75 # Slightly harder than regular TAL, you're trying to kill a possibly armed syndie
+  - type: TargetObjective
+    title: objective-condition-teach-traitor-title
+  - type: PickRandomTraitor
