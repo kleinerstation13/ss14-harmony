@@ -361,6 +361,8 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - SecurityFirearm # Harmony - loadouts
+  - SecurityFirearmAmmo # Harmony - loadouts
 
 - type: roleLoadout
   id: JobWarden
@@ -375,6 +377,8 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - SecurityFirearm # Harmony - loadouts
+  - SecurityFirearmAmmo # Harmony - loadouts
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -390,6 +394,8 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - SecurityFirearm # Harmony - loadouts
+  - SecurityFirearmAmmo # Harmony - loadouts
 
 - type: roleLoadout
   id: JobDetective
@@ -404,6 +410,8 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - SecurityRevolverFirearm # Harmony - loadouts
+  - SecurityRevolverAmmo # Harmony - loadouts
 
 - type: roleLoadout
   id: JobSecurityCadet

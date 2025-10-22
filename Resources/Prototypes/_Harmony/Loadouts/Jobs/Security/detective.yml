@@ -30,4 +30,23 @@
   id: DetectiveDiscoCoatHarmony
   equipment:
     outerClothing: ClothingOuterCoatDetectiveLoadoutDiscoHarmony
-    
+
+# Firearms
+- type: loadout
+  id: SecurityRevolverInspector
+  storage:
+    belt:
+    - WeaponRevolverInspector
+
+- type: loadout
+  id: SecurityRevolverJudge
+  storage:
+    belt:
+    - WeaponRevolverJudge
+
+# Ammo
+- type: loadout
+  id: SecurityFirearmSpeedLoaderMagnum
+  storage:
+    back:
+    - SpeedLoaderMagnum
