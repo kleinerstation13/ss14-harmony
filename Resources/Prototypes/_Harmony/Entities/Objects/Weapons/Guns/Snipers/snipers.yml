@@ -58,7 +58,7 @@
 
 - type: entity
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseSyndicateContraband]
-  id: WeaponSniperHristovHarmony
+  id: WeaponSniperHristovHarmony # This gun is so fundamentally different from the upstream Hristov the code would be more convoluted if I had to parent from it
   name: Hristov AMR
   suffix: Harmony
   description: Field-tested in over 20 classified operations before being disseminated among the Syndicate, the Hristov was secretly developed by Cybersun's Advanced Kinetics division after multiple complaints of conventional high-calibre firearms being unable to match modern exosuit armor in frontline combat. Uses .60 anti-materiel ammo.
