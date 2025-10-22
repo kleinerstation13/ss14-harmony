@@ -6,7 +6,7 @@
     requirement:
       !type:RoleTimeRequirement
       role: JobMusician
-      time: 50h # should be pretty exclusive
+      time: 30h # should be pretty exclusive
 
 # supersynth
 - type: loadout
