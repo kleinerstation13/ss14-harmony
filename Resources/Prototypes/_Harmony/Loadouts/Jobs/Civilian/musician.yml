@@ -16,4 +16,4 @@
     proto: MasterMusician
   storage:
     back:
-    - SuperSynthesizerInstrumentHarmony
+    - SuperSynthesizerInstrument

@@ -1,7 +1,0 @@
-- type: entity
-  parent: SuperSynthesizerInstrument
-  id: SuperSynthesizerInstrumentHarmony
-  suffix: Harmony, Limited
-  components:
-  - type: Instrument
-    respectMidiLimits: true
