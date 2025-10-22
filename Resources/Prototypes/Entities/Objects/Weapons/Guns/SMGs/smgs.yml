@@ -33,14 +33,21 @@
     defaultDirection: 1, 0
   - type: ChamberMagazineAmmoProvider
     soundRack:
-      path: /Audio/Weapons/Guns/Cock/smg_cock.ogg
+      # Start harmony change - Handling sounds
+#     path: /Audio/Weapons/Guns/Cock/smg_cock.ogg
+      path: /Audio/_Harmony/Weapons/Guns/Cock/smg_rack.ogg
+      # End harmony change
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazinePistolSubMachineGun
-        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        # Start harmony change - Handling sounds
+#       insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+#       ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/smg_magout.ogg
+        # End harmony change
         priority: 2
         whitelist:
           tags:
@@ -203,8 +210,12 @@
         gun_magazine:
           name: Magazine
           startingItem: MagazinePistolSubMachineGun
-          insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
-          ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+          # Start harmony change - Handling sounds
+#         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+#         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+          insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/smg_magin.ogg
+          ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/smg_magout.ogg
+          # End harmony change
           priority: 2
           whitelist:
             tags:
@@ -269,8 +280,12 @@
       gun_magazine:
         name: Magazine
         startingItem: MagazinePistolSubMachineGunTopMounted
-        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        # Start harmony change - Handling sounds
+#       insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+#       ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/smg_magout.ogg
+        # End harmony change
         priority: 2
         whitelist:
           tags:

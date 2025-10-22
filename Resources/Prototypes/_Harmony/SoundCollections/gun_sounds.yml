@@ -83,3 +83,12 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/wt_fire1.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/wt_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/wt_fire3.ogg
+
+# Used in /Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml
+- type: soundCollection
+  id: ShellLoad
+  files:
+  - /Audio/_Harmony/Weapons/Guns/MagIn/shotgunload_1.ogg
+  - /Audio/_Harmony/Weapons/Guns/MagIn/shotgunload_2.ogg
+  - /Audio/_Harmony/Weapons/Guns/MagIn/shotgunload_3.ogg
+  - /Audio/_Harmony/Weapons/Guns/MagIn/shotgunload_4.ogg

@@ -45,7 +45,10 @@
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
     soundEject:
-      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+      # start Harmony change - changed sound
+#     path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+      path: /Audio/_Harmony/Weapons/Guns/MagOut/revolver_magout.ogg
+      # end Harmony change - changed sound
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
   - type: StaticPrice

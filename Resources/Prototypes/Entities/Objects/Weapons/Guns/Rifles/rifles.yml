@@ -27,14 +27,21 @@
       path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
   - type: ChamberMagazineAmmoProvider
     soundRack:
-      path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
+      # Start harmony change - Handling sounds
+#     path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
+      path: /Audio/_Harmony/Weapons/Guns/Cock/rifle_rack.ogg
+      # End harmony change
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineLightRifle
-        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        # Start harmony change - handling sounds
+#       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+#       ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/rifle_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/rifle_magout.ogg
+        # End harmony change
         priority: 2
         whitelist:
           tags:
@@ -72,14 +79,21 @@
       collection: AKFire # Harmony - changed sound path to sound collection
   - type: ChamberMagazineAmmoProvider
     soundRack:
-      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+      # Start harmony change - Handling sounds
+#     path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+      path: /Audio/_Harmony/Weapons/Guns/Cock/rifle_rack.ogg
+      # End harmony change
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineLightRifle
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        # Start harmony change - Handling sounds
+#       insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+#       ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/rifle_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/rifle_magout.ogg
+        # End harmony change
         priority: 2
         whitelist:
           tags:
@@ -169,8 +183,12 @@
       gun_magazine:
         name: Magazine
         startingItem: MagazineRifle
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        # Start harmony change - Handling sounds
+#       insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+#       ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/rifle_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/rifle_magout.ogg
+        # End harmony change
         priority: 2
         whitelist:
           tags:

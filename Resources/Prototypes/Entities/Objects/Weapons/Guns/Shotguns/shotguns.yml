@@ -36,7 +36,12 @@
     capacity: 7
     proto: ShellShotgun
     soundInsert:
-      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+      # Start harmony change - Changed to collection
+#     path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+      collection: ShellLoad
+      params:
+        volume: -1
+      # End harmony change
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -87,8 +92,12 @@
           tags:
           - MagazineShotgun
         whitelistFailPopup: gun-magazine-whitelist-fail
-        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        # Start harmony change - Handling sounds
+#       insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+#       ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/bulldog_magin.ogg
+        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/bulldog_magout.ogg
+        # End harmony change
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
