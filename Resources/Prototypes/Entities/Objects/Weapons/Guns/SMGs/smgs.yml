@@ -197,7 +197,12 @@
       fireRate: 6
       burstFireRate: 18
       soundGunshot:
-        collection: DrozdFire # Harmony - changed sound path to sound collection
+        # Start harmony change - add weapon sound
+#       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+        collection: DrozdFire
+        params:
+          volume: -3
+        # End harmony change
       selectedMode: Burst
       availableModes:
       - Burst

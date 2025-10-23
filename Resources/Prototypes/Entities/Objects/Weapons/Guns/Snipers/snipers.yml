@@ -91,6 +91,8 @@
   - type: Gun # Harmony change - add sound to Mosin
     soundGunshot:
       path: /Audio/_Harmony/Weapons/Guns/Gunshots/mosin_fire1.ogg
+      params:
+        volume: -3
 
 - type: entity
   name: Hristov

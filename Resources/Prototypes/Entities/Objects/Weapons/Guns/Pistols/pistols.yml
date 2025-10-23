@@ -116,6 +116,8 @@
   - type: Gun # harmony change - Added new sound for Viper
     soundGunshot:
       collection: ViperFire
+      params:
+        volume: -3
 
 - type: entity
   name: echis

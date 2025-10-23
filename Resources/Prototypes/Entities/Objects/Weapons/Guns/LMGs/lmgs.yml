@@ -46,8 +46,14 @@
         # Start harmony change - Handling sounds
 #       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
 #       ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
-        insertSound: /Audio/_Harmony/Weapons/Guns/MagIn/lmg_magin.ogg
-        ejectSound: /Audio/_Harmony/Weapons/Guns/MagOut/lmg_magout.ogg
+        insertSound:
+          path: /Audio/_Harmony/Weapons/Guns/MagIn/lmg_magin.ogg
+          params:
+            volume: -3
+        ejectSound:
+          path: /Audio/_Harmony/Weapons/Guns/MagOut/lmg_magout.ogg
+          params:
+            volume: -3
         # End harmony change
         priority: 2
         whitelist:

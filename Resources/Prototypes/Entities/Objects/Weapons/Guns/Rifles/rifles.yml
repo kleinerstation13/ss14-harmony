@@ -178,6 +178,8 @@
   - type: Gun
     soundGunshot:
       collection: LecterFire # Harmony - changed sound path to sound collection
+      params:
+        volume: -3
   - type: ItemSlots
     slots:
       gun_magazine:
