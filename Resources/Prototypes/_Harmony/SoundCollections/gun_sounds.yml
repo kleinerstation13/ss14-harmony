@@ -6,7 +6,7 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/dmr_fire3.ogg
 
-# Used in _Harmony/Entities/Objects/Weapons/Guns/Rifles/shotguns.yml
+# Used in /Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml
 - type: soundCollection
   id: ShotgunFire
   files:
@@ -21,7 +21,7 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/python_fire1.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/python_fire2.ogg
 
-# Used in /Entities/Objects/Weapons/Guns/Revolvers/rifles.yml
+# Used in /Entities/Objects/Weapons/Guns/Rifles/rifles.yml
 - type: soundCollection
   id: AKFire
   files:
@@ -29,7 +29,7 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/ak_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/ak_fire3.ogg
 
-# Used in /Entities/Objects/Weapons/Guns/Revolvers/rifles.yml
+# Used in /Entities/Objects/Weapons/Guns/Rifles/rifles.yml
 - type: soundCollection
   id: LecterFire
   files:
@@ -37,7 +37,7 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/lecter_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/lecter_fire3.ogg
 
-# Used in /Entities/Objects/Weapons/Guns/Revolvers/pistols.yml
+# Used in /Entities/Objects/Weapons/Guns/Pistols/pistols.yml
 - type: soundCollection
   id: MKFire
   files:
@@ -45,7 +45,7 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/mk_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/mk_fire3.ogg
 
-# Used in /Entities/Objects/Weapons/Guns/Revolvers/shotguns.yml
+# Used in /Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml
 - type: soundCollection
   id: EnforcerFire
   files:
@@ -60,7 +60,7 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/revolver_fire1.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/revolver_fire2.ogg
 
-# Used in /Entities/Objects/Weapons/Guns/Revolvers/pistols.yml
+# Used in /Entities/Objects/Weapons/Guns/Pistols/pistols.yml
 - type: soundCollection
   id: ViperFire
   files:
@@ -68,7 +68,7 @@
   - /Audio/_Harmony/Weapons/Guns/Gunshots/viper_fire2.ogg
   - /Audio/_Harmony/Weapons/Guns/Gunshots/viper_fire3.ogg
 
-# Used in /Entities/Objects/Weapons/Guns/Revolvers/smgs.yml
+# Used in /Entities/Objects/Weapons/Guns/SMGs/smgs.yml
 - type: soundCollection
   id: DrozdFire
   files:
