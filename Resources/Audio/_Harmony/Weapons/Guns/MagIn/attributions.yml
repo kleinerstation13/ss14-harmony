@@ -1,3 +1,8 @@
+- files: ["rsc_insert.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Recorded by spanky-spanky (GitHub) and edited by Nonagon44 (GitHub)"
+  source: "https://github.com/ss14-harmony/ss14-harmony/pull/644"
+
 - files: ["shotgunload_1.ogg", "shotgunload_2.ogg", "shotgunload_3.ogg", "shotgunload_4.ogg"]
   license: "CC-BY-4.0"
   copyright: "Created by DrinkingWindGames"
