@@ -92,7 +92,7 @@
     soundGunshot:
       path: /Audio/_Harmony/Weapons/Guns/Gunshots/mosin_fire1.ogg
       params:
-        volume: -3
+        volume: -1.5
 
 - type: entity
   name: Hristov

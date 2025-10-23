@@ -117,7 +117,7 @@
     soundGunshot:
       collection: ViperFire
       params:
-        volume: -3
+        volume: -1.5
 
 - type: entity
   name: echis
@@ -132,7 +132,11 @@
       - SemiAuto
       - FullAuto
     soundGunshot:
-      collection: ViperFire # Harmony change - Changed file path to sound collection
+      # Harmony change start - Changed sound
+      collection: ViperFire
+      params:
+        volume: -1.5
+      # Harmony change end
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
     layers:
@@ -231,7 +235,11 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      collection: MKFire # Harmony - changed sound path to sound collection
+    # Harmony change start - changed sound
+      collection: MKFire
+      params:
+        volume: -1.5
+    # Harmony change end - changed sound
   - type: StealTarget
     stealGroup: OfficerHandgun
 

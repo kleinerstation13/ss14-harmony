@@ -179,7 +179,7 @@
     soundGunshot:
       collection: LecterFire # Harmony - changed sound path to sound collection
       params:
-        volume: -3
+        volume: -1.5
   - type: ItemSlots
     slots:
       gun_magazine:
