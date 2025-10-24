@@ -59,7 +59,7 @@
       coefficients:
         Blunt: 0.85    # 15% - Terrible against melee
         Slash: 0.85    # 15% - Terrible against melee
-        Piercing: 0.35 # 35% - Worse than security EVA (40%).  Worse than bloodred (50%)
+        Piercing: 0.6  # 40% - Same as security EVA (40%).     Worse than bloodred (50%)
         Heat: 0.6      # 40% - Better than security EVA (20%). Worse than bloodred (50%)
         Radiation: 0.7 # 30% - Better than security EVA (25%). Worse than bloodred (50%)
   - type: ClothingSpeedModifier
