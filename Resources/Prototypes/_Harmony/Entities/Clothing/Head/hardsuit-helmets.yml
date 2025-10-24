@@ -34,7 +34,7 @@
     highPressureMultiplier: 0.72
     lowPressureMultiplier: 1000
 
-# Syndicate Voidsuit
+# Tactical Voidsuit
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetVoidsuitSyndie
