@@ -40,7 +40,8 @@
 #     path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
       collection: ShellLoad
       params:
-        volume: -1
+        volume: -2
+        pitch: 0.95
       # End harmony change
   - type: ContainerContainer
     containers:
