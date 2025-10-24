@@ -39,7 +39,7 @@
   id: ClothingOuterVoidsuitSyndie
   name: tactical voidsuit
   suffix: Harmony
-  description: A flexible voidsuit produced by a subsidiary of Cybersun Industries. It has been lined with a carbon composite to protect against conventional ranged weaponry. The fragile ceramic plating combined with some design compromises to allow EVA capability have lead to decreased effectiveness against blunt weapons.
+  description: A flexible voidsuit produced by a subsidiary of Cybersun Industries. It has been lined with a carbon composite to protect against conventional ranged weaponry. The fragile ceramic plating combined with some design compromises to allow for EVA capability have lead to decreased effectiveness against blunt weapons.
   components:
   - type: Sprite
     sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndicate-voidsuit.rsi
