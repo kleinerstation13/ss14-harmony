@@ -61,6 +61,10 @@ uplink-traitor-deathrattle-implant-name = Box Of Deathrattle Implants
 uplink-traitor-deathrattle-implant-desc = A box containing two syndicate deathrattle implants. Messages are relayed over the syndicate channel, encryption keys not included.
 
 # Wearables
+
+uplink-syndie-voidsuit-name = Tactical Voidsuit
+uplink-syndie-voidsuit-desc = A lightly-armoured voidsuit designed for covert operations. Protects well against bullets and lasers, but keep your distance from melee weapons.
+
 # Pointless
 
 uplink-cluster-weh-name = Tactical Clusterplushie
