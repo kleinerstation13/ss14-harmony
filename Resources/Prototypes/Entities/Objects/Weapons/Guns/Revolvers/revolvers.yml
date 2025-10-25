@@ -29,7 +29,11 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      collection: RevolverAltFire # Harmony - changed sound path to sound collection
+      # start Harmony change - changed sound
+      collection: RevolverAltFire
+      params:
+        volume: -2
+      # end Harmony change
   - type: UseDelay
     delay: 0.66
   - type: ContainerContainer
@@ -48,7 +52,9 @@
       # start Harmony change - changed sound
 #     path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
       path: /Audio/_Harmony/Weapons/Guns/MagOut/revolver_magout.ogg
-      # end Harmony change - changed sound
+      params:
+        volume: -1
+      # end Harmony change
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
   - type: StaticPrice
